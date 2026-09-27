@@ -1,0 +1,57 @@
+{
+    "graphe": {
+        "n_noeuds": 200,
+        "largeur_zone": 200,
+        "hauteur_zone": 200,
+        "seed": 0,
+        "densite_conso": 0.20,
+        "conso_min": 0,
+        "conso_max": 2.5,
+        "densite_prod": 0.20,
+        "prod_min": 1,
+        "prod_max": 3,
+        "liste_poste_source": [
+            {
+                "position": [
+                    -50,
+                    -50
+                ],
+                "puissance": 700,
+                "n_departs_max": 1
+            },
+            {
+                "position": [
+                    -50,
+                    50
+                ],
+                "puissance": 300,
+                "n_departs_max": 1
+            },
+            {
+                "position": [
+                    50,
+                    -50
+                ],
+                "puissance": 700,
+                "n_departs_max": 1
+            },
+            {
+                "position": [
+                    50,
+                    50
+                ],
+                "puissance": 900,
+                "n_departs_max": 1
+            }
+        ]
+    },
+    "electrotechnique": {
+        "puissance_max_ligne": 80,
+        "longueur_max_depart": 5000,
+        "PL_max_noeud": 5000
+    },
+    "solver": {
+        "solver_name": "highs",
+        "optimality_gap": 0.0
+    }
+}

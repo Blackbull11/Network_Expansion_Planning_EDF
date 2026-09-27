@@ -1,0 +1,379 @@
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 1 time.
+MIP Presolve eliminated 15 rows and 14 columns.
+Reduced MIP has 2553 rows, 1344 columns, and 8329 nonzeros.
+Reduced MIP has 466 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.46 ticks)
+Probing fixed 14 vars, tightened 540 bounds.
+Probing time = 0.00 sec. (2.66 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 75 rows and 14 columns.
+MIP Presolve modified 576 coefficients.
+Reduced MIP has 2478 rows, 1330 columns, and 7828 nonzeros.
+Reduced MIP has 452 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (5.51 ticks)
+Probing time = 0.00 sec. (1.61 ticks)
+Clique table members: 747.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 12 threads.
+Root relaxation solution time = 0.05 sec. (30.36 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      158.2528    70                    158.2528     1309         
+      0     0      171.7077    74                   Cuts: 131     1556         
+      0     0      180.6828    82                   Cuts: 130     1930         
+      0     0      182.9119    84                   Cuts: 145     2174         
+      0     0      184.7094    83                   Cuts: 124     2307         
+      0     0      185.5043    96                   Cuts: 126     2430         
+Detecting symmetries...
+      0     0      185.8945    89                    Cuts: 65     2515         
+      0     0      186.9053    81                    Cuts: 59     2678         
+      0     0      188.4698   141                    Cuts: 78     2902         
+      0     0      189.3962    70                   Cuts: 180     3142         
+      0     0      189.7453   136                    Cuts: 57     3335         
+*     0+    0                          193.7078      189.7453             2.05%
+      0     0      189.8652   106      193.7078      Cuts: 79     3453    1.98%
+Detecting symmetries...
+
+Repeating presolve.
+Tried aggregator 3 times.
+MIP Presolve eliminated 1148 rows and 484 columns.
+MIP Presolve modified 301 coefficients.
+Aggregator did 38 substitutions.
+Reduced MIP has 1292 rows, 808 columns, and 4249 nonzeros.
+Reduced MIP has 223 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (5.63 ticks)
+Probing fixed 8 vars, tightened 24 bounds.
+Probing changed sense of 3 constraints.
+Probing time = 0.00 sec. (0.76 ticks)
+Cover probing fixed 0 vars, tightened 4 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 38 rows and 15 columns.
+MIP Presolve modified 20 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 1252 rows, 791 columns, and 4140 nonzeros.
+Reduced MIP has 214 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.06 ticks)
+Probing time = 0.00 sec. (0.72 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 1252 rows, 791 columns, and 4140 nonzeros.
+Reduced MIP has 214 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.44 ticks)
+Represolve time = 0.05 sec. (19.38 ticks)
+Probing time = 0.00 sec. (0.72 ticks)
+Clique table members: 305.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 12 threads.
+Root relaxation solution time = 0.06 sec. (54.30 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          193.7078      189.8652             1.98%
+      0     0      189.8652    98      193.7078      189.8652     4904    1.98%
+      0     0      190.3911   120      193.7078     Cuts: 140     5139    1.71%
+      0     0        cutoff            193.7078      193.7078     5290    0.00%
+Elapsed time = 1.73 sec. (720.00 ticks, tree = 0.01 MB, solutions = 1)
+
+Cover cuts applied:  10
+Implied bound cuts applied:  25
+Flow cuts applied:  66
+Mixed integer rounding cuts applied:  146
+Zero-half cuts applied:  13
+Lift and project cuts applied:  22
+Gomory fractional cuts applied:  4
+
+Root node processing (before b&c):
+  Real time             =    1.73 sec. (720.07 ticks)
+Parallel b&c, 12 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    1.73 sec. (720.07 ticks)
+CPLEX Error  1422: Could not open file 'C:\Users\e62285\OneDrive - EDF\PLANET - 6x Optimisation et génération réseau HTA\Stage Charlotte\Code\Maquette Gitlab PLUTON\pluton\simulations\exemple_ete\solution_fn' for writing.
+Running HiGHS 1.14.0 (git hash: 7df0786): Copyright (c) 2026 under MIT licence terms
+MIP linopy-problem-cq0f7yn8 has 3066 rows; 1079 cols; 8224 nonzeros; 476 integer variables (476 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 5e+03]
+  Cost    [1e+00, 5e+01]
+  Bound   [1e+00, 1e+04]
+  RHS     [1e+00, 5e+03]
+Presolving model
+2225 rows, 1068 cols, 7087 nonzeros 0s
+1779 rows, 899 cols, 7073 nonzeros 0s
+1746 rows, 892 cols, 6820 nonzeros 0s
+Presolve reductions: rows 1746(-1320); columns 892(-187); nonzeros 6820(-1404) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   1746 rows
+   892 cols (322 binary, 0 integer, 0 implied int., 570 continuous, 0 domain fixed)
+   6820 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     0.1s
+         0       0         0   0.00%   76.08042279     inf                  inf        0      0      5       894     0.1s
+ L       0       0         0   0.00%   169.4741443     194               12.64%     5614    232    213      4915     1.8s
+
+2.2% inactive integer columns, restarting
+Model after restart has 1711 rows, 881 cols (315 bin., 0 int., 0 impl., 566 cont., 0 dom.fix.), and 6711 nonzeros
+
+         0       0         0   0.00%   169.5298729     194               12.61%      101      0      0     23488     3.6s
+         0       0         0   0.00%   169.5298729     194               12.61%      101     82      6     25105     3.6s
+        24       0         8   1.81%   169.8509424     194               12.45%      868    100    333     97985     8.8s
+       221       0       109 100.00%   194             194                0.00%     3540    135   2152    160841    13.5s
+
+Solving report
+  Model             linopy-problem-cq0f7yn8
+  Status            Optimal
+  Primal bound      194
+  Dual bound        194
+  Gap               0%
+  P-D integral      1.36806251278
+  Solution status   feasible
+                    194 (objective)
+                    0 (bound viol.)
+                    2.22044604925e-15 (int. viol.)
+                    0 (row viol.)
+  Timing            13.50
+  Max sub-MIP depth 4
+  Nodes             221
+  Repair LPs        0
+  LP iterations     160841
+                    108195 (strong br.)
+                    7541 (separation)
+                    18490 (heuristics)
+WARNING: No basis to write: generated null basis file C:\Users\e12286\Desktop\code\pluton-main\simulations\exemple_ete\solution_fn
+Writing the solution to C:\Users\e12286\AppData\Local\Temp\linopy-solve-1z0qc83e.sol
+Running HiGHS 1.14.0 (git hash: 7df0786): Copyright (c) 2026 under MIT licence terms
+MIP linopy-problem-9to1h578 has 2851 rows; 1365 cols; 9092 nonzeros; 486 integer variables (486 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 1e+04]
+  Cost    [1e+00, 5e+01]
+  Bound   [1e+00, 1e+04]
+  RHS     [1e+00, 1e+04]
+Presolving model
+2828 rows, 1344 cols, 8743 nonzeros 0s
+2628 rows, 1141 cols, 9167 nonzeros 0s
+Presolve reductions: rows 2628(-223); columns 1141(-224); nonzeros 9167(+75) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   2628 rows
+   1141 cols (307 binary, 0 integer, 0 implied int., 834 continuous, 0 domain fixed)
+   9167 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     0.1s
+         0       0         0   0.00%   238.0875        inf                  inf        0      0      5      1389     0.1s
+ L       0       0         0   0.00%   301.6806111     334                9.68%     9838    326    277      8237     2.7s
+ L       0       0         0   0.00%   301.6806111     325                7.18%     9838    326    277     16699     3.1s
+
+1.0% inactive integer columns, restarting
+Model after restart has 2599 rows, 1128 cols (303 bin., 0 int., 0 impl., 825 cont., 0 dom.fix.), and 9061 nonzeros
+
+         0       0         0   0.00%   303.2115817     325                6.70%      178      0      0     19074     3.2s
+         0       0         0   0.00%   303.4417621     325                6.63%      178    139      6     21158     3.3s
+
+5.3% inactive integer columns, restarting
+Model after restart has 2450 rows, 1057 cols (287 bin., 0 int., 0 impl., 770 cont., 0 dom.fix.), and 8526 nonzeros
+
+         0       0         0   0.00%   308.9442033     325                4.94%      199      0      0     34518     5.8s
+         0       0         0   0.00%   308.9442033     325                4.94%      199    173      4     36155     5.9s
+         5       1         2  37.50%   311.2367036     325                4.23%     4277    193    178     94475    11.2s
+ T      14       1         6  59.38%   311.2367036     324                3.94%     4299    193    404    139584    14.5s
+ T      32       2        11  64.45%   311.2367036     323                3.64%     4314    193    570    151203    15.4s
+ T      76       3        29  75.98%   311.2367036     322                3.34%     4345    193    903    157947    16.1s
+ T     100       4        38  95.85%   316.832073      321                1.30%     4431    191   1034    160653    16.3s
+ T     119       0        49  99.80%   318.0284983     320                0.62%     5714    217   1238    166235    17.0s
+       121       0        50 100.00%   320             320                0.00%     5715    217   1241    166286    17.0s
+
+Solving report
+  Model             linopy-problem-9to1h578
+  Status            Optimal
+  Primal bound      320
+  Dual bound        320
+  Gap               0%
+  P-D integral      0.628966046497
+  Solution status   feasible
+                    320 (objective)
+                    0 (bound viol.)
+                    2.44249065418e-15 (int. viol.)
+                    0 (row viol.)
+  Timing            16.96
+  Max sub-MIP depth 4
+  Nodes             121
+  Repair LPs        0
+  LP iterations     166286
+                    109041 (strong br.)
+                    11466 (separation)
+                    22184 (heuristics)
+WARNING: No basis to write: generated null basis file C:\Users\e12286\Desktop\code\pluton-main\simulations\exemple_ete\solution_fn
+Writing the solution to C:\Users\e12286\AppData\Local\Temp\linopy-solve-q8ymld5j.sol
+Running HiGHS 1.14.0 (git hash: 7df0786): Copyright (c) 2026 under MIT licence terms
+MIP linopy-problem-rt524b_d has 2851 rows; 1365 cols; 9092 nonzeros; 486 integer variables (486 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 1e+04]
+  Cost    [1e+00, 5e+01]
+  Bound   [1e+00, 1e+04]
+  RHS     [1e+00, 1e+04]
+Presolving model
+2828 rows, 1344 cols, 8743 nonzeros 0s
+2628 rows, 1141 cols, 9167 nonzeros 0s
+Presolve reductions: rows 2628(-223); columns 1141(-224); nonzeros 9167(+75) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   2628 rows
+   1141 cols (307 binary, 0 integer, 0 implied int., 834 continuous, 0 domain fixed)
+   9167 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     0.1s
+         0       0         0   0.00%   238.0875        inf                  inf        0      0      5      1389     0.1s
+ L       0       0         0   0.00%   301.6806111     334                9.68%     9838    326    277      8237     2.9s
+ L       0       0         0   0.00%   301.6806111     325                7.18%     9838    326    277     16699     3.3s
+
+1.0% inactive integer columns, restarting
+Model after restart has 2599 rows, 1128 cols (303 bin., 0 int., 0 impl., 825 cont., 0 dom.fix.), and 9061 nonzeros
+
+         0       0         0   0.00%   303.2115817     325                6.70%      178      0      0     19074     3.4s
+         0       0         0   0.00%   303.4417621     325                6.63%      178    139      6     21158     3.5s
+
+5.3% inactive integer columns, restarting
+Model after restart has 2450 rows, 1057 cols (287 bin., 0 int., 0 impl., 770 cont., 0 dom.fix.), and 8526 nonzeros
+
+         0       0         0   0.00%   308.9442033     325                4.94%      199      0      0     34518     6.1s
+         0       0         0   0.00%   308.9442033     325                4.94%      199    173      4     36155     6.2s
+         5       1         2  37.50%   311.2367036     325                4.23%     4277    193    178     94475    11.5s
+ T      14       1         6  59.38%   311.2367036     324                3.94%     4299    193    404    139584    14.7s
+ T      32       2        11  64.45%   311.2367036     323                3.64%     4314    193    570    151203    15.6s
+ T      76       3        29  75.98%   311.2367036     322                3.34%     4345    193    903    157947    16.2s
+ T     100       4        38  95.85%   316.832073      321                1.30%     4431    191   1034    160653    16.5s
+ T     119       0        49  99.80%   318.0284983     320                0.62%     5714    217   1238    166235    17.1s
+       121       0        50 100.00%   320             320                0.00%     5715    217   1241    166286    17.1s
+
+Solving report
+  Model             linopy-problem-rt524b_d
+  Status            Optimal
+  Primal bound      320
+  Dual bound        320
+  Gap               0%
+  P-D integral      0.628581264482
+  Solution status   feasible
+                    320 (objective)
+                    0 (bound viol.)
+                    2.44249065418e-15 (int. viol.)
+                    0 (row viol.)
+  Timing            17.14
+  Max sub-MIP depth 4
+  Nodes             121
+  Repair LPs        0
+  LP iterations     166286
+                    109041 (strong br.)
+                    11466 (separation)
+                    22184 (heuristics)
+WARNING: No basis to write: generated null basis file C:\Users\e12286\Desktop\code\pluton-main - Copie\pluton\simulations\exemple_ete\solution_fn
+Writing the solution to C:\Users\e12286\AppData\Local\Temp\linopy-solve-_ft5kfxn.sol
+Running HiGHS 1.14.0 (git hash: 7df0786): Copyright (c) 2026 under MIT licence terms
+MIP linopy-problem-tuj1i5al has 2851 rows; 1365 cols; 9092 nonzeros; 486 integer variables (486 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 1e+04]
+  Cost    [1e+00, 5e+01]
+  Bound   [1e+00, 1e+04]
+  RHS     [1e+00, 1e+04]
+Presolving model
+2828 rows, 1344 cols, 8743 nonzeros 0s
+2628 rows, 1141 cols, 9167 nonzeros 0s
+Presolve reductions: rows 2628(-223); columns 1141(-224); nonzeros 9167(+75) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   2628 rows
+   1141 cols (307 binary, 0 integer, 0 implied int., 834 continuous, 0 domain fixed)
+   9167 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     0.1s
+         0       0         0   0.00%   238.0875        inf                  inf        0      0      5      1389     0.1s
+ L       0       0         0   0.00%   301.6806111     334                9.68%     9838    326    277      8237     2.8s
+ L       0       0         0   0.00%   301.6806111     325                7.18%     9838    326    277     16699     3.2s
+
+1.0% inactive integer columns, restarting
+Model after restart has 2599 rows, 1128 cols (303 bin., 0 int., 0 impl., 825 cont., 0 dom.fix.), and 9061 nonzeros
+
+         0       0         0   0.00%   303.2115817     325                6.70%      178      0      0     19074     3.3s
+         0       0         0   0.00%   303.4417621     325                6.63%      178    139      6     21158     3.4s
+
+5.3% inactive integer columns, restarting
+Model after restart has 2450 rows, 1057 cols (287 bin., 0 int., 0 impl., 770 cont., 0 dom.fix.), and 8526 nonzeros
+
+         0       0         0   0.00%   308.9442033     325                4.94%      199      0      0     34518     6.1s
+         0       0         0   0.00%   308.9442033     325                4.94%      199    173      4     36155     6.2s
+         4       1         1  12.50%   311.2367036     325                4.23%     4264    193     78     90336    11.3s
+ T      14       1         6  59.38%   311.2367036     324                3.94%     4299    193    404    139584    15.0s
+ T      32       2        11  64.45%   311.2367036     323                3.64%     4314    193    570    151203    15.9s
+ T      76       3        29  75.98%   311.2367036     322                3.34%     4345    193    903    157947    16.5s
+ T     100       4        38  95.85%   316.832073      321                1.30%     4431    191   1034    160653    16.8s
+ T     119       0        49  99.80%   318.0284983     320                0.62%     5714    217   1238    166235    17.5s
+       121       0        50 100.00%   320             320                0.00%     5715    217   1241    166286    17.5s
+
+Solving report
+  Model             linopy-problem-tuj1i5al
+  Status            Optimal
+  Primal bound      320
+  Dual bound        320
+  Gap               0%
+  P-D integral      0.646286630123
+  Solution status   feasible
+                    320 (objective)
+                    0 (bound viol.)
+                    2.44249065418e-15 (int. viol.)
+                    0 (row viol.)
+  Timing            17.54
+  Max sub-MIP depth 4
+  Nodes             121
+  Repair LPs        0
+  LP iterations     166286
+                    109041 (strong br.)
+                    11466 (separation)
+                    22184 (heuristics)
+WARNING: No basis to write: generated null basis file C:\Users\e12286\Desktop\code\pluton-main - Copie\pluton\simulations\exemple_ete\solution_fn
+Writing the solution to C:\Users\e12286\AppData\Local\Temp\linopy-solve-k08yvkax.sol
