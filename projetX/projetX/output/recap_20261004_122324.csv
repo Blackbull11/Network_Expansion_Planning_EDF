@@ -1,0 +1,61 @@
+Graphe;Type;Charges (dont <0);Sources;Distance;J = L_tot (km);PD (MW·km);L_max départ;P_max départ;P_max source;Nb départs;Faisable
+g01_ville_c20_s2;ville;20 (5);2;non pondérée;29.7;79.9;OK;OK;OK;OK;oui
+g01_ville_c20_s2;ville;20 (5);2;capacité;28.8;95.0;KO (1/3);KO (1/3);OK;OK;non
+g01_ville_c20_s2;ville;20 (5);2;racine capacité;29.2;76.7;OK;OK;KO (1/2);OK;non
+g02_ville_c50_s3;ville;50 (10);3;non pondérée;74.8;240.1;OK;KO (2/5);KO (1/3);OK;non
+g02_ville_c50_s3;ville;50 (10);3;capacité;71.5;236.3;KO (1/4);KO (2/4);KO (1/3);OK;non
+g02_ville_c50_s3;ville;50 (10);3;racine capacité;71.8;233.2;KO (1/5);KO (2/5);KO (1/3);OK;non
+g03_ville_c100_s4;ville;100 (12);4;non pondérée;119.5;428.1;OK;KO (3/8);KO (1/4);OK;non
+g03_ville_c100_s4;ville;100 (12);4;capacité;119.8;438.0;OK;KO (3/7);KO (2/4);OK;non
+g03_ville_c100_s4;ville;100 (12);4;racine capacité;121.8;425.1;KO (1/8);KO (3/8);KO (1/4);OK;non
+g04_ville_c100_s6;ville;100 (10);6;non pondérée;161.3;423.1;OK;KO (3/12);KO (1/6);OK;non
+g04_ville_c100_s6;ville;100 (10);6;capacité;141.7;463.7;KO (1/6);KO (4/6);KO (2/6);OK;non
+g04_ville_c100_s6;ville;100 (10);6;racine capacité;150.1;447.6;OK;KO (4/9);KO (2/6);OK;non
+g05_ville_c50_s2_desequilibre;ville;50 (8);2;non pondérée;68.1;269.9;KO (1/3);KO (1/3);KO (1/2);OK;non
+g05_ville_c50_s2_desequilibre;ville;50 (8);2;capacité;70.2;496.2;KO (1/3);KO (1/3);OK;OK;non
+g05_ville_c50_s2_desequilibre;ville;50 (8);2;racine capacité;78.1;368.6;KO (2/3);KO (2/3);KO (1/2);OK;non
+g06_ville_c20_s3;ville;20 (6);3;non pondérée;22.6;34.5;OK;OK;OK;OK;oui
+g06_ville_c20_s3;ville;20 (6);3;capacité;22.6;34.5;OK;OK;OK;OK;oui
+g06_ville_c20_s3;ville;20 (6);3;racine capacité;22.6;34.5;OK;OK;OK;OK;oui
+g07_montagne_c20_s2;montagne;20 (5);2;non pondérée;44.6;65.3;OK;OK;OK;OK;oui
+g07_montagne_c20_s2;montagne;20 (5);2;capacité;44.6;65.3;OK;OK;OK;OK;oui
+g07_montagne_c20_s2;montagne;20 (5);2;racine capacité;44.6;65.3;OK;OK;OK;OK;oui
+g08_montagne_c50_s3;montagne;50 (10);3;non pondérée;122.5;302.9;OK;OK;OK;OK;oui
+g08_montagne_c50_s3;montagne;50 (10);3;capacité;108.1;295.1;KO (1/5);OK;OK;OK;non
+g08_montagne_c50_s3;montagne;50 (10);3;racine capacité;108.1;295.1;KO (1/5);OK;OK;OK;non
+g09_montagne_c100_s4;montagne;100 (12);4;non pondérée;222.8;197.6;KO (1/9);OK;OK;OK;non
+g09_montagne_c100_s4;montagne;100 (12);4;capacité;221.5;195.5;OK;OK;OK;OK;oui
+g09_montagne_c100_s4;montagne;100 (12);4;racine capacité;222.8;197.6;KO (1/9);OK;OK;OK;non
+g10_montagne_c50_s5;montagne;50 (9);5;non pondérée;134.2;103.5;KO (1/10);OK;KO (1/5);OK;non
+g10_montagne_c50_s5;montagne;50 (9);5;capacité;133.9;102.1;KO (1/10);OK;KO (1/5);OK;non
+g10_montagne_c50_s5;montagne;50 (9);5;racine capacité;134.2;103.5;KO (1/10);OK;KO (1/5);OK;non
+g11_montagne_c100_s8;montagne;100 (11);8;non pondérée;216.7;238.9;OK;KO (1/17);OK;OK;non
+g11_montagne_c100_s8;montagne;100 (11);8;capacité;208.5;222.8;OK;OK;OK;OK;oui
+g11_montagne_c100_s8;montagne;100 (11);8;racine capacité;214.3;234.5;OK;OK;OK;OK;oui
+g12_epars_c20_s2;epars;20 (6);2;non pondérée;135.6;81.7;OK;OK;OK;OK;oui
+g12_epars_c20_s2;epars;20 (6);2;capacité;133.4;81.9;KO (1/4);OK;OK;OK;non
+g12_epars_c20_s2;epars;20 (6);2;racine capacité;135.6;81.7;OK;OK;OK;OK;oui
+g13_epars_c50_s4;epars;50 (10);4;non pondérée;392.5;398.7;KO (1/12);OK;KO (1/4);OK;non
+g13_epars_c50_s4;epars;50 (10);4;capacité;361.7;380.1;KO (1/10);OK;OK;OK;non
+g13_epars_c50_s4;epars;50 (10);4;racine capacité;372.7;370.3;OK;OK;OK;OK;oui
+g14_epars_c100_s5;epars;100 (12);5;non pondérée;662.3;741.9;KO (1/12);KO (1/12);KO (2/5);OK;non
+g14_epars_c100_s5;epars;100 (12);5;capacité;699.9;851.5;KO (2/12);KO (1/12);OK;OK;non
+g14_epars_c100_s5;epars;100 (12);5;racine capacité;668.7;639.5;KO (1/12);OK;KO (1/5);OK;non
+g15_epars_c100_s8;epars;100 (10);8;non pondérée;701.5;586.6;KO (1/16);OK;OK;OK;non
+g15_epars_c100_s8;epars;100 (10);8;capacité;717.4;669.4;OK;OK;OK;OK;oui
+g15_epars_c100_s8;epars;100 (10);8;racine capacité;734.9;597.9;OK;OK;OK;OK;oui
+g16_epars_c50_s3;epars;50 (9);3;non pondérée;433.0;468.6;KO (1/5);KO (3/5);KO (2/3);OK;non
+g16_epars_c50_s3;epars;50 (9);3;capacité;407.2;478.3;KO (1/4);KO (1/4);KO (1/3);OK;non
+g16_epars_c50_s3;epars;50 (9);3;racine capacité;427.2;497.7;KO (1/5);KO (1/5);KO (1/3);OK;non
+g17_mixte_c20_s3;mixte;20 (6);3;non pondérée;97.5;113.5;OK;OK;OK;OK;oui
+g17_mixte_c20_s3;mixte;20 (6);3;capacité;90.0;84.5;KO (1/2);OK;OK;OK;non
+g17_mixte_c20_s3;mixte;20 (6);3;racine capacité;102.7;116.2;OK;OK;OK;OK;oui
+g18_mixte_c50_s3;mixte;50 (10);3;non pondérée;289.1;396.1;OK;OK;OK;OK;oui
+g18_mixte_c50_s3;mixte;50 (10);3;capacité;299.9;481.1;KO (1/8);OK;OK;KO (1/3);non
+g18_mixte_c50_s3;mixte;50 (10);3;racine capacité;280.7;426.6;KO (1/7);OK;OK;OK;non
+g19_mixte_c100_s5;mixte;100 (12);5;non pondérée;423.1;507.4;KO (2/13);KO (1/13);OK;OK;non
+g19_mixte_c100_s5;mixte;100 (12);5;capacité;422.7;452.8;KO (2/11);KO (1/11);OK;OK;non
+g19_mixte_c100_s5;mixte;100 (12);5;racine capacité;425.8;445.8;KO (2/12);KO (1/12);OK;OK;non
+g20_mixte_c100_s7;mixte;100 (11);7;non pondérée;455.9;544.2;KO (2/14);KO (1/14);KO (2/7);OK;non
+g20_mixte_c100_s7;mixte;100 (11);7;capacité;447.9;647.0;KO (2/13);KO (1/13);KO (1/7);OK;non
+g20_mixte_c100_s7;mixte;100 (11);7;racine capacité;444.7;541.9;KO (2/14);KO (1/14);KO (1/7);OK;non

@@ -1,0 +1,31 @@
+=== g01_ville_c20_s2 | distance non pondérée ===
+J = L_tot = 29.7 km  PD = 79.9 MW.km  -> toutes contraintes satisfaites
+  Source 0: P =    4.22 /  12.60 MW OK | départs 2 / 4 OK | PD =    44.8 MW.km | 11 noeuds dans l'arbre
+    départ 0 (tête  14,   1 noeuds): L =    1.9 / 18 km OK | P =  -1.05 / 7 MW OK | PD =     2.0 MW.km
+    départ 1 (tête  20,   9 noeuds): L =   10.3 / 18 km OK | P =   5.27 / 7 MW OK | PD =    42.8 MW.km
+  Source 1: P =    6.08 /   6.30 MW OK | départs 1 / 3 OK | PD =    35.0 MW.km | 17 noeuds dans l'arbre
+    départ 0 (tête  13,  16 noeuds): L =   17.4 / 18 km OK | P =   6.08 / 7 MW OK | PD =    35.0 MW.km
+
+=== g01_ville_c20_s2 | distance capacité ===
+J = L_tot = 28.8 km  PD = 95.0 MW.km  -> contraintes violées
+  Source 0: P =    7.60 /  12.60 MW OK | départs 2 / 4 OK | PD =    87.4 MW.km | 22 noeuds dans l'arbre
+    départ 0 (tête  14,   1 noeuds): L =    1.9 / 18 km OK | P =  -1.05 / 7 MW OK | PD =     2.0 MW.km
+    départ 1 (tête  20,  20 noeuds): L =   22.4 / 18 km KO | P =   8.65 / 7 MW KO | PD =    85.4 MW.km
+  Source 1: P =    2.70 /   6.30 MW OK | départs 1 / 3 OK | PD =     7.6 MW.km | 5 noeuds dans l'arbre
+    départ 0 (tête  13,   4 noeuds): L =    4.5 / 18 km OK | P =   2.70 / 7 MW OK | PD =     7.6 MW.km
+
+=== g01_ville_c20_s2 | distance racine capacité ===
+J = L_tot = 29.2 km  PD = 76.7 MW.km  -> contraintes violées
+  Source 0: P =    3.90 /  12.60 MW OK | départs 2 / 4 OK | PD =    43.1 MW.km | 14 noeuds dans l'arbre
+    départ 0 (tête  14,   1 noeuds): L =    1.9 / 18 km OK | P =  -1.05 / 7 MW OK | PD =     2.0 MW.km
+    départ 1 (tête  20,  12 noeuds): L =   12.4 / 18 km OK | P =   4.95 / 7 MW OK | PD =    41.0 MW.km
+  Source 1: P =    6.40 /   6.30 MW KO | départs 1 / 3 OK | PD =    33.7 MW.km | 14 noeuds dans l'arbre
+    départ 0 (tête  13,  13 noeuds): L =   14.9 / 18 km OK | P =   6.40 / 7 MW OK | PD =    33.7 MW.km
+
+=== g01_ville_c20_s2 | distance variable ===
+J = L_tot = 29.7 km  PD = 79.9 MW.km  -> toutes contraintes satisfaites
+  Source 0: P =    4.22 /  12.60 MW OK | départs 2 / 4 OK | PD =    44.8 MW.km | 11 noeuds dans l'arbre | w = 1
+    départ 0 (tête  14,   1 noeuds): L =    1.9 / 18 km OK | P =  -1.05 / 7 MW OK | PD =     2.0 MW.km
+    départ 1 (tête  20,   9 noeuds): L =   10.3 / 18 km OK | P =   5.27 / 7 MW OK | PD =    42.8 MW.km
+  Source 1: P =    6.08 /   6.30 MW OK | départs 1 / 3 OK | PD =    35.0 MW.km | 17 noeuds dans l'arbre | w = 1
+    départ 0 (tête  13,  16 noeuds): L =   17.4 / 18 km OK | P =   6.08 / 7 MW OK | PD =    35.0 MW.km
