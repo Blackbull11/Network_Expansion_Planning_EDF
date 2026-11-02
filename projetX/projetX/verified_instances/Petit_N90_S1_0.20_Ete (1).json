@@ -1,0 +1,6758 @@
+{
+  "nodes": [
+    {
+      "id_noeud": 0,
+      "type": "Source",
+      "demande": 70,
+      "id_selon_type": 0,
+      "n_departs_max": 8.0,
+      "geometry": [
+        3.87,
+        -5.61
+      ],
+      "neighbors": [
+        46,
+        81,
+        83,
+        86,
+        25,
+        60
+      ],
+      "connected_edges": [
+        231,
+        232,
+        248,
+        233,
+        247,
+        249
+      ]
+    },
+    {
+      "id_noeud": 1,
+      "type": "Conso",
+      "demande": 0,
+      "id_selon_type": 0,
+      "n_departs_max": null,
+      "geometry": [
+        6.890953721983493,
+        -5.135864762384358
+      ],
+      "neighbors": [
+        72,
+        16,
+        82,
+        25,
+        60
+      ],
+      "connected_edges": [
+        169,
+        239,
+        170,
+        171,
+        241
+      ]
+    },
+    {
+      "id_noeud": 2,
+      "type": "Conso",
+      "demande": 2,
+      "id_selon_type": 1,
+      "n_departs_max": null,
+      "geometry": [
+        -2.6683904709004427,
+        10.088722873158034
+      ],
+      "neighbors": [
+        64,
+        44,
+        12,
+        51,
+        22,
+        63
+      ],
+      "connected_edges": [
+        32,
+        108,
+        110,
+        30,
+        31,
+        106
+      ]
+    },
+    {
+      "id_noeud": 3,
+      "type": "Conso",
+      "demande": 2,
+      "id_selon_type": 2,
+      "n_departs_max": null,
+      "geometry": [
+        10.38567647017181,
+        8.528097483436149
+      ],
+      "neighbors": [
+        8,
+        75,
+        76,
+        77,
+        87,
+        24
+      ],
+      "connected_edges": [
+        186,
+        188,
+        81,
+        82,
+        83,
+        84
+      ]
+    },
+    {
+      "id_noeud": 4,
+      "type": "Conso",
+      "demande": 0,
+      "id_selon_type": 3,
+      "n_departs_max": null,
+      "geometry": [
+        2.39453607524932,
+        -14.992491793992418
+      ],
+      "neighbors": [
+        32,
+        34,
+        35,
+        67,
+        70,
+        29
+      ],
+      "connected_edges": [
+        5,
+        55,
+        57,
+        6,
+        59,
+        61
+      ]
+    },
+    {
+      "id_noeud": 5,
+      "type": "Conso",
+      "demande": 2,
+      "id_selon_type": 4,
+      "n_departs_max": null,
+      "geometry": [
+        14.526599443347052,
+        3.037672935497678
+      ],
+      "neighbors": [
+        36,
+        8,
+        75,
+        14,
+        85,
+        89
+      ],
+      "connected_edges": [
+        10,
+        12,
+        75,
+        77,
+        79,
+        11
+      ]
+    },
+    {
+      "id_noeud": 6,
+      "type": "Conso",
+      "demande": 2,
+      "id_selon_type": 5,
+      "n_departs_max": null,
+      "geometry": [
+        -10.769915871301778,
+        -9.116733565438425
+      ],
+      "neighbors": [
+        34,
+        10,
+        11,
+        78,
+        15,
+        56,
+        27
+      ],
+      "connected_edges": [
+        144,
+        145,
+        146,
+        147,
+        148,
+        217,
+        218
+      ]
+    },
+    {
+      "id_noeud": 7,
+      "type": "Conso",
+      "demande": 1,
+      "id_selon_type": 6,
+      "n_departs_max": null,
+      "geometry": [
+        8.944213734992807,
+        -0.6876565329323707
+      ],
+      "neighbors": [
+        69,
+        16,
+        54,
+        57,
+        60,
+        61
+      ],
+      "connected_edges": [
+        174,
+        243,
+        245,
+        175,
+        176,
+        177
+      ]
+    },
+    {
+      "id_noeud": 8,
+      "type": "Prod",
+      "demande": -3,
+      "id_selon_type": 7,
+      "n_departs_max": null,
+      "geometry": [
+        10.589318616720355,
+        4.878477068662299
+      ],
+      "neighbors": [
+        3,
+        5,
+        75,
+        77,
+        54,
+        89,
+        57
+      ],
+      "connected_edges": [
+        81,
+        181,
+        183,
+        185,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "id_noeud": 9,
+      "type": "Prod",
+      "demande": -1,
+      "id_selon_type": 8,
+      "n_departs_max": null,
+      "geometry": [
+        -11.060803459784905,
+        6.020792085986361
+      ],
+      "neighbors": [
+        64,
+        43,
+        52,
+        62
+      ],
+      "connected_edges": [
+        118,
+        119,
+        117,
+        206
+      ]
+    },
+    {
+      "id_noeud": 10,
+      "type": "Prod",
+      "demande": -3,
+      "id_selon_type": 9,
+      "n_departs_max": null,
+      "geometry": [
+        -13.574726210141591,
+        -11.948762763988467
+      ],
+      "neighbors": [
+        32,
+        34,
+        6,
+        56,
+        88
+      ],
+      "connected_edges": [
+        51,
+        52,
+        50,
+        53,
+        146
+      ]
+    },
+    {
+      "id_noeud": 11,
+      "type": "Prod",
+      "demande": -3,
+      "id_selon_type": 10,
+      "n_departs_max": null,
+      "geometry": [
+        -7.07452057168771,
+        -11.945757724462075
+      ],
+      "neighbors": [
+        33,
+        34,
+        6,
+        78,
+        80
+      ],
+      "connected_edges": [
+        148,
+        149,
+        150,
+        219,
+        221
+      ]
+    },
+    {
+      "id_noeud": 12,
+      "type": "Prod",
+      "demande": -3,
+      "id_selon_type": 11,
+      "n_departs_max": null,
+      "geometry": [
+        -5.490835032264815,
+        4.60356373363053
+      ],
+      "neighbors": [
+        64,
+        2,
+        37,
+        52,
+        58,
+        63
+      ],
+      "connected_edges": [
+        109,
+        202,
+        204,
+        107,
+        108,
+        200
+      ]
+    },
+    {
+      "id_noeud": 13,
+      "type": "Prod",
+      "demande": -2,
+      "id_selon_type": 12,
+      "n_departs_max": null,
+      "geometry": [
+        -1.4655358795260618,
+        -9.720042241270914
+      ],
+      "neighbors": [
+        80,
+        48,
+        29,
+        71
+      ],
+      "connected_edges": [
+        155,
+        224,
+        156,
+        157
+      ]
+    },
+    {
+      "id_noeud": 14,
+      "type": "Prod",
+      "demande": -2,
+      "id_selon_type": 13,
+      "n_departs_max": null,
+      "geometry": [
+        12.381267800913136,
+        0.18002490785225334
+      ],
+      "neighbors": [
+        5,
+        69,
+        85,
+        89,
+        57
+      ],
+      "connected_edges": [
+        73,
+        76,
+        179,
+        74,
+        75
+      ]
+    },
+    {
+      "id_noeud": 15,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 0,
+      "n_departs_max": null,
+      "geometry": [
+        -11.728452588474525,
+        -6.229105356604704
+      ],
+      "neighbors": [
+        6,
+        73,
+        47,
+        56,
+        27
+      ],
+      "connected_edges": [
+        142,
+        143,
+        256,
+        144,
+        255
+      ]
+    },
+    {
+      "id_noeud": 16,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 1,
+      "n_departs_max": null,
+      "geometry": [
+        8.50348744329617,
+        -3.5194432576385033
+      ],
+      "neighbors": [
+        1,
+        7,
+        72,
+        60,
+        61
+      ],
+      "connected_edges": [
+        171,
+        172,
+        242,
+        173,
+        174
+      ]
+    },
+    {
+      "id_noeud": 17,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 2,
+      "n_departs_max": null,
+      "geometry": [
+        3.832929309874025,
+        9.952748855283705
+      ],
+      "neighbors": [
+        66,
+        19,
+        21,
+        55
+      ],
+      "connected_edges": [
+        98,
+        96,
+        97,
+        99
+      ]
+    },
+    {
+      "id_noeud": 18,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 3,
+      "n_departs_max": null,
+      "geometry": [
+        -5.192605251862959,
+        -4.372364476423506
+      ],
+      "neighbors": [
+        65,
+        59,
+        78,
+        84,
+        53,
+        27
+      ],
+      "connected_edges": [
+        133,
+        134,
+        215,
+        132,
+        211,
+        213
+      ]
+    },
+    {
+      "id_noeud": 19,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 4,
+      "n_departs_max": null,
+      "geometry": [
+        4.850874588096808,
+        8.277033200126034
+      ],
+      "neighbors": [
+        77,
+        17,
+        21,
+        87,
+        55
+      ],
+      "connected_edges": [
+        95,
+        96,
+        192,
+        94,
+        190
+      ]
+    },
+    {
+      "id_noeud": 20,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 5,
+      "n_departs_max": null,
+      "geometry": [
+        5.966656201883598,
+        -9.41452228275962
+      ],
+      "neighbors": [
+        35,
+        67,
+        72,
+        46,
+        82,
+        86,
+        30
+      ],
+      "connected_edges": [
+        162,
+        163,
+        235,
+        164,
+        165,
+        166,
+        167
+      ]
+    },
+    {
+      "id_noeud": 21,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 6,
+      "n_departs_max": null,
+      "geometry": [
+        3.899699020960277,
+        10.092689422009297
+      ],
+      "neighbors": [
+        66,
+        79,
+        17,
+        19,
+        22,
+        87
+      ],
+      "connected_edges": [
+        25,
+        26,
+        97,
+        24,
+        93,
+        95
+      ]
+    },
+    {
+      "id_noeud": 22,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 7,
+      "n_departs_max": null,
+      "geometry": [
+        3.890039135779883,
+        14.471491605858112
+      ],
+      "neighbors": [
+        66,
+        2,
+        39,
+        41,
+        44,
+        79,
+        50,
+        51,
+        21,
+        28,
+        31
+      ],
+      "connected_edges": [
+        2,
+        27,
+        29,
+        31,
+        33,
+        35,
+        1,
+        19,
+        21,
+        23,
+        25
+      ]
+    },
+    {
+      "id_noeud": 23,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 8,
+      "n_departs_max": null,
+      "geometry": [
+        -11.788594031403498,
+        1.7522490082110913
+      ],
+      "neighbors": [
+        38,
+        52,
+        88,
+        26,
+        59,
+        62
+      ],
+      "connected_edges": [
+        42,
+        43,
+        122,
+        44,
+        124,
+        126
+      ]
+    },
+    {
+      "id_noeud": 24,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 9,
+      "n_departs_max": null,
+      "geometry": [
+        12.807606011474402,
+        9.512414617338035
+      ],
+      "neighbors": [
+        3,
+        36,
+        39,
+        75,
+        76,
+        50
+      ],
+      "connected_edges": [
+        16,
+        17,
+        83,
+        85,
+        14,
+        15
+      ]
+    },
+    {
+      "id_noeud": 25,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 10,
+      "n_departs_max": null,
+      "geometry": [
+        5.883020980780536,
+        -5.9226049247340224
+      ],
+      "neighbors": [
+        0,
+        1,
+        82,
+        86,
+        60
+      ],
+      "connected_edges": [
+        237,
+        249,
+        238,
+        239,
+        240
+      ]
+    },
+    {
+      "id_noeud": 26,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 11,
+      "n_departs_max": null,
+      "geometry": [
+        -12.891968143486046,
+        3.1938588267722885
+      ],
+      "neighbors": [
+        43,
+        23,
+        88,
+        62,
+        31
+      ],
+      "connected_edges": [
+        40,
+        41,
+        39,
+        42,
+        121
+      ]
+    },
+    {
+      "id_noeud": 27,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 12,
+      "n_departs_max": null,
+      "geometry": [
+        -7.934229512927155,
+        -5.197466887392547
+      ],
+      "neighbors": [
+        6,
+        78,
+        47,
+        15,
+        18,
+        59
+      ],
+      "connected_edges": [
+        136,
+        218,
+        255,
+        134,
+        135,
+        216
+      ]
+    },
+    {
+      "id_noeud": 28,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 13,
+      "n_departs_max": null,
+      "geometry": [
+        -11.927537070996657,
+        12.741430079708973
+      ],
+      "neighbors": [
+        43,
+        49,
+        51,
+        22,
+        31
+      ],
+      "connected_edges": [
+        36,
+        34,
+        35,
+        37,
+        114
+      ]
+    },
+    {
+      "id_noeud": 29,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 14,
+      "n_departs_max": null,
+      "geometry": [
+        1.5936425240070875,
+        -14.41465570767934
+      ],
+      "neighbors": [
+        33,
+        34,
+        67,
+        4,
+        71,
+        13,
+        80
+      ],
+      "connected_edges": [
+        56,
+        152,
+        154,
+        156,
+        57,
+        58,
+        158
+      ]
+    },
+    {
+      "id_noeud": 30,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 15,
+      "n_departs_max": null,
+      "geometry": [
+        10.25695752175492,
+        -11.298178118261564
+      ],
+      "neighbors": [
+        35,
+        70,
+        72,
+        45,
+        20
+      ],
+      "connected_edges": [
+        63,
+        64,
+        66,
+        165,
+        65
+      ]
+    },
+    {
+      "id_noeud": 31,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 16,
+      "n_departs_max": null,
+      "geometry": [
+        -13.758564139334744,
+        13.06856072352937
+      ],
+      "neighbors": [
+        43,
+        22,
+        88,
+        26,
+        28
+      ],
+      "connected_edges": [
+        3,
+        2,
+        36,
+        38,
+        40
+      ]
+    },
+    {
+      "id_noeud": 32,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 17,
+      "n_departs_max": null,
+      "geometry": [
+        -13.683998769583287,
+        -14.64486151800363
+      ],
+      "neighbors": [
+        88,
+        10,
+        4,
+        34
+      ],
+      "connected_edges": [
+        4,
+        5,
+        52,
+        54
+      ]
+    },
+    {
+      "id_noeud": 33,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 18,
+      "n_departs_max": null,
+      "geometry": [
+        -6.777232223492192,
+        -13.56796106988336
+      ],
+      "neighbors": [
+        80,
+        34,
+        11,
+        29
+      ],
+      "connected_edges": [
+        150,
+        151,
+        152,
+        153
+      ]
+    },
+    {
+      "id_noeud": 34,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 19,
+      "n_departs_max": null,
+      "geometry": [
+        -8.337632467951241,
+        -14.42828425419674
+      ],
+      "neighbors": [
+        32,
+        33,
+        4,
+        6,
+        10,
+        11,
+        29
+      ],
+      "connected_edges": [
+        53,
+        54,
+        147,
+        55,
+        56,
+        149,
+        151
+      ]
+    },
+    {
+      "id_noeud": 35,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 20,
+      "n_departs_max": null,
+      "geometry": [
+        6.005052280495239,
+        -9.662669419448905
+      ],
+      "neighbors": [
+        67,
+        4,
+        70,
+        20,
+        30
+      ],
+      "connected_edges": [
+        60,
+        61,
+        164,
+        62,
+        63
+      ]
+    },
+    {
+      "id_noeud": 36,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 21,
+      "n_departs_max": null,
+      "geometry": [
+        14.998155677933706,
+        7.802393495157222
+      ],
+      "neighbors": [
+        5,
+        39,
+        75,
+        85,
+        24
+      ],
+      "connected_edges": [
+        0,
+        9,
+        11,
+        13,
+        15
+      ]
+    },
+    {
+      "id_noeud": 37,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 22,
+      "n_departs_max": null,
+      "geometry": [
+        -6.491106764274955,
+        2.866739171653766
+      ],
+      "neighbors": [
+        38,
+        58,
+        12,
+        52
+      ],
+      "connected_edges": [
+        203,
+        207,
+        201,
+        202
+      ]
+    },
+    {
+      "id_noeud": 38,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 23,
+      "n_departs_max": null,
+      "geometry": [
+        -8.237124289436945,
+        1.0370296916475858
+      ],
+      "neighbors": [
+        37,
+        52,
+        23,
+        58,
+        59
+      ],
+      "connected_edges": [
+        125,
+        126,
+        127,
+        128,
+        207
+      ]
+    },
+    {
+      "id_noeud": 39,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 24,
+      "n_departs_max": null,
+      "geometry": [
+        11.757320608801216,
+        13.960021689706807
+      ],
+      "neighbors": [
+        24,
+        50,
+        36,
+        22
+      ],
+      "connected_edges": [
+        1,
+        18,
+        0,
+        16
+      ]
+    },
+    {
+      "id_noeud": 40,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 25,
+      "n_departs_max": null,
+      "geometry": [
+        1.6234591219553778,
+        5.4922094001863435
+      ],
+      "neighbors": [
+        66,
+        44,
+        77,
+        81,
+        54,
+        55,
+        58,
+        63
+      ],
+      "connected_edges": [
+        102,
+        103,
+        104,
+        198,
+        101,
+        193,
+        194,
+        196
+      ]
+    },
+    {
+      "id_noeud": 41,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 26,
+      "n_departs_max": null,
+      "geometry": [
+        8.789820502454745,
+        13.196821860989306
+      ],
+      "neighbors": [
+        74,
+        79,
+        50,
+        22,
+        87
+      ],
+      "connected_edges": [
+        21,
+        22,
+        91,
+        20,
+        89
+      ]
+    },
+    {
+      "id_noeud": 42,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 27,
+      "n_departs_max": null,
+      "geometry": [
+        -13.834402116247828,
+        -4.214000281673179
+      ],
+      "neighbors": [
+        88,
+        73,
+        47,
+        56,
+        59
+      ],
+      "connected_edges": [
+        47,
+        46,
+        48,
+        138,
+        140
+      ]
+    },
+    {
+      "id_noeud": 43,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 28,
+      "n_departs_max": null,
+      "geometry": [
+        -11.639833702630085,
+        9.279163370917463
+      ],
+      "neighbors": [
+        64,
+        9,
+        49,
+        26,
+        28,
+        62,
+        31
+      ],
+      "connected_edges": [
+        37,
+        38,
+        39,
+        120,
+        115,
+        116,
+        118
+      ]
+    },
+    {
+      "id_noeud": 44,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 29,
+      "n_departs_max": null,
+      "geometry": [
+        0.2239174027178219,
+        10.038656275824973
+      ],
+      "neighbors": [
+        66,
+        2,
+        40,
+        22,
+        63
+      ],
+      "connected_edges": [
+        30,
+        105,
+        28,
+        29,
+        103
+      ]
+    },
+    {
+      "id_noeud": 45,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 30,
+      "n_departs_max": null,
+      "geometry": [
+        12.919218809911467,
+        -7.857944446583733
+      ],
+      "neighbors": [
+        70,
+        72,
+        85,
+        61,
+        30
+      ],
+      "connected_edges": [
+        7,
+        65,
+        67,
+        69,
+        8
+      ]
+    },
+    {
+      "id_noeud": 46,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 31,
+      "n_departs_max": null,
+      "geometry": [
+        3.5450445123443757,
+        -6.958268030807329
+      ],
+      "neighbors": [
+        0,
+        67,
+        71,
+        83,
+        20,
+        86
+      ],
+      "connected_edges": [
+        160,
+        230,
+        161,
+        162,
+        232,
+        234
+      ]
+    },
+    {
+      "id_noeud": 47,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 32,
+      "n_departs_max": null,
+      "geometry": [
+        -12.205609708787952,
+        -5.834514436168318
+      ],
+      "neighbors": [
+        27,
+        73,
+        42,
+        15,
+        59
+      ],
+      "connected_edges": [
+        138,
+        139,
+        136,
+        137,
+        256
+      ]
+    },
+    {
+      "id_noeud": 48,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 33,
+      "n_departs_max": null,
+      "geometry": [
+        -2.717905833288352,
+        -8.498604019011392
+      ],
+      "neighbors": [
+        65,
+        68,
+        71,
+        13,
+        78,
+        80,
+        84
+      ],
+      "connected_edges": [
+        222,
+        223,
+        251,
+        252,
+        224,
+        225,
+        226
+      ]
+    },
+    {
+      "id_noeud": 49,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 34,
+      "n_departs_max": null,
+      "geometry": [
+        -9.459103868174545,
+        10.680996774416212
+      ],
+      "neighbors": [
+        64,
+        43,
+        51,
+        28
+      ],
+      "connected_edges": [
+        114,
+        115,
+        112,
+        113
+      ]
+    },
+    {
+      "id_noeud": 50,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 35,
+      "n_departs_max": null,
+      "geometry": [
+        10.492320026604489,
+        13.615116911174358
+      ],
+      "neighbors": [
+        39,
+        41,
+        74,
+        76,
+        22,
+        24
+      ],
+      "connected_edges": [
+        19,
+        20,
+        86,
+        88,
+        17,
+        18
+      ]
+    },
+    {
+      "id_noeud": 51,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 36,
+      "n_departs_max": null,
+      "geometry": [
+        -5.845044559239538,
+        11.975949512730491
+      ],
+      "neighbors": [
+        64,
+        2,
+        49,
+        22,
+        28
+      ],
+      "connected_edges": [
+        34,
+        111,
+        113,
+        32,
+        33
+      ]
+    },
+    {
+      "id_noeud": 52,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 37,
+      "n_departs_max": null,
+      "geometry": [
+        -8.57650001036118,
+        4.932492006671001
+      ],
+      "neighbors": [
+        64,
+        37,
+        38,
+        9,
+        12,
+        23,
+        62
+      ],
+      "connected_edges": [
+        123,
+        124,
+        206,
+        125,
+        203,
+        204,
+        205
+      ]
+    },
+    {
+      "id_noeud": 53,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 38,
+      "n_departs_max": null,
+      "geometry": [
+        -4.720948384073381,
+        -3.3857155003748147
+      ],
+      "neighbors": [
+        18,
+        65,
+        58,
+        59
+      ],
+      "connected_edges": [
+        131,
+        132,
+        130,
+        210
+      ]
+    },
+    {
+      "id_noeud": 54,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 39,
+      "n_departs_max": null,
+      "geometry": [
+        8.102940722488611,
+        0.4706365532609009
+      ],
+      "neighbors": [
+        7,
+        8,
+        40,
+        77,
+        81,
+        57,
+        60
+      ],
+      "connected_edges": [
+        184,
+        194,
+        195,
+        244,
+        182,
+        183,
+        245
+      ]
+    },
+    {
+      "id_noeud": 55,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 40,
+      "n_departs_max": null,
+      "geometry": [
+        4.423456275187192,
+        7.9244696502417895
+      ],
+      "neighbors": [
+        66,
+        40,
+        77,
+        17,
+        19
+      ],
+      "connected_edges": [
+        99,
+        100,
+        101,
+        191,
+        192
+      ]
+    },
+    {
+      "id_noeud": 56,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 41,
+      "n_departs_max": null,
+      "geometry": [
+        -13.53749915862156,
+        -7.745861357537929
+      ],
+      "neighbors": [
+        6,
+        73,
+        42,
+        10,
+        15,
+        88
+      ],
+      "connected_edges": [
+        48,
+        49,
+        50,
+        141,
+        143,
+        145
+      ]
+    },
+    {
+      "id_noeud": 57,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 42,
+      "n_departs_max": null,
+      "geometry": [
+        10.538270451643086,
+        1.9177657122328249
+      ],
+      "neighbors": [
+        69,
+        7,
+        8,
+        14,
+        54,
+        89
+      ],
+      "connected_edges": [
+        177,
+        182,
+        178,
+        179,
+        180,
+        181
+      ]
+    },
+    {
+      "id_noeud": 58,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 43,
+      "n_departs_max": null,
+      "geometry": [
+        -3.25681205653483,
+        -1.8915853173375528
+      ],
+      "neighbors": [
+        65,
+        37,
+        38,
+        40,
+        12,
+        81,
+        53,
+        59,
+        63
+      ],
+      "connected_edges": [
+        128,
+        129,
+        130,
+        200,
+        201,
+        197,
+        198,
+        199,
+        209
+      ]
+    },
+    {
+      "id_noeud": 59,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 44,
+      "n_departs_max": null,
+      "geometry": [
+        -7.2969581874602785,
+        -2.4067148863613887
+      ],
+      "neighbors": [
+        38,
+        42,
+        47,
+        18,
+        53,
+        23,
+        88,
+        58,
+        27
+      ],
+      "connected_edges": [
+        44,
+        45,
+        46,
+        127,
+        135,
+        137,
+        129,
+        131,
+        133
+      ]
+    },
+    {
+      "id_noeud": 60,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 45,
+      "n_departs_max": null,
+      "geometry": [
+        7.175826446430353,
+        -3.4835109774645634
+      ],
+      "neighbors": [
+        0,
+        1,
+        7,
+        16,
+        81,
+        54,
+        25
+      ],
+      "connected_edges": [
+        240,
+        241,
+        246,
+        247,
+        242,
+        243,
+        244
+      ]
+    },
+    {
+      "id_noeud": 61,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 46,
+      "n_departs_max": null,
+      "geometry": [
+        11.482808474803104,
+        -2.553510286220517
+      ],
+      "neighbors": [
+        69,
+        7,
+        72,
+        45,
+        16,
+        85
+      ],
+      "connected_edges": [
+        68,
+        173,
+        175,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "id_noeud": 62,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 47,
+      "n_departs_max": null,
+      "geometry": [
+        -11.884043439165328,
+        4.339752014993703
+      ],
+      "neighbors": [
+        9,
+        43,
+        52,
+        23,
+        26
+      ],
+      "connected_edges": [
+        121,
+        119,
+        120,
+        122,
+        123
+      ]
+    },
+    {
+      "id_noeud": 63,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 48,
+      "n_departs_max": null,
+      "geometry": [
+        -1.1284527241409545,
+        6.163121946542859
+      ],
+      "neighbors": [
+        2,
+        40,
+        44,
+        12,
+        58
+      ],
+      "connected_edges": [
+        106,
+        107,
+        199,
+        104,
+        105
+      ]
+    },
+    {
+      "id_noeud": 64,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 49,
+      "n_departs_max": null,
+      "geometry": [
+        -7.648471794486442,
+        7.778645880412135
+      ],
+      "neighbors": [
+        2,
+        9,
+        43,
+        12,
+        49,
+        51,
+        52
+      ],
+      "connected_edges": [
+        112,
+        116,
+        117,
+        205,
+        109,
+        110,
+        111
+      ]
+    },
+    {
+      "id_noeud": 65,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 50,
+      "n_departs_max": null,
+      "geometry": [
+        -2.168944759473728,
+        -5.100861876735941
+      ],
+      "neighbors": [
+        71,
+        48,
+        81,
+        18,
+        83,
+        84,
+        53,
+        58
+      ],
+      "connected_edges": [
+        209,
+        210,
+        211,
+        212,
+        226,
+        208,
+        227,
+        228
+      ]
+    },
+    {
+      "id_noeud": 66,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 51,
+      "n_departs_max": null,
+      "geometry": [
+        1.3487987924409524,
+        10.183535705643077
+      ],
+      "neighbors": [
+        40,
+        44,
+        17,
+        21,
+        22,
+        55
+      ],
+      "connected_edges": [
+        28,
+        26,
+        27,
+        98,
+        100,
+        102
+      ]
+    },
+    {
+      "id_noeud": 67,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 52,
+      "n_departs_max": null,
+      "geometry": [
+        3.992792269863706,
+        -9.645704261463717
+      ],
+      "neighbors": [
+        35,
+        4,
+        71,
+        46,
+        20,
+        29
+      ],
+      "connected_edges": [
+        58,
+        59,
+        159,
+        161,
+        60,
+        163
+      ]
+    },
+    {
+      "id_noeud": 68,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 53,
+      "n_departs_max": null,
+      "geometry": [
+        -3.406231425471187,
+        -7.482623957032244
+      ],
+      "neighbors": [
+        48,
+        84,
+        78
+      ],
+      "connected_edges": [
+        254,
+        252,
+        253
+      ]
+    },
+    {
+      "id_noeud": 69,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 54,
+      "n_departs_max": null,
+      "geometry": [
+        12.22226565601191,
+        -0.6294693385730632
+      ],
+      "neighbors": [
+        7,
+        14,
+        85,
+        57,
+        61
+      ],
+      "connected_edges": [
+        71,
+        176,
+        178,
+        72,
+        73
+      ]
+    },
+    {
+      "id_noeud": 70,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 55,
+      "n_departs_max": null,
+      "geometry": [
+        9.96213721631446,
+        -13.033546690880412
+      ],
+      "neighbors": [
+        35,
+        4,
+        45,
+        30
+      ],
+      "connected_edges": [
+        6,
+        62,
+        7,
+        64
+      ]
+    },
+    {
+      "id_noeud": 71,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 56,
+      "n_departs_max": null,
+      "geometry": [
+        1.9279712879365611,
+        -8.277118328343171
+      ],
+      "neighbors": [
+        65,
+        67,
+        13,
+        46,
+        48,
+        83,
+        29
+      ],
+      "connected_edges": [
+        157,
+        158,
+        225,
+        227,
+        159,
+        160,
+        229
+      ]
+    },
+    {
+      "id_noeud": 72,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 57,
+      "n_departs_max": null,
+      "geometry": [
+        8.293439853741774,
+        -6.032889422994073
+      ],
+      "neighbors": [
+        1,
+        45,
+        16,
+        82,
+        20,
+        61,
+        30
+      ],
+      "connected_edges": [
+        166,
+        168,
+        170,
+        66,
+        67,
+        68,
+        172
+      ]
+    },
+    {
+      "id_noeud": 73,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 58,
+      "n_departs_max": null,
+      "geometry": [
+        -12.2730456568583,
+        -5.8177152966251136
+      ],
+      "neighbors": [
+        56,
+        42,
+        15,
+        47
+      ],
+      "connected_edges": [
+        140,
+        141,
+        139,
+        142
+      ]
+    },
+    {
+      "id_noeud": 74,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 59,
+      "n_departs_max": null,
+      "geometry": [
+        9.165836191979782,
+        13.067363247022417
+      ],
+      "neighbors": [
+        41,
+        50,
+        76,
+        87
+      ],
+      "connected_edges": [
+        89,
+        90,
+        87,
+        88
+      ]
+    },
+    {
+      "id_noeud": 75,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 60,
+      "n_departs_max": null,
+      "geometry": [
+        14.339099092448023,
+        6.1741658645991
+      ],
+      "neighbors": [
+        3,
+        36,
+        5,
+        8,
+        24
+      ],
+      "connected_edges": [
+        14,
+        80,
+        82,
+        12,
+        13
+      ]
+    },
+    {
+      "id_noeud": 76,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 61,
+      "n_departs_max": null,
+      "geometry": [
+        10.458777147187785,
+        8.742472590646702
+      ],
+      "neighbors": [
+        3,
+        74,
+        50,
+        87,
+        24
+      ],
+      "connected_edges": [
+        84,
+        87,
+        189,
+        85,
+        86
+      ]
+    },
+    {
+      "id_noeud": 77,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 62,
+      "n_departs_max": null,
+      "geometry": [
+        7.8492743053576035,
+        7.285404962727288
+      ],
+      "neighbors": [
+        3,
+        8,
+        40,
+        19,
+        55,
+        54,
+        87
+      ],
+      "connected_edges": [
+        190,
+        191,
+        193,
+        184,
+        185,
+        186,
+        187
+      ]
+    },
+    {
+      "id_noeud": 78,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 63,
+      "n_departs_max": null,
+      "geometry": [
+        -6.250628520556798,
+        -7.865834964043879
+      ],
+      "neighbors": [
+        68,
+        6,
+        11,
+        80,
+        48,
+        18,
+        84,
+        27
+      ],
+      "connected_edges": [
+        216,
+        217,
+        219,
+        214,
+        215,
+        220,
+        222,
+        254
+      ]
+    },
+    {
+      "id_noeud": 79,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 64,
+      "n_departs_max": null,
+      "geometry": [
+        5.565711626418118,
+        13.227878273064011
+      ],
+      "neighbors": [
+        41,
+        21,
+        22,
+        87
+      ],
+      "connected_edges": [
+        23,
+        24,
+        22,
+        92
+      ]
+    },
+    {
+      "id_noeud": 80,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 65,
+      "n_departs_max": null,
+      "geometry": [
+        -5.245612218033134,
+        -12.386081590934683
+      ],
+      "neighbors": [
+        33,
+        11,
+        13,
+        78,
+        48,
+        29
+      ],
+      "connected_edges": [
+        153,
+        220,
+        221,
+        154,
+        155,
+        223
+      ]
+    },
+    {
+      "id_noeud": 81,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 66,
+      "n_departs_max": null,
+      "geometry": [
+        2.71733391648538,
+        -3.9907032768448296
+      ],
+      "neighbors": [
+        0,
+        65,
+        40,
+        83,
+        54,
+        58,
+        60
+      ],
+      "connected_edges": [
+        196,
+        197,
+        208,
+        250,
+        195,
+        246,
+        248
+      ]
+    },
+    {
+      "id_noeud": 82,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 67,
+      "n_departs_max": null,
+      "geometry": [
+        6.06152066348448,
+        -6.643451722148029
+      ],
+      "neighbors": [
+        1,
+        72,
+        20,
+        86,
+        25
+      ],
+      "connected_edges": [
+        167,
+        236,
+        238,
+        168,
+        169
+      ]
+    },
+    {
+      "id_noeud": 83,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 68,
+      "n_departs_max": null,
+      "geometry": [
+        2.6547165646396316,
+        -6.690409014817904
+      ],
+      "neighbors": [
+        0,
+        65,
+        71,
+        46,
+        81
+      ],
+      "connected_edges": [
+        228,
+        229,
+        230,
+        231,
+        250
+      ]
+    },
+    {
+      "id_noeud": 84,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 69,
+      "n_departs_max": null,
+      "geometry": [
+        -3.225325562923551,
+        -6.993589437927703
+      ],
+      "neighbors": [
+        65,
+        68,
+        78,
+        48,
+        18
+      ],
+      "connected_edges": [
+        213,
+        214,
+        253,
+        212,
+        251
+      ]
+    },
+    {
+      "id_noeud": 85,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 70,
+      "n_departs_max": null,
+      "geometry": [
+        14.165460864499533,
+        -3.576475692114455
+      ],
+      "neighbors": [
+        36,
+        69,
+        5,
+        45,
+        14,
+        61
+      ],
+      "connected_edges": [
+        8,
+        70,
+        72,
+        74,
+        9,
+        10
+      ]
+    },
+    {
+      "id_noeud": 86,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 71,
+      "n_departs_max": null,
+      "geometry": [
+        5.710346728684421,
+        -6.490873969499129
+      ],
+      "neighbors": [
+        0,
+        46,
+        82,
+        20,
+        25
+      ],
+      "connected_edges": [
+        233,
+        234,
+        235,
+        236,
+        237
+      ]
+    },
+    {
+      "id_noeud": 87,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 72,
+      "n_departs_max": null,
+      "geometry": [
+        8.747137247338522,
+        9.31966518834065
+      ],
+      "neighbors": [
+        3,
+        41,
+        74,
+        76,
+        77,
+        79,
+        19,
+        21
+      ],
+      "connected_edges": [
+        92,
+        93,
+        94,
+        187,
+        90,
+        91,
+        188,
+        189
+      ]
+    },
+    {
+      "id_noeud": 88,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 73,
+      "n_departs_max": null,
+      "geometry": [
+        -14.331503386611061,
+        -2.9816286532633747
+      ],
+      "neighbors": [
+        32,
+        42,
+        10,
+        23,
+        56,
+        26,
+        59,
+        31
+      ],
+      "connected_edges": [
+        3,
+        4,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51
+      ]
+    },
+    {
+      "id_noeud": 89,
+      "type": "Transit",
+      "demande": 0,
+      "id_selon_type": 74,
+      "n_departs_max": null,
+      "geometry": [
+        11.182894909839472,
+        2.5859653205129973
+      ],
+      "neighbors": [
+        8,
+        57,
+        5,
+        14
+      ],
+      "connected_edges": [
+        78,
+        180,
+        76,
+        77
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "edge_idx": 0,
+      "length_km": 6.9584,
+      "start_node_idx": 39,
+      "end_node_idx": 36,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          11.757320608801216,
+          13.960021689706807
+        ],
+        [
+          14.998155677933706,
+          7.802393495157222
+        ]
+      ]
+    },
+    {
+      "edge_idx": 1,
+      "length_km": 7.8839,
+      "start_node_idx": 22,
+      "end_node_idx": 39,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.890039135779883,
+          14.471491605858112
+        ],
+        [
+          11.757320608801216,
+          13.960021689706807
+        ]
+      ]
+    },
+    {
+      "edge_idx": 2,
+      "length_km": 17.7043,
+      "start_node_idx": 31,
+      "end_node_idx": 22,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.758564139334744,
+          13.06856072352937
+        ],
+        [
+          3.890039135779883,
+          14.471491605858112
+        ]
+      ]
+    },
+    {
+      "edge_idx": 3,
+      "length_km": 16.0604,
+      "start_node_idx": 88,
+      "end_node_idx": 31,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -14.331503386611061,
+          -2.9816286532633747
+        ],
+        [
+          -13.758564139334744,
+          13.06856072352937
+        ]
+      ]
+    },
+    {
+      "edge_idx": 4,
+      "length_km": 11.6812,
+      "start_node_idx": 88,
+      "end_node_idx": 32,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -14.331503386611061,
+          -2.9816286532633747
+        ],
+        [
+          -13.683998769583287,
+          -14.64486151800363
+        ]
+      ]
+    },
+    {
+      "edge_idx": 5,
+      "length_km": 16.0823,
+      "start_node_idx": 32,
+      "end_node_idx": 4,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.683998769583287,
+          -14.64486151800363
+        ],
+        [
+          2.39453607524932,
+          -14.992491793992418
+        ]
+      ]
+    },
+    {
+      "edge_idx": 6,
+      "length_km": 7.817,
+      "start_node_idx": 4,
+      "end_node_idx": 70,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          2.39453607524932,
+          -14.992491793992418
+        ],
+        [
+          9.96213721631446,
+          -13.033546690880412
+        ]
+      ]
+    },
+    {
+      "edge_idx": 7,
+      "length_km": 5.9608,
+      "start_node_idx": 70,
+      "end_node_idx": 45,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          9.96213721631446,
+          -13.033546690880412
+        ],
+        [
+          12.919218809911467,
+          -7.857944446583733
+        ]
+      ]
+    },
+    {
+      "edge_idx": 8,
+      "length_km": 4.4592,
+      "start_node_idx": 45,
+      "end_node_idx": 85,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          12.919218809911467,
+          -7.857944446583733
+        ],
+        [
+          14.165460864499533,
+          -3.576475692114455
+        ]
+      ]
+    },
+    {
+      "edge_idx": 9,
+      "length_km": 11.4093,
+      "start_node_idx": 85,
+      "end_node_idx": 36,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          14.165460864499533,
+          -3.576475692114455
+        ],
+        [
+          14.998155677933706,
+          7.802393495157222
+        ]
+      ]
+    },
+    {
+      "edge_idx": 10,
+      "length_km": 6.624,
+      "start_node_idx": 85,
+      "end_node_idx": 5,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          14.165460864499533,
+          -3.576475692114455
+        ],
+        [
+          14.526599443347052,
+          3.037672935497678
+        ]
+      ]
+    },
+    {
+      "edge_idx": 11,
+      "length_km": 4.788,
+      "start_node_idx": 5,
+      "end_node_idx": 36,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          14.526599443347052,
+          3.037672935497678
+        ],
+        [
+          14.998155677933706,
+          7.802393495157222
+        ]
+      ]
+    },
+    {
+      "edge_idx": 12,
+      "length_km": 3.1421,
+      "start_node_idx": 75,
+      "end_node_idx": 5,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          14.339099092448023,
+          6.1741658645991
+        ],
+        [
+          14.526599443347052,
+          3.037672935497678
+        ]
+      ]
+    },
+    {
+      "edge_idx": 13,
+      "length_km": 1.7566,
+      "start_node_idx": 75,
+      "end_node_idx": 36,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          14.339099092448023,
+          6.1741658645991
+        ],
+        [
+          14.998155677933706,
+          7.802393495157222
+        ]
+      ]
+    },
+    {
+      "edge_idx": 14,
+      "length_km": 3.6728,
+      "start_node_idx": 24,
+      "end_node_idx": 75,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          12.807606011474402,
+          9.512414617338035
+        ],
+        [
+          14.339099092448023,
+          6.1741658645991
+        ]
+      ]
+    },
+    {
+      "edge_idx": 15,
+      "length_km": 2.779,
+      "start_node_idx": 24,
+      "end_node_idx": 36,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          12.807606011474402,
+          9.512414617338035
+        ],
+        [
+          14.998155677933706,
+          7.802393495157222
+        ]
+      ]
+    },
+    {
+      "edge_idx": 16,
+      "length_km": 4.5699,
+      "start_node_idx": 39,
+      "end_node_idx": 24,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          11.757320608801216,
+          13.960021689706807
+        ],
+        [
+          12.807606011474402,
+          9.512414617338035
+        ]
+      ]
+    },
+    {
+      "edge_idx": 17,
+      "length_km": 4.7109,
+      "start_node_idx": 50,
+      "end_node_idx": 24,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.492320026604489,
+          13.615116911174358
+        ],
+        [
+          12.807606011474402,
+          9.512414617338035
+        ]
+      ]
+    },
+    {
+      "edge_idx": 18,
+      "length_km": 1.3112,
+      "start_node_idx": 50,
+      "end_node_idx": 39,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.492320026604489,
+          13.615116911174358
+        ],
+        [
+          11.757320608801216,
+          13.960021689706807
+        ]
+      ]
+    },
+    {
+      "edge_idx": 19,
+      "length_km": 6.6576,
+      "start_node_idx": 22,
+      "end_node_idx": 50,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.890039135779883,
+          14.471491605858112
+        ],
+        [
+          10.492320026604489,
+          13.615116911174358
+        ]
+      ]
+    },
+    {
+      "edge_idx": 20,
+      "length_km": 1.7531,
+      "start_node_idx": 41,
+      "end_node_idx": 50,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.789820502454745,
+          13.196821860989306
+        ],
+        [
+          10.492320026604489,
+          13.615116911174358
+        ]
+      ]
+    },
+    {
+      "edge_idx": 21,
+      "length_km": 5.0629,
+      "start_node_idx": 22,
+      "end_node_idx": 41,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.890039135779883,
+          14.471491605858112
+        ],
+        [
+          8.789820502454745,
+          13.196821860989306
+        ]
+      ]
+    },
+    {
+      "edge_idx": 22,
+      "length_km": 3.2243,
+      "start_node_idx": 79,
+      "end_node_idx": 41,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          5.565711626418118,
+          13.227878273064011
+        ],
+        [
+          8.789820502454745,
+          13.196821860989306
+        ]
+      ]
+    },
+    {
+      "edge_idx": 23,
+      "length_km": 2.0867,
+      "start_node_idx": 22,
+      "end_node_idx": 79,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.890039135779883,
+          14.471491605858112
+        ],
+        [
+          5.565711626418118,
+          13.227878273064011
+        ]
+      ]
+    },
+    {
+      "edge_idx": 24,
+      "length_km": 3.5504,
+      "start_node_idx": 21,
+      "end_node_idx": 79,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.899699020960277,
+          10.092689422009297
+        ],
+        [
+          5.565711626418118,
+          13.227878273064011
+        ]
+      ]
+    },
+    {
+      "edge_idx": 25,
+      "length_km": 4.3788,
+      "start_node_idx": 22,
+      "end_node_idx": 21,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.890039135779883,
+          14.471491605858112
+        ],
+        [
+          3.899699020960277,
+          10.092689422009297
+        ]
+      ]
+    },
+    {
+      "edge_idx": 26,
+      "length_km": 2.5525,
+      "start_node_idx": 66,
+      "end_node_idx": 21,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.3487987924409524,
+          10.183535705643077
+        ],
+        [
+          3.899699020960277,
+          10.092689422009297
+        ]
+      ]
+    },
+    {
+      "edge_idx": 27,
+      "length_km": 4.9844,
+      "start_node_idx": 66,
+      "end_node_idx": 22,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.3487987924409524,
+          10.183535705643077
+        ],
+        [
+          3.890039135779883,
+          14.471491605858112
+        ]
+      ]
+    },
+    {
+      "edge_idx": 28,
+      "length_km": 1.1342,
+      "start_node_idx": 44,
+      "end_node_idx": 66,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          0.2239174027178219,
+          10.038656275824973
+        ],
+        [
+          1.3487987924409524,
+          10.183535705643077
+        ]
+      ]
+    },
+    {
+      "edge_idx": 29,
+      "length_km": 5.7524,
+      "start_node_idx": 44,
+      "end_node_idx": 22,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          0.2239174027178219,
+          10.038656275824973
+        ],
+        [
+          3.890039135779883,
+          14.471491605858112
+        ]
+      ]
+    },
+    {
+      "edge_idx": 30,
+      "length_km": 2.8927,
+      "start_node_idx": 2,
+      "end_node_idx": 44,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -2.6683904709004427,
+          10.088722873158034
+        ],
+        [
+          0.2239174027178219,
+          10.038656275824973
+        ]
+      ]
+    },
+    {
+      "edge_idx": 31,
+      "length_km": 7.8881,
+      "start_node_idx": 2,
+      "end_node_idx": 22,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -2.6683904709004427,
+          10.088722873158034
+        ],
+        [
+          3.890039135779883,
+          14.471491605858112
+        ]
+      ]
+    },
+    {
+      "edge_idx": 32,
+      "length_km": 3.695,
+      "start_node_idx": 51,
+      "end_node_idx": 2,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -5.845044559239538,
+          11.975949512730491
+        ],
+        [
+          -2.6683904709004427,
+          10.088722873158034
+        ]
+      ]
+    },
+    {
+      "edge_idx": 33,
+      "length_km": 10.0499,
+      "start_node_idx": 51,
+      "end_node_idx": 22,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -5.845044559239538,
+          11.975949512730491
+        ],
+        [
+          3.890039135779883,
+          14.471491605858112
+        ]
+      ]
+    },
+    {
+      "edge_idx": 34,
+      "length_km": 6.1305,
+      "start_node_idx": 28,
+      "end_node_idx": 51,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.927537070996657,
+          12.741430079708973
+        ],
+        [
+          -5.845044559239538,
+          11.975949512730491
+        ]
+      ]
+    },
+    {
+      "edge_idx": 35,
+      "length_km": 15.9119,
+      "start_node_idx": 28,
+      "end_node_idx": 22,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.927537070996657,
+          12.741430079708973
+        ],
+        [
+          3.890039135779883,
+          14.471491605858112
+        ]
+      ]
+    },
+    {
+      "edge_idx": 36,
+      "length_km": 1.86,
+      "start_node_idx": 31,
+      "end_node_idx": 28,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.758564139334744,
+          13.06856072352937
+        ],
+        [
+          -11.927537070996657,
+          12.741430079708973
+        ]
+      ]
+    },
+    {
+      "edge_idx": 37,
+      "length_km": 3.4742,
+      "start_node_idx": 28,
+      "end_node_idx": 43,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.927537070996657,
+          12.741430079708973
+        ],
+        [
+          -11.639833702630085,
+          9.279163370917463
+        ]
+      ]
+    },
+    {
+      "edge_idx": 38,
+      "length_km": 4.3415,
+      "start_node_idx": 31,
+      "end_node_idx": 43,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.758564139334744,
+          13.06856072352937
+        ],
+        [
+          -11.639833702630085,
+          9.279163370917463
+        ]
+      ]
+    },
+    {
+      "edge_idx": 39,
+      "length_km": 6.2128,
+      "start_node_idx": 26,
+      "end_node_idx": 43,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -12.891968143486046,
+          3.1938588267722885
+        ],
+        [
+          -11.639833702630085,
+          9.279163370917463
+        ]
+      ]
+    },
+    {
+      "edge_idx": 40,
+      "length_km": 9.9127,
+      "start_node_idx": 31,
+      "end_node_idx": 26,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.758564139334744,
+          13.06856072352937
+        ],
+        [
+          -12.891968143486046,
+          3.1938588267722885
+        ]
+      ]
+    },
+    {
+      "edge_idx": 41,
+      "length_km": 6.341,
+      "start_node_idx": 88,
+      "end_node_idx": 26,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -14.331503386611061,
+          -2.9816286532633747
+        ],
+        [
+          -12.891968143486046,
+          3.1938588267722885
+        ]
+      ]
+    },
+    {
+      "edge_idx": 42,
+      "length_km": 1.8154,
+      "start_node_idx": 26,
+      "end_node_idx": 23,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -12.891968143486046,
+          3.1938588267722885
+        ],
+        [
+          -11.788594031403498,
+          1.7522490082110913
+        ]
+      ]
+    },
+    {
+      "edge_idx": 43,
+      "length_km": 5.3736,
+      "start_node_idx": 88,
+      "end_node_idx": 23,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -14.331503386611061,
+          -2.9816286532633747
+        ],
+        [
+          -11.788594031403498,
+          1.7522490082110913
+        ]
+      ]
+    },
+    {
+      "edge_idx": 44,
+      "length_km": 6.1214,
+      "start_node_idx": 23,
+      "end_node_idx": 59,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.788594031403498,
+          1.7522490082110913
+        ],
+        [
+          -7.2969581874602785,
+          -2.4067148863613887
+        ]
+      ]
+    },
+    {
+      "edge_idx": 45,
+      "length_km": 7.058,
+      "start_node_idx": 88,
+      "end_node_idx": 59,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -14.331503386611061,
+          -2.9816286532633747
+        ],
+        [
+          -7.2969581874602785,
+          -2.4067148863613887
+        ]
+      ]
+    },
+    {
+      "edge_idx": 46,
+      "length_km": 6.7827,
+      "start_node_idx": 42,
+      "end_node_idx": 59,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.834402116247828,
+          -4.214000281673179
+        ],
+        [
+          -7.2969581874602785,
+          -2.4067148863613887
+        ]
+      ]
+    },
+    {
+      "edge_idx": 47,
+      "length_km": 1.3289,
+      "start_node_idx": 88,
+      "end_node_idx": 42,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -14.331503386611061,
+          -2.9816286532633747
+        ],
+        [
+          -13.834402116247828,
+          -4.214000281673179
+        ]
+      ]
+    },
+    {
+      "edge_idx": 48,
+      "length_km": 3.5443,
+      "start_node_idx": 42,
+      "end_node_idx": 56,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.834402116247828,
+          -4.214000281673179
+        ],
+        [
+          -13.53749915862156,
+          -7.745861357537929
+        ]
+      ]
+    },
+    {
+      "edge_idx": 49,
+      "length_km": 4.8299,
+      "start_node_idx": 88,
+      "end_node_idx": 56,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -14.331503386611061,
+          -2.9816286532633747
+        ],
+        [
+          -13.53749915862156,
+          -7.745861357537929
+        ]
+      ]
+    },
+    {
+      "edge_idx": 50,
+      "length_km": 4.2031,
+      "start_node_idx": 10,
+      "end_node_idx": 56,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.574726210141591,
+          -11.948762763988467
+        ],
+        [
+          -13.53749915862156,
+          -7.745861357537929
+        ]
+      ]
+    },
+    {
+      "edge_idx": 51,
+      "length_km": 8.999,
+      "start_node_idx": 88,
+      "end_node_idx": 10,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -14.331503386611061,
+          -2.9816286532633747
+        ],
+        [
+          -13.574726210141591,
+          -11.948762763988467
+        ]
+      ]
+    },
+    {
+      "edge_idx": 52,
+      "length_km": 2.6983,
+      "start_node_idx": 32,
+      "end_node_idx": 10,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.683998769583287,
+          -14.64486151800363
+        ],
+        [
+          -13.574726210141591,
+          -11.948762763988467
+        ]
+      ]
+    },
+    {
+      "edge_idx": 53,
+      "length_km": 5.7944,
+      "start_node_idx": 10,
+      "end_node_idx": 34,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.574726210141591,
+          -11.948762763988467
+        ],
+        [
+          -8.337632467951241,
+          -14.42828425419674
+        ]
+      ]
+    },
+    {
+      "edge_idx": 54,
+      "length_km": 5.3508,
+      "start_node_idx": 32,
+      "end_node_idx": 34,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.683998769583287,
+          -14.64486151800363
+        ],
+        [
+          -8.337632467951241,
+          -14.42828425419674
+        ]
+      ]
+    },
+    {
+      "edge_idx": 55,
+      "length_km": 10.747,
+      "start_node_idx": 34,
+      "end_node_idx": 4,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -8.337632467951241,
+          -14.42828425419674
+        ],
+        [
+          2.39453607524932,
+          -14.992491793992418
+        ]
+      ]
+    },
+    {
+      "edge_idx": 56,
+      "length_km": 9.9313,
+      "start_node_idx": 34,
+      "end_node_idx": 29,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -8.337632467951241,
+          -14.42828425419674
+        ],
+        [
+          1.5936425240070875,
+          -14.41465570767934
+        ]
+      ]
+    },
+    {
+      "edge_idx": 57,
+      "length_km": 0.9876,
+      "start_node_idx": 29,
+      "end_node_idx": 4,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.5936425240070875,
+          -14.41465570767934
+        ],
+        [
+          2.39453607524932,
+          -14.992491793992418
+        ]
+      ]
+    },
+    {
+      "edge_idx": 58,
+      "length_km": 5.3384,
+      "start_node_idx": 29,
+      "end_node_idx": 67,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.5936425240070875,
+          -14.41465570767934
+        ],
+        [
+          3.992792269863706,
+          -9.645704261463717
+        ]
+      ]
+    },
+    {
+      "edge_idx": 59,
+      "length_km": 5.5806,
+      "start_node_idx": 4,
+      "end_node_idx": 67,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          2.39453607524932,
+          -14.992491793992418
+        ],
+        [
+          3.992792269863706,
+          -9.645704261463717
+        ]
+      ]
+    },
+    {
+      "edge_idx": 60,
+      "length_km": 2.0123,
+      "start_node_idx": 67,
+      "end_node_idx": 35,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.992792269863706,
+          -9.645704261463717
+        ],
+        [
+          6.005052280495239,
+          -9.662669419448905
+        ]
+      ]
+    },
+    {
+      "edge_idx": 61,
+      "length_km": 6.4376,
+      "start_node_idx": 4,
+      "end_node_idx": 35,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          2.39453607524932,
+          -14.992491793992418
+        ],
+        [
+          6.005052280495239,
+          -9.662669419448905
+        ]
+      ]
+    },
+    {
+      "edge_idx": 62,
+      "length_km": 5.1982,
+      "start_node_idx": 35,
+      "end_node_idx": 70,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          6.005052280495239,
+          -9.662669419448905
+        ],
+        [
+          9.96213721631446,
+          -13.033546690880412
+        ]
+      ]
+    },
+    {
+      "edge_idx": 63,
+      "length_km": 4.5556,
+      "start_node_idx": 35,
+      "end_node_idx": 30,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          6.005052280495239,
+          -9.662669419448905
+        ],
+        [
+          10.25695752175492,
+          -11.298178118261564
+        ]
+      ]
+    },
+    {
+      "edge_idx": 64,
+      "length_km": 1.7602,
+      "start_node_idx": 70,
+      "end_node_idx": 30,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          9.96213721631446,
+          -13.033546690880412
+        ],
+        [
+          10.25695752175492,
+          -11.298178118261564
+        ]
+      ]
+    },
+    {
+      "edge_idx": 65,
+      "length_km": 4.35,
+      "start_node_idx": 30,
+      "end_node_idx": 45,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.25695752175492,
+          -11.298178118261564
+        ],
+        [
+          12.919218809911467,
+          -7.857944446583733
+        ]
+      ]
+    },
+    {
+      "edge_idx": 66,
+      "length_km": 5.6195,
+      "start_node_idx": 72,
+      "end_node_idx": 30,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.293439853741774,
+          -6.032889422994073
+        ],
+        [
+          10.25695752175492,
+          -11.298178118261564
+        ]
+      ]
+    },
+    {
+      "edge_idx": 67,
+      "length_km": 4.9728,
+      "start_node_idx": 72,
+      "end_node_idx": 45,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.293439853741774,
+          -6.032889422994073
+        ],
+        [
+          12.919218809911467,
+          -7.857944446583733
+        ]
+      ]
+    },
+    {
+      "edge_idx": 68,
+      "length_km": 4.72,
+      "start_node_idx": 72,
+      "end_node_idx": 61,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.293439853741774,
+          -6.032889422994073
+        ],
+        [
+          11.482808474803104,
+          -2.553510286220517
+        ]
+      ]
+    },
+    {
+      "edge_idx": 69,
+      "length_km": 5.4955,
+      "start_node_idx": 61,
+      "end_node_idx": 45,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          11.482808474803104,
+          -2.553510286220517
+        ],
+        [
+          12.919218809911467,
+          -7.857944446583733
+        ]
+      ]
+    },
+    {
+      "edge_idx": 70,
+      "length_km": 2.8711,
+      "start_node_idx": 61,
+      "end_node_idx": 85,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          11.482808474803104,
+          -2.553510286220517
+        ],
+        [
+          14.165460864499533,
+          -3.576475692114455
+        ]
+      ]
+    },
+    {
+      "edge_idx": 71,
+      "length_km": 2.0612,
+      "start_node_idx": 61,
+      "end_node_idx": 69,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          11.482808474803104,
+          -2.553510286220517
+        ],
+        [
+          12.22226565601191,
+          -0.6294693385730632
+        ]
+      ]
+    },
+    {
+      "edge_idx": 72,
+      "length_km": 3.53,
+      "start_node_idx": 69,
+      "end_node_idx": 85,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          12.22226565601191,
+          -0.6294693385730632
+        ],
+        [
+          14.165460864499533,
+          -3.576475692114455
+        ]
+      ]
+    },
+    {
+      "edge_idx": 73,
+      "length_km": 0.825,
+      "start_node_idx": 69,
+      "end_node_idx": 14,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          12.22226565601191,
+          -0.6294693385730632
+        ],
+        [
+          12.381267800913136,
+          0.18002490785225334
+        ]
+      ]
+    },
+    {
+      "edge_idx": 74,
+      "length_km": 4.1587,
+      "start_node_idx": 14,
+      "end_node_idx": 85,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          12.381267800913136,
+          0.18002490785225334
+        ],
+        [
+          14.165460864499533,
+          -3.576475692114455
+        ]
+      ]
+    },
+    {
+      "edge_idx": 75,
+      "length_km": 3.5733,
+      "start_node_idx": 14,
+      "end_node_idx": 5,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          12.381267800913136,
+          0.18002490785225334
+        ],
+        [
+          14.526599443347052,
+          3.037672935497678
+        ]
+      ]
+    },
+    {
+      "edge_idx": 76,
+      "length_km": 2.6879,
+      "start_node_idx": 89,
+      "end_node_idx": 14,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          11.182894909839472,
+          2.5859653205129973
+        ],
+        [
+          12.381267800913136,
+          0.18002490785225334
+        ]
+      ]
+    },
+    {
+      "edge_idx": 77,
+      "length_km": 3.3741,
+      "start_node_idx": 89,
+      "end_node_idx": 5,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          11.182894909839472,
+          2.5859653205129973
+        ],
+        [
+          14.526599443347052,
+          3.037672935497678
+        ]
+      ]
+    },
+    {
+      "edge_idx": 78,
+      "length_km": 2.3681,
+      "start_node_idx": 8,
+      "end_node_idx": 89,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.589318616720355,
+          4.878477068662299
+        ],
+        [
+          11.182894909839472,
+          2.5859653205129973
+        ]
+      ]
+    },
+    {
+      "edge_idx": 79,
+      "length_km": 4.3463,
+      "start_node_idx": 8,
+      "end_node_idx": 5,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.589318616720355,
+          4.878477068662299
+        ],
+        [
+          14.526599443347052,
+          3.037672935497678
+        ]
+      ]
+    },
+    {
+      "edge_idx": 80,
+      "length_km": 3.9673,
+      "start_node_idx": 8,
+      "end_node_idx": 75,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.589318616720355,
+          4.878477068662299
+        ],
+        [
+          14.339099092448023,
+          6.1741658645991
+        ]
+      ]
+    },
+    {
+      "edge_idx": 81,
+      "length_km": 3.6553,
+      "start_node_idx": 3,
+      "end_node_idx": 8,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.38567647017181,
+          8.528097483436149
+        ],
+        [
+          10.589318616720355,
+          4.878477068662299
+        ]
+      ]
+    },
+    {
+      "edge_idx": 82,
+      "length_km": 4.6011,
+      "start_node_idx": 3,
+      "end_node_idx": 75,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.38567647017181,
+          8.528097483436149
+        ],
+        [
+          14.339099092448023,
+          6.1741658645991
+        ]
+      ]
+    },
+    {
+      "edge_idx": 83,
+      "length_km": 2.6143,
+      "start_node_idx": 3,
+      "end_node_idx": 24,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.38567647017181,
+          8.528097483436149
+        ],
+        [
+          12.807606011474402,
+          9.512414617338035
+        ]
+      ]
+    },
+    {
+      "edge_idx": 84,
+      "length_km": 0.2265,
+      "start_node_idx": 3,
+      "end_node_idx": 76,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.38567647017181,
+          8.528097483436149
+        ],
+        [
+          10.458777147187785,
+          8.742472590646702
+        ]
+      ]
+    },
+    {
+      "edge_idx": 85,
+      "length_km": 2.4718,
+      "start_node_idx": 76,
+      "end_node_idx": 24,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.458777147187785,
+          8.742472590646702
+        ],
+        [
+          12.807606011474402,
+          9.512414617338035
+        ]
+      ]
+    },
+    {
+      "edge_idx": 86,
+      "length_km": 4.8728,
+      "start_node_idx": 76,
+      "end_node_idx": 50,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.458777147187785,
+          8.742472590646702
+        ],
+        [
+          10.492320026604489,
+          13.615116911174358
+        ]
+      ]
+    },
+    {
+      "edge_idx": 87,
+      "length_km": 4.514,
+      "start_node_idx": 74,
+      "end_node_idx": 76,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          9.165836191979782,
+          13.067363247022417
+        ],
+        [
+          10.458777147187785,
+          8.742472590646702
+        ]
+      ]
+    },
+    {
+      "edge_idx": 88,
+      "length_km": 1.4351,
+      "start_node_idx": 74,
+      "end_node_idx": 50,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          9.165836191979782,
+          13.067363247022417
+        ],
+        [
+          10.492320026604489,
+          13.615116911174358
+        ]
+      ]
+    },
+    {
+      "edge_idx": 89,
+      "length_km": 0.3977,
+      "start_node_idx": 41,
+      "end_node_idx": 74,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.789820502454745,
+          13.196821860989306
+        ],
+        [
+          9.165836191979782,
+          13.067363247022417
+        ]
+      ]
+    },
+    {
+      "edge_idx": 90,
+      "length_km": 3.771,
+      "start_node_idx": 87,
+      "end_node_idx": 74,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.747137247338522,
+          9.31966518834065
+        ],
+        [
+          9.165836191979782,
+          13.067363247022417
+        ]
+      ]
+    },
+    {
+      "edge_idx": 91,
+      "length_km": 3.8774,
+      "start_node_idx": 87,
+      "end_node_idx": 41,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.747137247338522,
+          9.31966518834065
+        ],
+        [
+          8.789820502454745,
+          13.196821860989306
+        ]
+      ]
+    },
+    {
+      "edge_idx": 92,
+      "length_km": 5.0394,
+      "start_node_idx": 79,
+      "end_node_idx": 87,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          5.565711626418118,
+          13.227878273064011
+        ],
+        [
+          8.747137247338522,
+          9.31966518834065
+        ]
+      ]
+    },
+    {
+      "edge_idx": 93,
+      "length_km": 4.9087,
+      "start_node_idx": 21,
+      "end_node_idx": 87,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.899699020960277,
+          10.092689422009297
+        ],
+        [
+          8.747137247338522,
+          9.31966518834065
+        ]
+      ]
+    },
+    {
+      "edge_idx": 94,
+      "length_km": 4.0334,
+      "start_node_idx": 19,
+      "end_node_idx": 87,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          4.850874588096808,
+          8.277033200126034
+        ],
+        [
+          8.747137247338522,
+          9.31966518834065
+        ]
+      ]
+    },
+    {
+      "edge_idx": 95,
+      "length_km": 2.0497,
+      "start_node_idx": 21,
+      "end_node_idx": 19,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.899699020960277,
+          10.092689422009297
+        ],
+        [
+          4.850874588096808,
+          8.277033200126034
+        ]
+      ]
+    },
+    {
+      "edge_idx": 96,
+      "length_km": 1.9607,
+      "start_node_idx": 17,
+      "end_node_idx": 19,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.832929309874025,
+          9.952748855283705
+        ],
+        [
+          4.850874588096808,
+          8.277033200126034
+        ]
+      ]
+    },
+    {
+      "edge_idx": 97,
+      "length_km": 0.1551,
+      "start_node_idx": 17,
+      "end_node_idx": 21,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.832929309874025,
+          9.952748855283705
+        ],
+        [
+          3.899699020960277,
+          10.092689422009297
+        ]
+      ]
+    },
+    {
+      "edge_idx": 98,
+      "length_km": 2.4948,
+      "start_node_idx": 66,
+      "end_node_idx": 17,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.3487987924409524,
+          10.183535705643077
+        ],
+        [
+          3.832929309874025,
+          9.952748855283705
+        ]
+      ]
+    },
+    {
+      "edge_idx": 99,
+      "length_km": 2.1125,
+      "start_node_idx": 17,
+      "end_node_idx": 55,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.832929309874025,
+          9.952748855283705
+        ],
+        [
+          4.423456275187192,
+          7.9244696502417895
+        ]
+      ]
+    },
+    {
+      "edge_idx": 100,
+      "length_km": 3.8154,
+      "start_node_idx": 66,
+      "end_node_idx": 55,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.3487987924409524,
+          10.183535705643077
+        ],
+        [
+          4.423456275187192,
+          7.9244696502417895
+        ]
+      ]
+    },
+    {
+      "edge_idx": 101,
+      "length_km": 3.7089,
+      "start_node_idx": 40,
+      "end_node_idx": 55,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.6234591219553778,
+          5.4922094001863435
+        ],
+        [
+          4.423456275187192,
+          7.9244696502417895
+        ]
+      ]
+    },
+    {
+      "edge_idx": 102,
+      "length_km": 4.6994,
+      "start_node_idx": 66,
+      "end_node_idx": 40,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.3487987924409524,
+          10.183535705643077
+        ],
+        [
+          1.6234591219553778,
+          5.4922094001863435
+        ]
+      ]
+    },
+    {
+      "edge_idx": 103,
+      "length_km": 4.757,
+      "start_node_idx": 44,
+      "end_node_idx": 40,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          0.2239174027178219,
+          10.038656275824973
+        ],
+        [
+          1.6234591219553778,
+          5.4922094001863435
+        ]
+      ]
+    },
+    {
+      "edge_idx": 104,
+      "length_km": 2.8325,
+      "start_node_idx": 63,
+      "end_node_idx": 40,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -1.1284527241409545,
+          6.163121946542859
+        ],
+        [
+          1.6234591219553778,
+          5.4922094001863435
+        ]
+      ]
+    },
+    {
+      "edge_idx": 105,
+      "length_km": 4.1047,
+      "start_node_idx": 63,
+      "end_node_idx": 44,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -1.1284527241409545,
+          6.163121946542859
+        ],
+        [
+          0.2239174027178219,
+          10.038656275824973
+        ]
+      ]
+    },
+    {
+      "edge_idx": 106,
+      "length_km": 4.2168,
+      "start_node_idx": 2,
+      "end_node_idx": 63,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -2.6683904709004427,
+          10.088722873158034
+        ],
+        [
+          -1.1284527241409545,
+          6.163121946542859
+        ]
+      ]
+    },
+    {
+      "edge_idx": 107,
+      "length_km": 4.6328,
+      "start_node_idx": 12,
+      "end_node_idx": 63,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -5.490835032264815,
+          4.60356373363053
+        ],
+        [
+          -1.1284527241409545,
+          6.163121946542859
+        ]
+      ]
+    },
+    {
+      "edge_idx": 108,
+      "length_km": 6.1687,
+      "start_node_idx": 12,
+      "end_node_idx": 2,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -5.490835032264815,
+          4.60356373363053
+        ],
+        [
+          -2.6683904709004427,
+          10.088722873158034
+        ]
+      ]
+    },
+    {
+      "edge_idx": 109,
+      "length_km": 3.8388,
+      "start_node_idx": 64,
+      "end_node_idx": 12,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -7.648471794486442,
+          7.778645880412135
+        ],
+        [
+          -5.490835032264815,
+          4.60356373363053
+        ]
+      ]
+    },
+    {
+      "edge_idx": 110,
+      "length_km": 5.4898,
+      "start_node_idx": 64,
+      "end_node_idx": 2,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -7.648471794486442,
+          7.778645880412135
+        ],
+        [
+          -2.6683904709004427,
+          10.088722873158034
+        ]
+      ]
+    },
+    {
+      "edge_idx": 111,
+      "length_km": 4.5683,
+      "start_node_idx": 64,
+      "end_node_idx": 51,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -7.648471794486442,
+          7.778645880412135
+        ],
+        [
+          -5.845044559239538,
+          11.975949512730491
+        ]
+      ]
+    },
+    {
+      "edge_idx": 112,
+      "length_km": 3.4208,
+      "start_node_idx": 49,
+      "end_node_idx": 64,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -9.459103868174545,
+          10.680996774416212
+        ],
+        [
+          -7.648471794486442,
+          7.778645880412135
+        ]
+      ]
+    },
+    {
+      "edge_idx": 113,
+      "length_km": 3.8391,
+      "start_node_idx": 49,
+      "end_node_idx": 51,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -9.459103868174545,
+          10.680996774416212
+        ],
+        [
+          -5.845044559239538,
+          11.975949512730491
+        ]
+      ]
+    },
+    {
+      "edge_idx": 114,
+      "length_km": 3.2154,
+      "start_node_idx": 28,
+      "end_node_idx": 49,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.927537070996657,
+          12.741430079708973
+        ],
+        [
+          -9.459103868174545,
+          10.680996774416212
+        ]
+      ]
+    },
+    {
+      "edge_idx": 115,
+      "length_km": 2.5924,
+      "start_node_idx": 43,
+      "end_node_idx": 49,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.639833702630085,
+          9.279163370917463
+        ],
+        [
+          -9.459103868174545,
+          10.680996774416212
+        ]
+      ]
+    },
+    {
+      "edge_idx": 116,
+      "length_km": 4.2641,
+      "start_node_idx": 43,
+      "end_node_idx": 64,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.639833702630085,
+          9.279163370917463
+        ],
+        [
+          -7.648471794486442,
+          7.778645880412135
+        ]
+      ]
+    },
+    {
+      "edge_idx": 117,
+      "length_km": 3.8385,
+      "start_node_idx": 9,
+      "end_node_idx": 64,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.060803459784905,
+          6.020792085986361
+        ],
+        [
+          -7.648471794486442,
+          7.778645880412135
+        ]
+      ]
+    },
+    {
+      "edge_idx": 118,
+      "length_km": 3.3094,
+      "start_node_idx": 43,
+      "end_node_idx": 9,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.639833702630085,
+          9.279163370917463
+        ],
+        [
+          -11.060803459784905,
+          6.020792085986361
+        ]
+      ]
+    },
+    {
+      "edge_idx": 119,
+      "length_km": 1.8718,
+      "start_node_idx": 62,
+      "end_node_idx": 9,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.884043439165328,
+          4.339752014993703
+        ],
+        [
+          -11.060803459784905,
+          6.020792085986361
+        ]
+      ]
+    },
+    {
+      "edge_idx": 120,
+      "length_km": 4.9454,
+      "start_node_idx": 62,
+      "end_node_idx": 43,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.884043439165328,
+          4.339752014993703
+        ],
+        [
+          -11.639833702630085,
+          9.279163370917463
+        ]
+      ]
+    },
+    {
+      "edge_idx": 121,
+      "length_km": 1.5261,
+      "start_node_idx": 26,
+      "end_node_idx": 62,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -12.891968143486046,
+          3.1938588267722885
+        ],
+        [
+          -11.884043439165328,
+          4.339752014993703
+        ]
+      ]
+    },
+    {
+      "edge_idx": 122,
+      "length_km": 2.5893,
+      "start_node_idx": 62,
+      "end_node_idx": 23,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.884043439165328,
+          4.339752014993703
+        ],
+        [
+          -11.788594031403498,
+          1.7522490082110913
+        ]
+      ]
+    },
+    {
+      "edge_idx": 123,
+      "length_km": 3.3602,
+      "start_node_idx": 62,
+      "end_node_idx": 52,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.884043439165328,
+          4.339752014993703
+        ],
+        [
+          -8.57650001036118,
+          4.932492006671001
+        ]
+      ]
+    },
+    {
+      "edge_idx": 124,
+      "length_km": 4.5201,
+      "start_node_idx": 23,
+      "end_node_idx": 52,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.788594031403498,
+          1.7522490082110913
+        ],
+        [
+          -8.57650001036118,
+          4.932492006671001
+        ]
+      ]
+    },
+    {
+      "edge_idx": 125,
+      "length_km": 3.9102,
+      "start_node_idx": 52,
+      "end_node_idx": 38,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -8.57650001036118,
+          4.932492006671001
+        ],
+        [
+          -8.237124289436945,
+          1.0370296916475858
+        ]
+      ]
+    },
+    {
+      "edge_idx": 126,
+      "length_km": 3.6228,
+      "start_node_idx": 23,
+      "end_node_idx": 38,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.788594031403498,
+          1.7522490082110913
+        ],
+        [
+          -8.237124289436945,
+          1.0370296916475858
+        ]
+      ]
+    },
+    {
+      "edge_idx": 127,
+      "length_km": 3.5698,
+      "start_node_idx": 38,
+      "end_node_idx": 59,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -8.237124289436945,
+          1.0370296916475858
+        ],
+        [
+          -7.2969581874602785,
+          -2.4067148863613887
+        ]
+      ]
+    },
+    {
+      "edge_idx": 128,
+      "length_km": 5.7776,
+      "start_node_idx": 38,
+      "end_node_idx": 58,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -8.237124289436945,
+          1.0370296916475858
+        ],
+        [
+          -3.25681205653483,
+          -1.8915853173375528
+        ]
+      ]
+    },
+    {
+      "edge_idx": 129,
+      "length_km": 4.0729,
+      "start_node_idx": 59,
+      "end_node_idx": 58,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -7.2969581874602785,
+          -2.4067148863613887
+        ],
+        [
+          -3.25681205653483,
+          -1.8915853173375528
+        ]
+      ]
+    },
+    {
+      "edge_idx": 130,
+      "length_km": 2.0919,
+      "start_node_idx": 53,
+      "end_node_idx": 58,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -4.720948384073381,
+          -3.3857155003748147
+        ],
+        [
+          -3.25681205653483,
+          -1.8915853173375528
+        ]
+      ]
+    },
+    {
+      "edge_idx": 131,
+      "length_km": 2.7558,
+      "start_node_idx": 59,
+      "end_node_idx": 53,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -7.2969581874602785,
+          -2.4067148863613887
+        ],
+        [
+          -4.720948384073381,
+          -3.3857155003748147
+        ]
+      ]
+    },
+    {
+      "edge_idx": 132,
+      "length_km": 1.0936,
+      "start_node_idx": 18,
+      "end_node_idx": 53,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -5.192605251862959,
+          -4.372364476423506
+        ],
+        [
+          -4.720948384073381,
+          -3.3857155003748147
+        ]
+      ]
+    },
+    {
+      "edge_idx": 133,
+      "length_km": 2.8796,
+      "start_node_idx": 59,
+      "end_node_idx": 18,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -7.2969581874602785,
+          -2.4067148863613887
+        ],
+        [
+          -5.192605251862959,
+          -4.372364476423506
+        ]
+      ]
+    },
+    {
+      "edge_idx": 134,
+      "length_km": 2.8631,
+      "start_node_idx": 27,
+      "end_node_idx": 18,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -7.934229512927155,
+          -5.197466887392547
+        ],
+        [
+          -5.192605251862959,
+          -4.372364476423506
+        ]
+      ]
+    },
+    {
+      "edge_idx": 135,
+      "length_km": 2.8626,
+      "start_node_idx": 27,
+      "end_node_idx": 59,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -7.934229512927155,
+          -5.197466887392547
+        ],
+        [
+          -7.2969581874602785,
+          -2.4067148863613887
+        ]
+      ]
+    },
+    {
+      "edge_idx": 136,
+      "length_km": 4.3186,
+      "start_node_idx": 47,
+      "end_node_idx": 27,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -12.205609708787952,
+          -5.834514436168318
+        ],
+        [
+          -7.934229512927155,
+          -5.197466887392547
+        ]
+      ]
+    },
+    {
+      "edge_idx": 137,
+      "length_km": 5.987,
+      "start_node_idx": 47,
+      "end_node_idx": 59,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -12.205609708787952,
+          -5.834514436168318
+        ],
+        [
+          -7.2969581874602785,
+          -2.4067148863613887
+        ]
+      ]
+    },
+    {
+      "edge_idx": 138,
+      "length_km": 2.2976,
+      "start_node_idx": 42,
+      "end_node_idx": 47,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.834402116247828,
+          -4.214000281673179
+        ],
+        [
+          -12.205609708787952,
+          -5.834514436168318
+        ]
+      ]
+    },
+    {
+      "edge_idx": 139,
+      "length_km": 0.0695,
+      "start_node_idx": 73,
+      "end_node_idx": 47,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -12.2730456568583,
+          -5.8177152966251136
+        ],
+        [
+          -12.205609708787952,
+          -5.834514436168318
+        ]
+      ]
+    },
+    {
+      "edge_idx": 140,
+      "length_km": 2.2382,
+      "start_node_idx": 42,
+      "end_node_idx": 73,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.834402116247828,
+          -4.214000281673179
+        ],
+        [
+          -12.2730456568583,
+          -5.8177152966251136
+        ]
+      ]
+    },
+    {
+      "edge_idx": 141,
+      "length_km": 2.3058,
+      "start_node_idx": 56,
+      "end_node_idx": 73,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.53749915862156,
+          -7.745861357537929
+        ],
+        [
+          -12.2730456568583,
+          -5.8177152966251136
+        ]
+      ]
+    },
+    {
+      "edge_idx": 142,
+      "length_km": 0.6825,
+      "start_node_idx": 73,
+      "end_node_idx": 15,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -12.2730456568583,
+          -5.8177152966251136
+        ],
+        [
+          -11.728452588474525,
+          -6.229105356604704
+        ]
+      ]
+    },
+    {
+      "edge_idx": 143,
+      "length_km": 2.3608,
+      "start_node_idx": 56,
+      "end_node_idx": 15,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.53749915862156,
+          -7.745861357537929
+        ],
+        [
+          -11.728452588474525,
+          -6.229105356604704
+        ]
+      ]
+    },
+    {
+      "edge_idx": 144,
+      "length_km": 3.0426,
+      "start_node_idx": 15,
+      "end_node_idx": 6,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.728452588474525,
+          -6.229105356604704
+        ],
+        [
+          -10.769915871301778,
+          -9.116733565438425
+        ]
+      ]
+    },
+    {
+      "edge_idx": 145,
+      "length_km": 3.0885,
+      "start_node_idx": 56,
+      "end_node_idx": 6,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.53749915862156,
+          -7.745861357537929
+        ],
+        [
+          -10.769915871301778,
+          -9.116733565438425
+        ]
+      ]
+    },
+    {
+      "edge_idx": 146,
+      "length_km": 3.9859,
+      "start_node_idx": 10,
+      "end_node_idx": 6,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -13.574726210141591,
+          -11.948762763988467
+        ],
+        [
+          -10.769915871301778,
+          -9.116733565438425
+        ]
+      ]
+    },
+    {
+      "edge_idx": 147,
+      "length_km": 5.842,
+      "start_node_idx": 6,
+      "end_node_idx": 34,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -10.769915871301778,
+          -9.116733565438425
+        ],
+        [
+          -8.337632467951241,
+          -14.42828425419674
+        ]
+      ]
+    },
+    {
+      "edge_idx": 148,
+      "length_km": 4.654,
+      "start_node_idx": 6,
+      "end_node_idx": 11,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -10.769915871301778,
+          -9.116733565438425
+        ],
+        [
+          -7.07452057168771,
+          -11.945757724462075
+        ]
+      ]
+    },
+    {
+      "edge_idx": 149,
+      "length_km": 2.7854,
+      "start_node_idx": 34,
+      "end_node_idx": 11,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -8.337632467951241,
+          -14.42828425419674
+        ],
+        [
+          -7.07452057168771,
+          -11.945757724462075
+        ]
+      ]
+    },
+    {
+      "edge_idx": 150,
+      "length_km": 1.6492,
+      "start_node_idx": 11,
+      "end_node_idx": 33,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -7.07452057168771,
+          -11.945757724462075
+        ],
+        [
+          -6.777232223492192,
+          -13.56796106988336
+        ]
+      ]
+    },
+    {
+      "edge_idx": 151,
+      "length_km": 1.7819,
+      "start_node_idx": 34,
+      "end_node_idx": 33,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -8.337632467951241,
+          -14.42828425419674
+        ],
+        [
+          -6.777232223492192,
+          -13.56796106988336
+        ]
+      ]
+    },
+    {
+      "edge_idx": 152,
+      "length_km": 8.4136,
+      "start_node_idx": 33,
+      "end_node_idx": 29,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -6.777232223492192,
+          -13.56796106988336
+        ],
+        [
+          1.5936425240070875,
+          -14.41465570767934
+        ]
+      ]
+    },
+    {
+      "edge_idx": 153,
+      "length_km": 1.9346,
+      "start_node_idx": 33,
+      "end_node_idx": 80,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -6.777232223492192,
+          -13.56796106988336
+        ],
+        [
+          -5.245612218033134,
+          -12.386081590934683
+        ]
+      ]
+    },
+    {
+      "edge_idx": 154,
+      "length_km": 7.1338,
+      "start_node_idx": 80,
+      "end_node_idx": 29,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -5.245612218033134,
+          -12.386081590934683
+        ],
+        [
+          1.5936425240070875,
+          -14.41465570767934
+        ]
+      ]
+    },
+    {
+      "edge_idx": 155,
+      "length_km": 4.6257,
+      "start_node_idx": 80,
+      "end_node_idx": 13,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -5.245612218033134,
+          -12.386081590934683
+        ],
+        [
+          -1.4655358795260618,
+          -9.720042241270914
+        ]
+      ]
+    },
+    {
+      "edge_idx": 156,
+      "length_km": 5.6034,
+      "start_node_idx": 13,
+      "end_node_idx": 29,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -1.4655358795260618,
+          -9.720042241270914
+        ],
+        [
+          1.5936425240070875,
+          -14.41465570767934
+        ]
+      ]
+    },
+    {
+      "edge_idx": 157,
+      "length_km": 3.6875,
+      "start_node_idx": 13,
+      "end_node_idx": 71,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -1.4655358795260618,
+          -9.720042241270914
+        ],
+        [
+          1.9279712879365611,
+          -8.277118328343171
+        ]
+      ]
+    },
+    {
+      "edge_idx": 158,
+      "length_km": 6.1466,
+      "start_node_idx": 29,
+      "end_node_idx": 71,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.5936425240070875,
+          -14.41465570767934
+        ],
+        [
+          1.9279712879365611,
+          -8.277118328343171
+        ]
+      ]
+    },
+    {
+      "edge_idx": 159,
+      "length_km": 2.4772,
+      "start_node_idx": 71,
+      "end_node_idx": 67,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.9279712879365611,
+          -8.277118328343171
+        ],
+        [
+          3.992792269863706,
+          -9.645704261463717
+        ]
+      ]
+    },
+    {
+      "edge_idx": 160,
+      "length_km": 2.0867,
+      "start_node_idx": 71,
+      "end_node_idx": 46,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.9279712879365611,
+          -8.277118328343171
+        ],
+        [
+          3.5450445123443757,
+          -6.958268030807329
+        ]
+      ]
+    },
+    {
+      "edge_idx": 161,
+      "length_km": 2.7245,
+      "start_node_idx": 46,
+      "end_node_idx": 67,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.5450445123443757,
+          -6.958268030807329
+        ],
+        [
+          3.992792269863706,
+          -9.645704261463717
+        ]
+      ]
+    },
+    {
+      "edge_idx": 162,
+      "length_km": 3.4493,
+      "start_node_idx": 46,
+      "end_node_idx": 20,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.5450445123443757,
+          -6.958268030807329
+        ],
+        [
+          5.966656201883598,
+          -9.41452228275962
+        ]
+      ]
+    },
+    {
+      "edge_idx": 163,
+      "length_km": 1.9874,
+      "start_node_idx": 67,
+      "end_node_idx": 20,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.992792269863706,
+          -9.645704261463717
+        ],
+        [
+          5.966656201883598,
+          -9.41452228275962
+        ]
+      ]
+    },
+    {
+      "edge_idx": 164,
+      "length_km": 0.2511,
+      "start_node_idx": 20,
+      "end_node_idx": 35,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          5.966656201883598,
+          -9.41452228275962
+        ],
+        [
+          6.005052280495239,
+          -9.662669419448905
+        ]
+      ]
+    },
+    {
+      "edge_idx": 165,
+      "length_km": 4.6856,
+      "start_node_idx": 20,
+      "end_node_idx": 30,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          5.966656201883598,
+          -9.41452228275962
+        ],
+        [
+          10.25695752175492,
+          -11.298178118261564
+        ]
+      ]
+    },
+    {
+      "edge_idx": 166,
+      "length_km": 4.1048,
+      "start_node_idx": 20,
+      "end_node_idx": 72,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          5.966656201883598,
+          -9.41452228275962
+        ],
+        [
+          8.293439853741774,
+          -6.032889422994073
+        ]
+      ]
+    },
+    {
+      "edge_idx": 167,
+      "length_km": 2.7727,
+      "start_node_idx": 20,
+      "end_node_idx": 82,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          5.966656201883598,
+          -9.41452228275962
+        ],
+        [
+          6.06152066348448,
+          -6.643451722148029
+        ]
+      ]
+    },
+    {
+      "edge_idx": 168,
+      "length_km": 2.3139,
+      "start_node_idx": 82,
+      "end_node_idx": 72,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          6.06152066348448,
+          -6.643451722148029
+        ],
+        [
+          8.293439853741774,
+          -6.032889422994073
+        ]
+      ]
+    },
+    {
+      "edge_idx": 169,
+      "length_km": 1.7207,
+      "start_node_idx": 82,
+      "end_node_idx": 1,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          6.06152066348448,
+          -6.643451722148029
+        ],
+        [
+          6.890953721983493,
+          -5.135864762384358
+        ]
+      ]
+    },
+    {
+      "edge_idx": 170,
+      "length_km": 1.6648,
+      "start_node_idx": 1,
+      "end_node_idx": 72,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          6.890953721983493,
+          -5.135864762384358
+        ],
+        [
+          8.293439853741774,
+          -6.032889422994073
+        ]
+      ]
+    },
+    {
+      "edge_idx": 171,
+      "length_km": 2.2832,
+      "start_node_idx": 1,
+      "end_node_idx": 16,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          6.890953721983493,
+          -5.135864762384358
+        ],
+        [
+          8.50348744329617,
+          -3.5194432576385033
+        ]
+      ]
+    },
+    {
+      "edge_idx": 172,
+      "length_km": 2.5222,
+      "start_node_idx": 72,
+      "end_node_idx": 16,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.293439853741774,
+          -6.032889422994073
+        ],
+        [
+          8.50348744329617,
+          -3.5194432576385033
+        ]
+      ]
+    },
+    {
+      "edge_idx": 173,
+      "length_km": 3.132,
+      "start_node_idx": 16,
+      "end_node_idx": 61,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.50348744329617,
+          -3.5194432576385033
+        ],
+        [
+          11.482808474803104,
+          -2.553510286220517
+        ]
+      ]
+    },
+    {
+      "edge_idx": 174,
+      "length_km": 2.8659,
+      "start_node_idx": 16,
+      "end_node_idx": 7,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.50348744329617,
+          -3.5194432576385033
+        ],
+        [
+          8.944213734992807,
+          -0.6876565329323707
+        ]
+      ]
+    },
+    {
+      "edge_idx": 175,
+      "length_km": 3.1505,
+      "start_node_idx": 7,
+      "end_node_idx": 61,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.944213734992807,
+          -0.6876565329323707
+        ],
+        [
+          11.482808474803104,
+          -2.553510286220517
+        ]
+      ]
+    },
+    {
+      "edge_idx": 176,
+      "length_km": 3.2786,
+      "start_node_idx": 7,
+      "end_node_idx": 69,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.944213734992807,
+          -0.6876565329323707
+        ],
+        [
+          12.22226565601191,
+          -0.6294693385730632
+        ]
+      ]
+    },
+    {
+      "edge_idx": 177,
+      "length_km": 3.0544,
+      "start_node_idx": 7,
+      "end_node_idx": 57,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.944213734992807,
+          -0.6876565329323707
+        ],
+        [
+          10.538270451643086,
+          1.9177657122328249
+        ]
+      ]
+    },
+    {
+      "edge_idx": 178,
+      "length_km": 3.0536,
+      "start_node_idx": 57,
+      "end_node_idx": 69,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.538270451643086,
+          1.9177657122328249
+        ],
+        [
+          12.22226565601191,
+          -0.6294693385730632
+        ]
+      ]
+    },
+    {
+      "edge_idx": 179,
+      "length_km": 2.5331,
+      "start_node_idx": 57,
+      "end_node_idx": 14,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.538270451643086,
+          1.9177657122328249
+        ],
+        [
+          12.381267800913136,
+          0.18002490785225334
+        ]
+      ]
+    },
+    {
+      "edge_idx": 180,
+      "length_km": 0.9285,
+      "start_node_idx": 57,
+      "end_node_idx": 89,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.538270451643086,
+          1.9177657122328249
+        ],
+        [
+          11.182894909839472,
+          2.5859653205129973
+        ]
+      ]
+    },
+    {
+      "edge_idx": 181,
+      "length_km": 2.9612,
+      "start_node_idx": 57,
+      "end_node_idx": 8,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          10.538270451643086,
+          1.9177657122328249
+        ],
+        [
+          10.589318616720355,
+          4.878477068662299
+        ]
+      ]
+    },
+    {
+      "edge_idx": 182,
+      "length_km": 2.8328,
+      "start_node_idx": 54,
+      "end_node_idx": 57,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.102940722488611,
+          0.4706365532609009
+        ],
+        [
+          10.538270451643086,
+          1.9177657122328249
+        ]
+      ]
+    },
+    {
+      "edge_idx": 183,
+      "length_km": 5.0607,
+      "start_node_idx": 54,
+      "end_node_idx": 8,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.102940722488611,
+          0.4706365532609009
+        ],
+        [
+          10.589318616720355,
+          4.878477068662299
+        ]
+      ]
+    },
+    {
+      "edge_idx": 184,
+      "length_km": 6.8195,
+      "start_node_idx": 77,
+      "end_node_idx": 54,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          7.8492743053576035,
+          7.285404962727288
+        ],
+        [
+          8.102940722488611,
+          0.4706365532609009
+        ]
+      ]
+    },
+    {
+      "edge_idx": 185,
+      "length_km": 3.6471,
+      "start_node_idx": 77,
+      "end_node_idx": 8,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          7.8492743053576035,
+          7.285404962727288
+        ],
+        [
+          10.589318616720355,
+          4.878477068662299
+        ]
+      ]
+    },
+    {
+      "edge_idx": 186,
+      "length_km": 2.8245,
+      "start_node_idx": 77,
+      "end_node_idx": 3,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          7.8492743053576035,
+          7.285404962727288
+        ],
+        [
+          10.38567647017181,
+          8.528097483436149
+        ]
+      ]
+    },
+    {
+      "edge_idx": 187,
+      "length_km": 2.2236,
+      "start_node_idx": 77,
+      "end_node_idx": 87,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          7.8492743053576035,
+          7.285404962727288
+        ],
+        [
+          8.747137247338522,
+          9.31966518834065
+        ]
+      ]
+    },
+    {
+      "edge_idx": 188,
+      "length_km": 1.8197,
+      "start_node_idx": 87,
+      "end_node_idx": 3,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.747137247338522,
+          9.31966518834065
+        ],
+        [
+          10.38567647017181,
+          8.528097483436149
+        ]
+      ]
+    },
+    {
+      "edge_idx": 189,
+      "length_km": 1.8063,
+      "start_node_idx": 87,
+      "end_node_idx": 76,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.747137247338522,
+          9.31966518834065
+        ],
+        [
+          10.458777147187785,
+          8.742472590646702
+        ]
+      ]
+    },
+    {
+      "edge_idx": 190,
+      "length_km": 3.1581,
+      "start_node_idx": 19,
+      "end_node_idx": 77,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          4.850874588096808,
+          8.277033200126034
+        ],
+        [
+          7.8492743053576035,
+          7.285404962727288
+        ]
+      ]
+    },
+    {
+      "edge_idx": 191,
+      "length_km": 3.4849,
+      "start_node_idx": 55,
+      "end_node_idx": 77,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          4.423456275187192,
+          7.9244696502417895
+        ],
+        [
+          7.8492743053576035,
+          7.285404962727288
+        ]
+      ]
+    },
+    {
+      "edge_idx": 192,
+      "length_km": 0.5541,
+      "start_node_idx": 55,
+      "end_node_idx": 19,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          4.423456275187192,
+          7.9244696502417895
+        ],
+        [
+          4.850874588096808,
+          8.277033200126034
+        ]
+      ]
+    },
+    {
+      "edge_idx": 193,
+      "length_km": 6.4789,
+      "start_node_idx": 40,
+      "end_node_idx": 77,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.6234591219553778,
+          5.4922094001863435
+        ],
+        [
+          7.8492743053576035,
+          7.285404962727288
+        ]
+      ]
+    },
+    {
+      "edge_idx": 194,
+      "length_km": 8.1976,
+      "start_node_idx": 40,
+      "end_node_idx": 54,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.6234591219553778,
+          5.4922094001863435
+        ],
+        [
+          8.102940722488611,
+          0.4706365532609009
+        ]
+      ]
+    },
+    {
+      "edge_idx": 195,
+      "length_km": 6.9934,
+      "start_node_idx": 81,
+      "end_node_idx": 54,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          2.71733391648538,
+          -3.9907032768448296
+        ],
+        [
+          8.102940722488611,
+          0.4706365532609009
+        ]
+      ]
+    },
+    {
+      "edge_idx": 196,
+      "length_km": 9.5458,
+      "start_node_idx": 40,
+      "end_node_idx": 81,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.6234591219553778,
+          5.4922094001863435
+        ],
+        [
+          2.71733391648538,
+          -3.9907032768448296
+        ]
+      ]
+    },
+    {
+      "edge_idx": 197,
+      "length_km": 6.3322,
+      "start_node_idx": 58,
+      "end_node_idx": 81,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -3.25681205653483,
+          -1.8915853173375528
+        ],
+        [
+          2.71733391648538,
+          -3.9907032768448296
+        ]
+      ]
+    },
+    {
+      "edge_idx": 198,
+      "length_km": 8.8508,
+      "start_node_idx": 58,
+      "end_node_idx": 40,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -3.25681205653483,
+          -1.8915853173375528
+        ],
+        [
+          1.6234591219553778,
+          5.4922094001863435
+        ]
+      ]
+    },
+    {
+      "edge_idx": 199,
+      "length_km": 8.3312,
+      "start_node_idx": 58,
+      "end_node_idx": 63,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -3.25681205653483,
+          -1.8915853173375528
+        ],
+        [
+          -1.1284527241409545,
+          6.163121946542859
+        ]
+      ]
+    },
+    {
+      "edge_idx": 200,
+      "length_km": 6.8686,
+      "start_node_idx": 12,
+      "end_node_idx": 58,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -5.490835032264815,
+          4.60356373363053
+        ],
+        [
+          -3.25681205653483,
+          -1.8915853173375528
+        ]
+      ]
+    },
+    {
+      "edge_idx": 201,
+      "length_km": 5.7535,
+      "start_node_idx": 37,
+      "end_node_idx": 58,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -6.491106764274955,
+          2.866739171653766
+        ],
+        [
+          -3.25681205653483,
+          -1.8915853173375528
+        ]
+      ]
+    },
+    {
+      "edge_idx": 202,
+      "length_km": 2.0043,
+      "start_node_idx": 37,
+      "end_node_idx": 12,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -6.491106764274955,
+          2.866739171653766
+        ],
+        [
+          -5.490835032264815,
+          4.60356373363053
+        ]
+      ]
+    },
+    {
+      "edge_idx": 203,
+      "length_km": 2.9353,
+      "start_node_idx": 52,
+      "end_node_idx": 37,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -8.57650001036118,
+          4.932492006671001
+        ],
+        [
+          -6.491106764274955,
+          2.866739171653766
+        ]
+      ]
+    },
+    {
+      "edge_idx": 204,
+      "length_km": 3.1031,
+      "start_node_idx": 52,
+      "end_node_idx": 12,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -8.57650001036118,
+          4.932492006671001
+        ],
+        [
+          -5.490835032264815,
+          4.60356373363053
+        ]
+      ]
+    },
+    {
+      "edge_idx": 205,
+      "length_km": 2.9936,
+      "start_node_idx": 52,
+      "end_node_idx": 64,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -8.57650001036118,
+          4.932492006671001
+        ],
+        [
+          -7.648471794486442,
+          7.778645880412135
+        ]
+      ]
+    },
+    {
+      "edge_idx": 206,
+      "length_km": 2.7122,
+      "start_node_idx": 9,
+      "end_node_idx": 52,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.060803459784905,
+          6.020792085986361
+        ],
+        [
+          -8.57650001036118,
+          4.932492006671001
+        ]
+      ]
+    },
+    {
+      "edge_idx": 207,
+      "length_km": 2.5291,
+      "start_node_idx": 38,
+      "end_node_idx": 37,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -8.237124289436945,
+          1.0370296916475858
+        ],
+        [
+          -6.491106764274955,
+          2.866739171653766
+        ]
+      ]
+    },
+    {
+      "edge_idx": 208,
+      "length_km": 5.0108,
+      "start_node_idx": 65,
+      "end_node_idx": 81,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -2.168944759473728,
+          -5.100861876735941
+        ],
+        [
+          2.71733391648538,
+          -3.9907032768448296
+        ]
+      ]
+    },
+    {
+      "edge_idx": 209,
+      "length_km": 3.3886,
+      "start_node_idx": 58,
+      "end_node_idx": 65,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -3.25681205653483,
+          -1.8915853173375528
+        ],
+        [
+          -2.168944759473728,
+          -5.100861876735941
+        ]
+      ]
+    },
+    {
+      "edge_idx": 210,
+      "length_km": 3.0748,
+      "start_node_idx": 53,
+      "end_node_idx": 65,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -4.720948384073381,
+          -3.3857155003748147
+        ],
+        [
+          -2.168944759473728,
+          -5.100861876735941
+        ]
+      ]
+    },
+    {
+      "edge_idx": 211,
+      "length_km": 3.1102,
+      "start_node_idx": 18,
+      "end_node_idx": 65,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -5.192605251862959,
+          -4.372364476423506
+        ],
+        [
+          -2.168944759473728,
+          -5.100861876735941
+        ]
+      ]
+    },
+    {
+      "edge_idx": 212,
+      "length_km": 2.1676,
+      "start_node_idx": 84,
+      "end_node_idx": 65,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -3.225325562923551,
+          -6.993589437927703
+        ],
+        [
+          -2.168944759473728,
+          -5.100861876735941
+        ]
+      ]
+    },
+    {
+      "edge_idx": 213,
+      "length_km": 3.2773,
+      "start_node_idx": 18,
+      "end_node_idx": 84,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -5.192605251862959,
+          -4.372364476423506
+        ],
+        [
+          -3.225325562923551,
+          -6.993589437927703
+        ]
+      ]
+    },
+    {
+      "edge_idx": 214,
+      "length_km": 3.1485,
+      "start_node_idx": 78,
+      "end_node_idx": 84,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -6.250628520556798,
+          -7.865834964043879
+        ],
+        [
+          -3.225325562923551,
+          -6.993589437927703
+        ]
+      ]
+    },
+    {
+      "edge_idx": 215,
+      "length_km": 3.6502,
+      "start_node_idx": 78,
+      "end_node_idx": 18,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -6.250628520556798,
+          -7.865834964043879
+        ],
+        [
+          -5.192605251862959,
+          -4.372364476423506
+        ]
+      ]
+    },
+    {
+      "edge_idx": 216,
+      "length_km": 3.1551,
+      "start_node_idx": 27,
+      "end_node_idx": 78,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -7.934229512927155,
+          -5.197466887392547
+        ],
+        [
+          -6.250628520556798,
+          -7.865834964043879
+        ]
+      ]
+    },
+    {
+      "edge_idx": 217,
+      "length_km": 4.6892,
+      "start_node_idx": 6,
+      "end_node_idx": 78,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -10.769915871301778,
+          -9.116733565438425
+        ],
+        [
+          -6.250628520556798,
+          -7.865834964043879
+        ]
+      ]
+    },
+    {
+      "edge_idx": 218,
+      "length_km": 4.8375,
+      "start_node_idx": 6,
+      "end_node_idx": 27,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -10.769915871301778,
+          -9.116733565438425
+        ],
+        [
+          -7.934229512927155,
+          -5.197466887392547
+        ]
+      ]
+    },
+    {
+      "edge_idx": 219,
+      "length_km": 4.1623,
+      "start_node_idx": 11,
+      "end_node_idx": 78,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -7.07452057168771,
+          -11.945757724462075
+        ],
+        [
+          -6.250628520556798,
+          -7.865834964043879
+        ]
+      ]
+    },
+    {
+      "edge_idx": 220,
+      "length_km": 4.6306,
+      "start_node_idx": 78,
+      "end_node_idx": 80,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -6.250628520556798,
+          -7.865834964043879
+        ],
+        [
+          -5.245612218033134,
+          -12.386081590934683
+        ]
+      ]
+    },
+    {
+      "edge_idx": 221,
+      "length_km": 1.8812,
+      "start_node_idx": 11,
+      "end_node_idx": 80,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -7.07452057168771,
+          -11.945757724462075
+        ],
+        [
+          -5.245612218033134,
+          -12.386081590934683
+        ]
+      ]
+    },
+    {
+      "edge_idx": 222,
+      "length_km": 3.5889,
+      "start_node_idx": 78,
+      "end_node_idx": 48,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -6.250628520556798,
+          -7.865834964043879
+        ],
+        [
+          -2.717905833288352,
+          -8.498604019011392
+        ]
+      ]
+    },
+    {
+      "edge_idx": 223,
+      "length_km": 4.637,
+      "start_node_idx": 80,
+      "end_node_idx": 48,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -5.245612218033134,
+          -12.386081590934683
+        ],
+        [
+          -2.717905833288352,
+          -8.498604019011392
+        ]
+      ]
+    },
+    {
+      "edge_idx": 224,
+      "length_km": 1.7494,
+      "start_node_idx": 48,
+      "end_node_idx": 13,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -2.717905833288352,
+          -8.498604019011392
+        ],
+        [
+          -1.4655358795260618,
+          -9.720042241270914
+        ]
+      ]
+    },
+    {
+      "edge_idx": 225,
+      "length_km": 4.6512,
+      "start_node_idx": 48,
+      "end_node_idx": 71,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -2.717905833288352,
+          -8.498604019011392
+        ],
+        [
+          1.9279712879365611,
+          -8.277118328343171
+        ]
+      ]
+    },
+    {
+      "edge_idx": 226,
+      "length_km": 3.4418,
+      "start_node_idx": 48,
+      "end_node_idx": 65,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -2.717905833288352,
+          -8.498604019011392
+        ],
+        [
+          -2.168944759473728,
+          -5.100861876735941
+        ]
+      ]
+    },
+    {
+      "edge_idx": 227,
+      "length_km": 5.1839,
+      "start_node_idx": 65,
+      "end_node_idx": 71,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -2.168944759473728,
+          -5.100861876735941
+        ],
+        [
+          1.9279712879365611,
+          -8.277118328343171
+        ]
+      ]
+    },
+    {
+      "edge_idx": 228,
+      "length_km": 5.0788,
+      "start_node_idx": 65,
+      "end_node_idx": 83,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -2.168944759473728,
+          -5.100861876735941
+        ],
+        [
+          2.6547165646396316,
+          -6.690409014817904
+        ]
+      ]
+    },
+    {
+      "edge_idx": 229,
+      "length_km": 1.7452,
+      "start_node_idx": 71,
+      "end_node_idx": 83,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          1.9279712879365611,
+          -8.277118328343171
+        ],
+        [
+          2.6547165646396316,
+          -6.690409014817904
+        ]
+      ]
+    },
+    {
+      "edge_idx": 230,
+      "length_km": 0.9297,
+      "start_node_idx": 83,
+      "end_node_idx": 46,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          2.6547165646396316,
+          -6.690409014817904
+        ],
+        [
+          3.5450445123443757,
+          -6.958268030807329
+        ]
+      ]
+    },
+    {
+      "edge_idx": 231,
+      "length_km": 1.6261,
+      "start_node_idx": 83,
+      "end_node_idx": 0,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          2.6547165646396316,
+          -6.690409014817904
+        ],
+        [
+          3.87,
+          -5.61
+        ]
+      ]
+    },
+    {
+      "edge_idx": 232,
+      "length_km": 1.3869,
+      "start_node_idx": 46,
+      "end_node_idx": 0,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.5450445123443757,
+          -6.958268030807329
+        ],
+        [
+          3.87,
+          -5.61
+        ]
+      ]
+    },
+    {
+      "edge_idx": 233,
+      "length_km": 2.0403,
+      "start_node_idx": 0,
+      "end_node_idx": 86,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.87,
+          -5.61
+        ],
+        [
+          5.710346728684421,
+          -6.490873969499129
+        ]
+      ]
+    },
+    {
+      "edge_idx": 234,
+      "length_km": 2.2152,
+      "start_node_idx": 46,
+      "end_node_idx": 86,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.5450445123443757,
+          -6.958268030807329
+        ],
+        [
+          5.710346728684421,
+          -6.490873969499129
+        ]
+      ]
+    },
+    {
+      "edge_idx": 235,
+      "length_km": 2.9349,
+      "start_node_idx": 86,
+      "end_node_idx": 20,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          5.710346728684421,
+          -6.490873969499129
+        ],
+        [
+          5.966656201883598,
+          -9.41452228275962
+        ]
+      ]
+    },
+    {
+      "edge_idx": 236,
+      "length_km": 0.3829,
+      "start_node_idx": 86,
+      "end_node_idx": 82,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          5.710346728684421,
+          -6.490873969499129
+        ],
+        [
+          6.06152066348448,
+          -6.643451722148029
+        ]
+      ]
+    },
+    {
+      "edge_idx": 237,
+      "length_km": 0.5939,
+      "start_node_idx": 86,
+      "end_node_idx": 25,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          5.710346728684421,
+          -6.490873969499129
+        ],
+        [
+          5.883020980780536,
+          -5.9226049247340224
+        ]
+      ]
+    },
+    {
+      "edge_idx": 238,
+      "length_km": 0.7426,
+      "start_node_idx": 25,
+      "end_node_idx": 82,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          5.883020980780536,
+          -5.9226049247340224
+        ],
+        [
+          6.06152066348448,
+          -6.643451722148029
+        ]
+      ]
+    },
+    {
+      "edge_idx": 239,
+      "length_km": 1.2786,
+      "start_node_idx": 25,
+      "end_node_idx": 1,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          5.883020980780536,
+          -5.9226049247340224
+        ],
+        [
+          6.890953721983493,
+          -5.135864762384358
+        ]
+      ]
+    },
+    {
+      "edge_idx": 240,
+      "length_km": 2.7605,
+      "start_node_idx": 25,
+      "end_node_idx": 60,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          5.883020980780536,
+          -5.9226049247340224
+        ],
+        [
+          7.175826446430353,
+          -3.4835109774645634
+        ]
+      ]
+    },
+    {
+      "edge_idx": 241,
+      "length_km": 1.6767,
+      "start_node_idx": 1,
+      "end_node_idx": 60,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          6.890953721983493,
+          -5.135864762384358
+        ],
+        [
+          7.175826446430353,
+          -3.4835109774645634
+        ]
+      ]
+    },
+    {
+      "edge_idx": 242,
+      "length_km": 1.3281,
+      "start_node_idx": 60,
+      "end_node_idx": 16,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          7.175826446430353,
+          -3.4835109774645634
+        ],
+        [
+          8.50348744329617,
+          -3.5194432576385033
+        ]
+      ]
+    },
+    {
+      "edge_idx": 243,
+      "length_km": 3.3082,
+      "start_node_idx": 60,
+      "end_node_idx": 7,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          7.175826446430353,
+          -3.4835109774645634
+        ],
+        [
+          8.944213734992807,
+          -0.6876565329323707
+        ]
+      ]
+    },
+    {
+      "edge_idx": 244,
+      "length_km": 4.0614,
+      "start_node_idx": 60,
+      "end_node_idx": 54,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          7.175826446430353,
+          -3.4835109774645634
+        ],
+        [
+          8.102940722488611,
+          0.4706365532609009
+        ]
+      ]
+    },
+    {
+      "edge_idx": 245,
+      "length_km": 1.4316,
+      "start_node_idx": 54,
+      "end_node_idx": 7,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          8.102940722488611,
+          0.4706365532609009
+        ],
+        [
+          8.944213734992807,
+          -0.6876565329323707
+        ]
+      ]
+    },
+    {
+      "edge_idx": 246,
+      "length_km": 4.4872,
+      "start_node_idx": 81,
+      "end_node_idx": 60,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          2.71733391648538,
+          -3.9907032768448296
+        ],
+        [
+          7.175826446430353,
+          -3.4835109774645634
+        ]
+      ]
+    },
+    {
+      "edge_idx": 247,
+      "length_km": 3.9307,
+      "start_node_idx": 0,
+      "end_node_idx": 60,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.87,
+          -5.61
+        ],
+        [
+          7.175826446430353,
+          -3.4835109774645634
+        ]
+      ]
+    },
+    {
+      "edge_idx": 248,
+      "length_km": 1.9877,
+      "start_node_idx": 81,
+      "end_node_idx": 0,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          2.71733391648538,
+          -3.9907032768448296
+        ],
+        [
+          3.87,
+          -5.61
+        ]
+      ]
+    },
+    {
+      "edge_idx": 249,
+      "length_km": 2.0371,
+      "start_node_idx": 0,
+      "end_node_idx": 25,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          3.87,
+          -5.61
+        ],
+        [
+          5.883020980780536,
+          -5.9226049247340224
+        ]
+      ]
+    },
+    {
+      "edge_idx": 250,
+      "length_km": 2.7004,
+      "start_node_idx": 83,
+      "end_node_idx": 81,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          2.6547165646396316,
+          -6.690409014817904
+        ],
+        [
+          2.71733391648538,
+          -3.9907032768448296
+        ]
+      ]
+    },
+    {
+      "edge_idx": 251,
+      "length_km": 1.5883,
+      "start_node_idx": 84,
+      "end_node_idx": 48,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -3.225325562923551,
+          -6.993589437927703
+        ],
+        [
+          -2.717905833288352,
+          -8.498604019011392
+        ]
+      ]
+    },
+    {
+      "edge_idx": 252,
+      "length_km": 1.2272,
+      "start_node_idx": 68,
+      "end_node_idx": 48,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -3.406231425471187,
+          -7.482623957032244
+        ],
+        [
+          -2.717905833288352,
+          -8.498604019011392
+        ]
+      ]
+    },
+    {
+      "edge_idx": 253,
+      "length_km": 0.5214,
+      "start_node_idx": 68,
+      "end_node_idx": 84,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -3.406231425471187,
+          -7.482623957032244
+        ],
+        [
+          -3.225325562923551,
+          -6.993589437927703
+        ]
+      ]
+    },
+    {
+      "edge_idx": 254,
+      "length_km": 2.8701,
+      "start_node_idx": 78,
+      "end_node_idx": 68,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -6.250628520556798,
+          -7.865834964043879
+        ],
+        [
+          -3.406231425471187,
+          -7.482623957032244
+        ]
+      ]
+    },
+    {
+      "edge_idx": 255,
+      "length_km": 3.932,
+      "start_node_idx": 15,
+      "end_node_idx": 27,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -11.728452588474525,
+          -6.229105356604704
+        ],
+        [
+          -7.934229512927155,
+          -5.197466887392547
+        ]
+      ]
+    },
+    {
+      "edge_idx": 256,
+      "length_km": 0.6192,
+      "start_node_idx": 47,
+      "end_node_idx": 15,
+      "nb_lignes_existantes": 0,
+      "geometry": [
+        [
+          -12.205609708787952,
+          -5.834514436168318
+        ],
+        [
+          -11.728452588474525,
+          -6.229105356604704
+        ]
+      ]
+    }
+  ],
+  "electrotechnique": {
+    "puissance_max_ligne": 8,
+    "longueur_max_depart": 50,
+    "PL_max_noeud": 200
+  }
+}
