@@ -1,0 +1,11 @@
+# Heuristique Voronoi + Steiner (main.py, voronoi*.py, steiner.py, verify.py, output.py)
+networkx
+numpy
+pandas
+geopandas
+shapely
+matplotlib
+plotly
+# PLNE (plne_reseau.py) : API classique de PuLP, la 4.0 a change d'API
+pulp>=2.8,<4
+highspy
