@@ -69,7 +69,7 @@ def md_weighting(w: str) -> str:
 # Charts of the summary (static PNG, light theme): ink, grid and surface colors
 INK, INK_2, GRID, SURFACE = "#0b0b0b", "#52514e", "#e4e3df", "#fcfcfb"
 SEQ_BLUE = ["#fcfcfb", "#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"]
-TYPE_ORDER = ['ville', 'montagne', 'epars', 'mixte']
+TYPE_ORDER = ['ville', 'montagne', 'epars', 'mixte', 'Petit', 'Moyen', 'Grand', 'TrèsGrand']
 
 
 def relative_gaps(results: list, key: str) -> dict:

@@ -1,0 +1,10 @@
+18 instances, limite 600 s chacune
+[1/18] Petit_N60_S3_0.15_Ete (1) (60, 163, 2)
+    statut=Time limit reached J=None borne=100.16148 J_heuristique=None faisable(verify)=None t=601s
+[2/18] Petit_N60_S2_0.25_Ete (1) (60, 164, 2)
+    statut=Time limit reached J=102.30090000000001 borne=79.2436 J_heuristique=104.0699 faisable(verify)=True t=600s
+[3/18] Petit_N60_S3_0.25_Ete (1) (60, 165, 3)
+    statut=Time limit reached J=142.15159999999997 borne=122.08114 J_heuristique=142.1516 faisable(verify)=True t=602s
+[4/18] Petit_N60_S1_0.20_Ete (1) (60, 166, 1)
+    statut=Time limit reached J=None borne=54.9347 J_heuristique=None faisable(verify)=None t=600s
+[5/18] Petit_N60_S1_0.20_Hiver (1) (60, 166, 1)

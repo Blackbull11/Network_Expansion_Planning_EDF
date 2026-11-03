@@ -216,6 +216,8 @@ def add_split_nodes_to_dataframes(nodes: gpd.GeoDataFrame, edges: gpd.GeoDataFra
     (u, q), (v, q) added, so that split edges can be plotted.
     Assumes the index of `nodes` is 0..n-1 (as the ids given by voronoi_cells_edges).
     """
+    if not nodes_to_add:   # no edge between two cells: an empty GeoDataFrame has no geometry column
+        return nodes.copy(), edges.copy()
     new_nodes, new_edges = [], []
     for q, pos_q, u, v, l1, l2 in nodes_to_add:
         new_nodes.append({'id_noeud': q, 'type': 'dummy', 'geometry': Point(pos_q)})

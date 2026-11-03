@@ -1,0 +1,22 @@
+{
+ "instance": "Petit_N60_S3_0.15_Ete (1)",
+ "n_nodes": 60,
+ "n_edges": 163,
+ "n_sources": 2,
+ "n_loads": 16,
+ "n_feeders": 16,
+ "n_vars": 14256,
+ "n_cons": 20636,
+ "time_build": 0.3197612762451172,
+ "time_limit": 600.0,
+ "J_warm": null,
+ "time_warm": 0.9642214775085449,
+ "status": "Not Solved",
+ "time_solve": 600.8211681842804,
+ "obj": null,
+ "bound": 100.16148,
+ "gap": null,
+ "feasible": null,
+ "J_verify": null,
+ "highs_status": "Time limit reached"
+}

@@ -30,12 +30,15 @@ Usage:
   python main.py g21_ g22_ --label grandes   reports named recap_<date>_grandes.md ...
   python main.py --petites       the 20 small instances g01 to g20
   python main.py --grandes       the 20 large instances g21 to g40
+  python main.py --verified      the instances of verified_instances/ (see src/instances.py)
+  python main.py --verified Petit_ --no-figures   only the Petit ones, without the figures
 """
 import argparse
 from datetime import datetime
 from pathlib import Path
 
 from nx_graph import GraphData
+from src.instances import SIZE_CLASSES, load_instance, verified_files
 from voronoi import compute_voronoi_cells
 from voronoi_variable_distance import compute_voronoi_variable
 from steiner import compute_steiner_trees, show_steiner_trees
@@ -67,6 +70,12 @@ def solve(graph: GraphData, method: str) -> None:
         compute_steiner_trees(graph)
 
 
+def instance_type(path: Path) -> str:
+    """Load distribution of data/instances (g05_ville -> ville), size class of verified_instances (Petit_N60_... -> Petit)."""
+    head, rest = path.stem.split('_', 1)
+    return head if head in SIZE_CLASSES else rest.split('_')[0]
+
+
 def run(instance_files: list, show_plots: bool = False, label: str = None) -> list:
     """
     Voronoi + Steiner + evaluation for each instance and each distance.
@@ -77,7 +86,7 @@ def run(instance_files: list, show_plots: bool = False, label: str = None) -> li
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S") + (f"_{label}" if label else "")
     results, details = [], []
     for path in instance_files:
-        G = GraphData(folderpath=str(path.parent), filename=path.name)
+        G = load_instance(path)
         print(G)
         loads = G.nodes[G.nodes['type'].isin(['Conso', 'Prod'])]
         proofs = necessary_conditions(G)
@@ -92,7 +101,7 @@ def run(instance_files: list, show_plots: bool = False, label: str = None) -> li
                                       G.voronoi_weights if weighting == "variable" else None)
             print("\n".join(lines))
             details += lines + [""]
-            results.append({'name': path.stem, 'type': path.stem.split('_')[1],
+            results.append({'name': path.stem, 'type': instance_type(path),
                             'n_loads': len(loads), 'n_neg': int((loads['demande'] < 0).sum()),
                             'n_sources': len(ev['sources']), 'weighting': weighting, 'ev': ev})
             if SAVE_FIGURES or show_plots:
@@ -115,9 +124,13 @@ if __name__ == "__main__":
     parser.add_argument("--label", help="suffixe du nom des rapports (recap_<date>_<label>.md ...)")
     parser.add_argument("--petites", action="store_true", help="les 20 petites instances g01 à g20")
     parser.add_argument("--grandes", action="store_true", help="les 20 grandes instances g21 à g40")
+    parser.add_argument("--verified", action="store_true",
+                        help="les instances de verified_instances/, des plus petites aux plus grandes")
+    parser.add_argument("--no-figures", action="store_true", help="ne pas enregistrer les figures")
     args = parser.parse_args()
-    files = [f for f in sorted(INSTANCES_DIR.glob("*.json"))
-             if not args.motifs or any(m in f.stem for m in args.motifs)]
+    SAVE_FIGURES = SAVE_FIGURES and not args.no_figures
+    files = verified_files() if args.verified else sorted(INSTANCES_DIR.glob("*.json"))
+    files = [f for f in files if not args.motifs or any(m in f.stem for m in args.motifs)]
     if args.petites:
         files = [f for f in files if int(f.stem[1:3]) <= 20]
     if args.grandes:
