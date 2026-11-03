@@ -3,3 +3,6 @@ Petit_N60_S3_0.15_Ete (1),60,163,2,16,16,14256,Not Solved,Time limit reached,,10
 Petit_N60_S2_0.25_Ete (1),60,164,2,12,16,14272,Optimal,Time limit reached,102.30090000000001,79.2436,0.22538706893096747,104.0699,True,102.30090000000001,600.3962185382843,600.0
 Petit_N60_S3_0.25_Ete (1),60,165,3,12,24,21528,Optimal,Time limit reached,142.15159999999997,122.08114,0.14119053179844598,142.1516,True,142.1516,601.5763187408447,600.0
 Petit_N60_S1_0.20_Ete (1),60,166,1,8,8,7184,Not Solved,Time limit reached,,54.9347,,,,,600.4810364246368,600.0
+Petit_N60_S1_0.20_Hiver (1),60,166,1,9,8,7192,Not Solved,Time limit reached,,48.9493,,,,,600.4658176898956,600.0
+Petit_N60_S2_0.15_Hiver (1),60,166,1,15,8,7240,Optimal,Time limit reached,91.7131,65.17296,0.2893822147544898,,True,91.7131,600.519889831543,600.0
+Petit_N60_S2_0.20_Ete (1),,,,,,,"error: FileNotFoundError(2, 'No such file or directory')",,,,,,,,,
