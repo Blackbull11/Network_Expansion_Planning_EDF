@@ -1,0 +1,735 @@
+=== Petit_N60_S2_0.20_Ete | distance non pondérée ===
+temps de calcul : 0.02 s
+J = L_tot = 104.1 km  PD = 173.5 MW.km  -> toutes contraintes satisfaites
+  Source 0: P =   -2.00 /  70.00 MW OK | départs 3 / 8 OK | PD =    70.2 MW.km | 9 noeuds dans l'arbre
+    départ 0 (tête   8,   2 noeuds): L =    9.6 / 50 km OK | P =  -2.00 / 8 MW OK | PD =     4.3 MW.km
+    départ 1 (tête  44,   4 noeuds): L =   23.7 / 50 km OK | P =   2.00 / 8 MW OK | PD =    47.3 MW.km
+    départ 2 (tête  52,   2 noeuds): L =    9.2 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    18.5 MW.km
+  Source 1: P =   -4.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   103.4 MW.km | 14 noeuds dans l'arbre
+    départ 0 (tête   3,   8 noeuds): L =   39.3 / 50 km OK | P =   1.00 / 8 MW OK | PD =    51.9 MW.km
+    départ 1 (tête  24,   2 noeuds): L =    9.5 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    28.5 MW.km
+    départ 2 (tête  42,   3 noeuds): L =   12.7 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    23.0 MW.km
+
+=== Petit_N60_S2_0.20_Ete | distance capacité ===
+temps de calcul : 0.02 s
+J = L_tot = 104.1 km  PD = 173.5 MW.km  -> toutes contraintes satisfaites
+  Source 0: P =   -2.00 /  70.00 MW OK | départs 3 / 8 OK | PD =    70.2 MW.km | 9 noeuds dans l'arbre
+    départ 0 (tête   8,   2 noeuds): L =    9.6 / 50 km OK | P =  -2.00 / 8 MW OK | PD =     4.3 MW.km
+    départ 1 (tête  44,   4 noeuds): L =   23.7 / 50 km OK | P =   2.00 / 8 MW OK | PD =    47.3 MW.km
+    départ 2 (tête  52,   2 noeuds): L =    9.2 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    18.5 MW.km
+  Source 1: P =   -4.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   103.4 MW.km | 14 noeuds dans l'arbre
+    départ 0 (tête   3,   8 noeuds): L =   39.3 / 50 km OK | P =   1.00 / 8 MW OK | PD =    51.9 MW.km
+    départ 1 (tête  24,   2 noeuds): L =    9.5 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    28.5 MW.km
+    départ 2 (tête  42,   3 noeuds): L =   12.7 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    23.0 MW.km
+
+=== Petit_N60_S2_0.20_Ete | distance racine capacité ===
+temps de calcul : 0.02 s
+J = L_tot = 104.1 km  PD = 173.5 MW.km  -> toutes contraintes satisfaites
+  Source 0: P =   -2.00 /  70.00 MW OK | départs 3 / 8 OK | PD =    70.2 MW.km | 9 noeuds dans l'arbre
+    départ 0 (tête   8,   2 noeuds): L =    9.6 / 50 km OK | P =  -2.00 / 8 MW OK | PD =     4.3 MW.km
+    départ 1 (tête  44,   4 noeuds): L =   23.7 / 50 km OK | P =   2.00 / 8 MW OK | PD =    47.3 MW.km
+    départ 2 (tête  52,   2 noeuds): L =    9.2 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    18.5 MW.km
+  Source 1: P =   -4.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   103.4 MW.km | 14 noeuds dans l'arbre
+    départ 0 (tête   3,   8 noeuds): L =   39.3 / 50 km OK | P =   1.00 / 8 MW OK | PD =    51.9 MW.km
+    départ 1 (tête  24,   2 noeuds): L =    9.5 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    28.5 MW.km
+    départ 2 (tête  42,   3 noeuds): L =   12.7 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    23.0 MW.km
+
+=== Petit_N60_S2_0.20_Ete | distance variable ===
+temps de calcul : 0.03 s
+J = L_tot = 104.1 km  PD = 173.5 MW.km  -> toutes contraintes satisfaites
+  Source 0: P =   -2.00 /  70.00 MW OK | départs 3 / 8 OK | PD =    70.2 MW.km | 9 noeuds dans l'arbre | w = 1
+    départ 0 (tête   8,   2 noeuds): L =    9.6 / 50 km OK | P =  -2.00 / 8 MW OK | PD =     4.3 MW.km
+    départ 1 (tête  44,   4 noeuds): L =   23.7 / 50 km OK | P =   2.00 / 8 MW OK | PD =    47.3 MW.km
+    départ 2 (tête  52,   2 noeuds): L =    9.2 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    18.5 MW.km
+  Source 1: P =   -4.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   103.4 MW.km | 14 noeuds dans l'arbre | w = 1
+    départ 0 (tête   3,   8 noeuds): L =   39.3 / 50 km OK | P =   1.00 / 8 MW OK | PD =    51.9 MW.km
+    départ 1 (tête  24,   2 noeuds): L =    9.5 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    28.5 MW.km
+    départ 2 (tête  42,   3 noeuds): L =   12.7 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    23.0 MW.km
+
+=== Petit_N60_S2_0.20_Hiver | distance non pondérée ===
+temps de calcul : 0.02 s
+J = L_tot = 103.6 km  PD = 136.8 MW.km  -> contraintes violées
+  Source 0: P =    5.00 /  70.00 MW OK | départs 1 / 8 OK | PD =    66.6 MW.km | 15 noeuds dans l'arbre
+    départ 0 (tête  19,  14 noeuds): L =   70.4 / 50 km KO | P =   5.00 / 8 MW OK | PD =    66.6 MW.km
+  Source 1: P =    4.00 /  70.00 MW OK | départs 1 / 8 OK | PD =    70.2 MW.km | 8 noeuds dans l'arbre
+    départ 0 (tête   5,   7 noeuds): L =   33.2 / 50 km OK | P =   4.00 / 8 MW OK | PD =    70.2 MW.km
+
+=== Petit_N60_S2_0.20_Hiver | distance capacité ===
+temps de calcul : 0.03 s
+J = L_tot = 103.6 km  PD = 136.8 MW.km  -> contraintes violées
+  Source 0: P =    5.00 /  70.00 MW OK | départs 1 / 8 OK | PD =    66.6 MW.km | 15 noeuds dans l'arbre
+    départ 0 (tête  19,  14 noeuds): L =   70.4 / 50 km KO | P =   5.00 / 8 MW OK | PD =    66.6 MW.km
+  Source 1: P =    4.00 /  70.00 MW OK | départs 1 / 8 OK | PD =    70.2 MW.km | 8 noeuds dans l'arbre
+    départ 0 (tête   5,   7 noeuds): L =   33.2 / 50 km OK | P =   4.00 / 8 MW OK | PD =    70.2 MW.km
+
+=== Petit_N60_S2_0.20_Hiver | distance racine capacité ===
+temps de calcul : 0.01 s
+J = L_tot = 103.6 km  PD = 136.8 MW.km  -> contraintes violées
+  Source 0: P =    5.00 /  70.00 MW OK | départs 1 / 8 OK | PD =    66.6 MW.km | 15 noeuds dans l'arbre
+    départ 0 (tête  19,  14 noeuds): L =   70.4 / 50 km KO | P =   5.00 / 8 MW OK | PD =    66.6 MW.km
+  Source 1: P =    4.00 /  70.00 MW OK | départs 1 / 8 OK | PD =    70.2 MW.km | 8 noeuds dans l'arbre
+    départ 0 (tête   5,   7 noeuds): L =   33.2 / 50 km OK | P =   4.00 / 8 MW OK | PD =    70.2 MW.km
+
+=== Petit_N60_S2_0.20_Hiver | distance variable ===
+temps de calcul : 1.18 s
+J = L_tot = 103.2 km  PD = 136.8 MW.km  -> contraintes violées
+  Source 0: P =    5.00 /  70.00 MW OK | départs 1 / 8 OK | PD =    66.6 MW.km | 11 noeuds dans l'arbre | w = 0.843
+    départ 0 (tête  19,  10 noeuds): L =   43.5 / 50 km OK | P =   5.00 / 8 MW OK | PD =    66.6 MW.km
+  Source 1: P =    4.00 /  70.00 MW OK | départs 1 / 8 OK | PD =    70.2 MW.km | 11 noeuds dans l'arbre | w = 1
+    départ 0 (tête   5,  10 noeuds): L =   59.7 / 50 km KO | P =   4.00 / 8 MW OK | PD =    70.2 MW.km
+
+=== Moyen_N200_S4_0.20_Ete | distance non pondérée ===
+temps de calcul : 0.04 s
+J = L_tot = 322.2 km  PD = 828.2 MW.km  -> contraintes violées
+  Source 0: P =    0.00 /  70.00 MW OK | départs 3 / 8 OK | PD =    77.4 MW.km | 19 noeuds dans l'arbre
+    départ 0 (tête  25,   5 noeuds): L =   15.8 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    10.4 MW.km
+    départ 1 (tête  55,  10 noeuds): L =   40.7 / 50 km OK | P =   3.00 / 8 MW OK | PD =    55.8 MW.km
+    départ 2 (tête  79,   3 noeuds): L =   11.1 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    11.1 MW.km
+  Source 1: P =   -9.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   237.9 MW.km | 16 noeuds dans l'arbre
+    départ 0 (tête  32,  15 noeuds): L =   59.3 / 50 km KO | P =  -9.00 / 8 MW KO | PD =   237.9 MW.km
+  Source 2: P =    1.00 /  70.00 MW OK | départs 4 / 8 OK | PD =   201.3 MW.km | 21 noeuds dans l'arbre
+    départ 0 (tête   5,   1 noeuds): L =   12.9 / 50 km OK | P =   2.00 / 8 MW OK | PD =    25.8 MW.km
+    départ 1 (tête  36,   3 noeuds): L =   17.2 / 50 km OK | P =  -4.00 / 8 MW OK | PD =    34.6 MW.km
+    départ 2 (tête  93,   6 noeuds): L =   17.9 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    22.8 MW.km
+    départ 3 (tête 117,  10 noeuds): L =   53.1 / 50 km KO | P =   5.00 / 8 MW OK | PD =   118.1 MW.km
+  Source 3: P =   -1.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   311.7 MW.km | 25 noeuds dans l'arbre
+    départ 0 (tête   4,   1 noeuds): L =    6.0 / 50 km OK | P =   2.00 / 8 MW OK | PD =    12.0 MW.km
+    départ 1 (tête 191,  23 noeuds): L =   88.2 / 50 km KO | P =  -3.00 / 8 MW OK | PD =   299.7 MW.km
+
+=== Moyen_N200_S4_0.20_Ete | distance capacité ===
+temps de calcul : 0.04 s
+J = L_tot = 322.2 km  PD = 828.2 MW.km  -> contraintes violées
+  Source 0: P =    0.00 /  70.00 MW OK | départs 3 / 8 OK | PD =    77.4 MW.km | 19 noeuds dans l'arbre
+    départ 0 (tête  25,   5 noeuds): L =   15.8 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    10.4 MW.km
+    départ 1 (tête  55,  10 noeuds): L =   40.7 / 50 km OK | P =   3.00 / 8 MW OK | PD =    55.8 MW.km
+    départ 2 (tête  79,   3 noeuds): L =   11.1 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    11.1 MW.km
+  Source 1: P =   -9.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   237.9 MW.km | 16 noeuds dans l'arbre
+    départ 0 (tête  32,  15 noeuds): L =   59.3 / 50 km KO | P =  -9.00 / 8 MW KO | PD =   237.9 MW.km
+  Source 2: P =    1.00 /  70.00 MW OK | départs 4 / 8 OK | PD =   201.3 MW.km | 21 noeuds dans l'arbre
+    départ 0 (tête   5,   1 noeuds): L =   12.9 / 50 km OK | P =   2.00 / 8 MW OK | PD =    25.8 MW.km
+    départ 1 (tête  36,   3 noeuds): L =   17.2 / 50 km OK | P =  -4.00 / 8 MW OK | PD =    34.6 MW.km
+    départ 2 (tête  93,   6 noeuds): L =   17.9 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    22.8 MW.km
+    départ 3 (tête 117,  10 noeuds): L =   53.1 / 50 km KO | P =   5.00 / 8 MW OK | PD =   118.1 MW.km
+  Source 3: P =   -1.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   311.7 MW.km | 25 noeuds dans l'arbre
+    départ 0 (tête   4,   1 noeuds): L =    6.0 / 50 km OK | P =   2.00 / 8 MW OK | PD =    12.0 MW.km
+    départ 1 (tête 191,  23 noeuds): L =   88.2 / 50 km KO | P =  -3.00 / 8 MW OK | PD =   299.7 MW.km
+
+=== Moyen_N200_S4_0.20_Ete | distance racine capacité ===
+temps de calcul : 0.04 s
+J = L_tot = 322.2 km  PD = 828.2 MW.km  -> contraintes violées
+  Source 0: P =    0.00 /  70.00 MW OK | départs 3 / 8 OK | PD =    77.4 MW.km | 19 noeuds dans l'arbre
+    départ 0 (tête  25,   5 noeuds): L =   15.8 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    10.4 MW.km
+    départ 1 (tête  55,  10 noeuds): L =   40.7 / 50 km OK | P =   3.00 / 8 MW OK | PD =    55.8 MW.km
+    départ 2 (tête  79,   3 noeuds): L =   11.1 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    11.1 MW.km
+  Source 1: P =   -9.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   237.9 MW.km | 16 noeuds dans l'arbre
+    départ 0 (tête  32,  15 noeuds): L =   59.3 / 50 km KO | P =  -9.00 / 8 MW KO | PD =   237.9 MW.km
+  Source 2: P =    1.00 /  70.00 MW OK | départs 4 / 8 OK | PD =   201.3 MW.km | 21 noeuds dans l'arbre
+    départ 0 (tête   5,   1 noeuds): L =   12.9 / 50 km OK | P =   2.00 / 8 MW OK | PD =    25.8 MW.km
+    départ 1 (tête  36,   3 noeuds): L =   17.2 / 50 km OK | P =  -4.00 / 8 MW OK | PD =    34.6 MW.km
+    départ 2 (tête  93,   6 noeuds): L =   17.9 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    22.8 MW.km
+    départ 3 (tête 117,  10 noeuds): L =   53.1 / 50 km KO | P =   5.00 / 8 MW OK | PD =   118.1 MW.km
+  Source 3: P =   -1.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   311.7 MW.km | 25 noeuds dans l'arbre
+    départ 0 (tête   4,   1 noeuds): L =    6.0 / 50 km OK | P =   2.00 / 8 MW OK | PD =    12.0 MW.km
+    départ 1 (tête 191,  23 noeuds): L =   88.2 / 50 km KO | P =  -3.00 / 8 MW OK | PD =   299.7 MW.km
+
+=== Moyen_N200_S4_0.20_Ete | distance variable ===
+temps de calcul : 3.82 s
+J = L_tot = 315.3 km  PD = 703.4 MW.km  -> contraintes violées
+  Source 0: P =   -5.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   266.4 MW.km | 28 noeuds dans l'arbre | w = 0.657
+    départ 0 (tête  25,  14 noeuds): L =   46.5 / 50 km OK | P =  -7.00 / 8 MW OK | PD =   199.5 MW.km
+    départ 1 (tête  55,  10 noeuds): L =   40.7 / 50 km OK | P =   3.00 / 8 MW OK | PD =    55.8 MW.km
+    départ 2 (tête  79,   3 noeuds): L =   11.1 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    11.1 MW.km
+  Source 1: P =   -6.00 /  70.00 MW OK | départs 1 / 8 OK | PD =    94.5 MW.km | 11 noeuds dans l'arbre | w = 0.59
+    départ 0 (tête  32,  10 noeuds): L =   41.8 / 50 km OK | P =  -6.00 / 8 MW OK | PD =    94.5 MW.km
+  Source 2: P =   -2.00 /  70.00 MW OK | départs 4 / 8 OK | PD =   203.8 MW.km | 27 noeuds dans l'arbre | w = 0.615
+    départ 0 (tête   5,   1 noeuds): L =   12.9 / 50 km OK | P =   2.00 / 8 MW OK | PD =    25.8 MW.km
+    départ 1 (tête  36,   3 noeuds): L =   17.2 / 50 km OK | P =  -4.00 / 8 MW OK | PD =    34.6 MW.km
+    départ 2 (tête  93,   6 noeuds): L =   17.9 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    22.8 MW.km
+    départ 3 (tête 117,  16 noeuds): L =   64.0 / 50 km KO | P =   2.00 / 8 MW OK | PD =   120.6 MW.km
+  Source 3: P =    4.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   138.7 MW.km | 16 noeuds dans l'arbre | w = 0.428
+    départ 0 (tête   4,   1 noeuds): L =    6.0 / 50 km OK | P =   2.00 / 8 MW OK | PD =    12.0 MW.km
+    départ 1 (tête 191,  14 noeuds): L =   57.2 / 50 km KO | P =   2.00 / 8 MW OK | PD =   126.7 MW.km
+
+=== Moyen_N200_S4_0.20_Hiver | distance non pondérée ===
+temps de calcul : 0.05 s
+J = L_tot = 325.0 km  PD = 1119.0 MW.km  -> contraintes violées
+  Source 0: P =   16.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   307.1 MW.km | 15 noeuds dans l'arbre
+    départ 0 (tête  27,   7 noeuds): L =   40.3 / 50 km OK | P =   8.00 / 8 MW OK | PD =   196.0 MW.km
+    départ 1 (tête 187,   7 noeuds): L =   21.3 / 50 km OK | P =   8.00 / 8 MW OK | PD =   111.1 MW.km
+  Source 1: P =    5.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   119.4 MW.km | 11 noeuds dans l'arbre
+    départ 0 (tête  54,  10 noeuds): L =   49.2 / 50 km OK | P =   5.00 / 8 MW OK | PD =   119.4 MW.km
+  Source 2: P =    7.00 /  70.00 MW OK | départs 4 / 8 OK | PD =   152.4 MW.km | 19 noeuds dans l'arbre
+    départ 0 (tête   6,   1 noeuds): L =    5.1 / 50 km OK | P =   0.00 / 8 MW OK | PD =     0.0 MW.km
+    départ 1 (tête  59,   7 noeuds): L =   27.8 / 50 km OK | P =   2.00 / 8 MW OK | PD =    30.8 MW.km
+    départ 2 (tête 141,   7 noeuds): L =   40.3 / 50 km OK | P =   4.00 / 8 MW OK | PD =   110.9 MW.km
+    départ 3 (tête 156,   3 noeuds): L =   10.7 / 50 km OK | P =   1.00 / 8 MW OK | PD =    10.7 MW.km
+  Source 3: P =   20.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   540.1 MW.km | 34 noeuds dans l'arbre
+    départ 0 (tête  22,   3 noeuds): L =   14.4 / 50 km OK | P =   2.00 / 8 MW OK | PD =    15.5 MW.km
+    départ 1 (tête 144,  17 noeuds): L =   69.3 / 50 km KO | P =   9.00 / 8 MW KO | PD =   329.7 MW.km
+    départ 2 (tête 157,  13 noeuds): L =   46.5 / 50 km OK | P =   9.00 / 8 MW KO | PD =   194.9 MW.km
+
+=== Moyen_N200_S4_0.20_Hiver | distance capacité ===
+temps de calcul : 0.05 s
+J = L_tot = 325.0 km  PD = 1119.0 MW.km  -> contraintes violées
+  Source 0: P =   16.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   307.1 MW.km | 15 noeuds dans l'arbre
+    départ 0 (tête  27,   7 noeuds): L =   40.3 / 50 km OK | P =   8.00 / 8 MW OK | PD =   196.0 MW.km
+    départ 1 (tête 187,   7 noeuds): L =   21.3 / 50 km OK | P =   8.00 / 8 MW OK | PD =   111.1 MW.km
+  Source 1: P =    5.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   119.4 MW.km | 11 noeuds dans l'arbre
+    départ 0 (tête  54,  10 noeuds): L =   49.2 / 50 km OK | P =   5.00 / 8 MW OK | PD =   119.4 MW.km
+  Source 2: P =    7.00 /  70.00 MW OK | départs 4 / 8 OK | PD =   152.4 MW.km | 19 noeuds dans l'arbre
+    départ 0 (tête   6,   1 noeuds): L =    5.1 / 50 km OK | P =   0.00 / 8 MW OK | PD =     0.0 MW.km
+    départ 1 (tête  59,   7 noeuds): L =   27.8 / 50 km OK | P =   2.00 / 8 MW OK | PD =    30.8 MW.km
+    départ 2 (tête 141,   7 noeuds): L =   40.3 / 50 km OK | P =   4.00 / 8 MW OK | PD =   110.9 MW.km
+    départ 3 (tête 156,   3 noeuds): L =   10.7 / 50 km OK | P =   1.00 / 8 MW OK | PD =    10.7 MW.km
+  Source 3: P =   20.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   540.1 MW.km | 34 noeuds dans l'arbre
+    départ 0 (tête  22,   3 noeuds): L =   14.4 / 50 km OK | P =   2.00 / 8 MW OK | PD =    15.5 MW.km
+    départ 1 (tête 144,  17 noeuds): L =   69.3 / 50 km KO | P =   9.00 / 8 MW KO | PD =   329.7 MW.km
+    départ 2 (tête 157,  13 noeuds): L =   46.5 / 50 km OK | P =   9.00 / 8 MW KO | PD =   194.9 MW.km
+
+=== Moyen_N200_S4_0.20_Hiver | distance racine capacité ===
+temps de calcul : 0.04 s
+J = L_tot = 325.0 km  PD = 1119.0 MW.km  -> contraintes violées
+  Source 0: P =   16.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   307.1 MW.km | 15 noeuds dans l'arbre
+    départ 0 (tête  27,   7 noeuds): L =   40.3 / 50 km OK | P =   8.00 / 8 MW OK | PD =   196.0 MW.km
+    départ 1 (tête 187,   7 noeuds): L =   21.3 / 50 km OK | P =   8.00 / 8 MW OK | PD =   111.1 MW.km
+  Source 1: P =    5.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   119.4 MW.km | 11 noeuds dans l'arbre
+    départ 0 (tête  54,  10 noeuds): L =   49.2 / 50 km OK | P =   5.00 / 8 MW OK | PD =   119.4 MW.km
+  Source 2: P =    7.00 /  70.00 MW OK | départs 4 / 8 OK | PD =   152.4 MW.km | 19 noeuds dans l'arbre
+    départ 0 (tête   6,   1 noeuds): L =    5.1 / 50 km OK | P =   0.00 / 8 MW OK | PD =     0.0 MW.km
+    départ 1 (tête  59,   7 noeuds): L =   27.8 / 50 km OK | P =   2.00 / 8 MW OK | PD =    30.8 MW.km
+    départ 2 (tête 141,   7 noeuds): L =   40.3 / 50 km OK | P =   4.00 / 8 MW OK | PD =   110.9 MW.km
+    départ 3 (tête 156,   3 noeuds): L =   10.7 / 50 km OK | P =   1.00 / 8 MW OK | PD =    10.7 MW.km
+  Source 3: P =   20.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   540.1 MW.km | 34 noeuds dans l'arbre
+    départ 0 (tête  22,   3 noeuds): L =   14.4 / 50 km OK | P =   2.00 / 8 MW OK | PD =    15.5 MW.km
+    départ 1 (tête 144,  17 noeuds): L =   69.3 / 50 km KO | P =   9.00 / 8 MW KO | PD =   329.7 MW.km
+    départ 2 (tête 157,  13 noeuds): L =   46.5 / 50 km OK | P =   9.00 / 8 MW KO | PD =   194.9 MW.km
+
+=== Moyen_N200_S4_0.20_Hiver | distance variable ===
+temps de calcul : 3.83 s
+J = L_tot = 321.8 km  PD = 1117.0 MW.km  -> contraintes violées
+  Source 0: P =   14.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   232.9 MW.km | 15 noeuds dans l'arbre | w = 0.338
+    départ 0 (tête  27,   7 noeuds): L =   32.1 / 50 km OK | P =   6.00 / 8 MW OK | PD =   121.8 MW.km
+    départ 1 (tête 187,   7 noeuds): L =   21.3 / 50 km OK | P =   8.00 / 8 MW OK | PD =   111.1 MW.km
+  Source 1: P =    5.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   119.4 MW.km | 11 noeuds dans l'arbre | w = 0.365
+    départ 0 (tête  54,  10 noeuds): L =   49.2 / 50 km OK | P =   5.00 / 8 MW OK | PD =   119.4 MW.km
+  Source 2: P =   11.00 /  70.00 MW OK | départs 4 / 8 OK | PD =   339.5 MW.km | 26 noeuds dans l'arbre | w = 0.381
+    départ 0 (tête   6,   1 noeuds): L =    5.1 / 50 km OK | P =   0.00 / 8 MW OK | PD =     0.0 MW.km
+    départ 1 (tête  59,   8 noeuds): L =   31.0 / 50 km OK | P =   4.00 / 8 MW OK | PD =    92.9 MW.km
+    départ 2 (tête 141,  13 noeuds): L =   68.6 / 50 km KO | P =   6.00 / 8 MW OK | PD =   235.9 MW.km
+    départ 3 (tête 156,   3 noeuds): L =   10.7 / 50 km OK | P =   1.00 / 8 MW OK | PD =    10.7 MW.km
+  Source 3: P =   18.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   425.3 MW.km | 27 noeuds dans l'arbre | w = 0.321
+    départ 0 (tête  22,   3 noeuds): L =   14.4 / 50 km OK | P =   2.00 / 8 MW OK | PD =    15.5 MW.km
+    départ 1 (tête 144,  13 noeuds): L =   55.6 / 50 km KO | P =   7.00 / 8 MW OK | PD =   214.8 MW.km
+    départ 2 (tête 157,  10 noeuds): L =   33.9 / 50 km OK | P =   9.00 / 8 MW KO | PD =   194.9 MW.km
+
+=== Grand_N600_S6_0.20_Ete | distance non pondérée ===
+temps de calcul : 0.09 s
+J = L_tot = 620.3 km  PD = 2010.9 MW.km  -> contraintes violées
+  Source 0: P =  -12.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   249.0 MW.km | 42 noeuds dans l'arbre
+    départ 0 (tête  21,  39 noeuds): L =  115.5 / 50 km KO | P =  -9.00 / 8 MW KO | PD =   234.2 MW.km
+    départ 1 (tête 547,   2 noeuds): L =    4.9 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    14.8 MW.km
+  Source 1: P =  -20.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   884.6 MW.km | 53 noeuds dans l'arbre
+    départ 0 (tête  82,  52 noeuds): L =  171.4 / 50 km KO | P = -20.00 / 8 MW KO | PD =   884.6 MW.km
+  Source 2: P =    2.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   127.2 MW.km | 24 noeuds dans l'arbre
+    départ 0 (tête  18,  23 noeuds): L =   78.7 / 50 km KO | P =   2.00 / 8 MW OK | PD =   127.2 MW.km
+  Source 3: P =  -10.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   487.4 MW.km | 37 noeuds dans l'arbre
+    départ 0 (tête 163,  24 noeuds): L =   59.8 / 50 km KO | P = -17.00 / 8 MW KO | PD =   333.7 MW.km
+    départ 1 (tête 575,  12 noeuds): L =   32.8 / 50 km OK | P =   7.00 / 8 MW OK | PD =   153.7 MW.km
+  Source 4: P =   -7.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   161.7 MW.km | 33 noeuds dans l'arbre
+    départ 0 (tête  97,  20 noeuds): L =   63.4 / 50 km KO | P =  -7.00 / 8 MW OK | PD =   138.1 MW.km
+    départ 1 (tête 167,  12 noeuds): L =   33.4 / 50 km OK | P =   0.00 / 8 MW OK | PD =    23.6 MW.km
+  Source 5: P =   -1.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   101.0 MW.km | 20 noeuds dans l'arbre
+    départ 0 (tête  26,   8 noeuds): L =   23.7 / 50 km OK | P =   2.00 / 8 MW OK | PD =    35.7 MW.km
+    départ 1 (tête  77,   1 noeuds): L =    2.3 / 50 km OK | P =  -2.00 / 8 MW OK | PD =     4.6 MW.km
+    départ 2 (tête 435,  10 noeuds): L =   34.4 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    60.7 MW.km
+
+=== Grand_N600_S6_0.20_Ete | distance capacité ===
+temps de calcul : 0.10 s
+J = L_tot = 620.3 km  PD = 2010.9 MW.km  -> contraintes violées
+  Source 0: P =  -12.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   249.0 MW.km | 42 noeuds dans l'arbre
+    départ 0 (tête  21,  39 noeuds): L =  115.5 / 50 km KO | P =  -9.00 / 8 MW KO | PD =   234.2 MW.km
+    départ 1 (tête 547,   2 noeuds): L =    4.9 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    14.8 MW.km
+  Source 1: P =  -20.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   884.6 MW.km | 53 noeuds dans l'arbre
+    départ 0 (tête  82,  52 noeuds): L =  171.4 / 50 km KO | P = -20.00 / 8 MW KO | PD =   884.6 MW.km
+  Source 2: P =    2.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   127.2 MW.km | 24 noeuds dans l'arbre
+    départ 0 (tête  18,  23 noeuds): L =   78.7 / 50 km KO | P =   2.00 / 8 MW OK | PD =   127.2 MW.km
+  Source 3: P =  -10.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   487.4 MW.km | 37 noeuds dans l'arbre
+    départ 0 (tête 163,  24 noeuds): L =   59.8 / 50 km KO | P = -17.00 / 8 MW KO | PD =   333.7 MW.km
+    départ 1 (tête 575,  12 noeuds): L =   32.8 / 50 km OK | P =   7.00 / 8 MW OK | PD =   153.7 MW.km
+  Source 4: P =   -7.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   161.7 MW.km | 33 noeuds dans l'arbre
+    départ 0 (tête  97,  20 noeuds): L =   63.4 / 50 km KO | P =  -7.00 / 8 MW OK | PD =   138.1 MW.km
+    départ 1 (tête 167,  12 noeuds): L =   33.4 / 50 km OK | P =   0.00 / 8 MW OK | PD =    23.6 MW.km
+  Source 5: P =   -1.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   101.0 MW.km | 20 noeuds dans l'arbre
+    départ 0 (tête  26,   8 noeuds): L =   23.7 / 50 km OK | P =   2.00 / 8 MW OK | PD =    35.7 MW.km
+    départ 1 (tête  77,   1 noeuds): L =    2.3 / 50 km OK | P =  -2.00 / 8 MW OK | PD =     4.6 MW.km
+    départ 2 (tête 435,  10 noeuds): L =   34.4 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    60.7 MW.km
+
+=== Grand_N600_S6_0.20_Ete | distance racine capacité ===
+temps de calcul : 0.12 s
+J = L_tot = 620.3 km  PD = 2010.9 MW.km  -> contraintes violées
+  Source 0: P =  -12.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   249.0 MW.km | 42 noeuds dans l'arbre
+    départ 0 (tête  21,  39 noeuds): L =  115.5 / 50 km KO | P =  -9.00 / 8 MW KO | PD =   234.2 MW.km
+    départ 1 (tête 547,   2 noeuds): L =    4.9 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    14.8 MW.km
+  Source 1: P =  -20.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   884.6 MW.km | 53 noeuds dans l'arbre
+    départ 0 (tête  82,  52 noeuds): L =  171.4 / 50 km KO | P = -20.00 / 8 MW KO | PD =   884.6 MW.km
+  Source 2: P =    2.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   127.2 MW.km | 24 noeuds dans l'arbre
+    départ 0 (tête  18,  23 noeuds): L =   78.7 / 50 km KO | P =   2.00 / 8 MW OK | PD =   127.2 MW.km
+  Source 3: P =  -10.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   487.4 MW.km | 37 noeuds dans l'arbre
+    départ 0 (tête 163,  24 noeuds): L =   59.8 / 50 km KO | P = -17.00 / 8 MW KO | PD =   333.7 MW.km
+    départ 1 (tête 575,  12 noeuds): L =   32.8 / 50 km OK | P =   7.00 / 8 MW OK | PD =   153.7 MW.km
+  Source 4: P =   -7.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   161.7 MW.km | 33 noeuds dans l'arbre
+    départ 0 (tête  97,  20 noeuds): L =   63.4 / 50 km KO | P =  -7.00 / 8 MW OK | PD =   138.1 MW.km
+    départ 1 (tête 167,  12 noeuds): L =   33.4 / 50 km OK | P =   0.00 / 8 MW OK | PD =    23.6 MW.km
+  Source 5: P =   -1.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   101.0 MW.km | 20 noeuds dans l'arbre
+    départ 0 (tête  26,   8 noeuds): L =   23.7 / 50 km OK | P =   2.00 / 8 MW OK | PD =    35.7 MW.km
+    départ 1 (tête  77,   1 noeuds): L =    2.3 / 50 km OK | P =  -2.00 / 8 MW OK | PD =     4.6 MW.km
+    départ 2 (tête 435,  10 noeuds): L =   34.4 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    60.7 MW.km
+
+=== Grand_N600_S6_0.20_Ete | distance variable ===
+temps de calcul : 11.35 s
+J = L_tot = 662.2 km  PD = 1666.6 MW.km  -> contraintes violées
+  Source 0: P =  -11.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   208.4 MW.km | 24 noeuds dans l'arbre | w = 0.0061
+    départ 0 (tête  21,  21 noeuds): L =   66.9 / 50 km KO | P =  -8.00 / 8 MW OK | PD =   193.6 MW.km
+    départ 1 (tête 547,   2 noeuds): L =    4.9 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    14.8 MW.km
+  Source 1: P =  -15.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   289.4 MW.km | 23 noeuds dans l'arbre | w = 0.00373
+    départ 0 (tête  82,   8 noeuds): L =   15.1 / 50 km OK | P =   1.00 / 8 MW OK | PD =    34.0 MW.km
+    départ 1 (tête 185,  14 noeuds): L =   48.5 / 50 km OK | P = -16.00 / 8 MW KO | PD =   255.4 MW.km
+  Source 2: P =   -3.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   172.3 MW.km | 26 noeuds dans l'arbre | w = 0.00671
+    départ 0 (tête  18,  25 noeuds): L =   79.1 / 50 km KO | P =  -3.00 / 8 MW OK | PD =   172.3 MW.km
+  Source 3: P =   -6.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   320.2 MW.km | 38 noeuds dans l'arbre | w = 0.00971
+    départ 0 (tête 163,  34 noeuds): L =   93.2 / 50 km KO | P =  -8.00 / 8 MW OK | PD =   301.2 MW.km
+    départ 1 (tête 575,   3 noeuds): L =   10.6 / 50 km OK | P =   2.00 / 8 MW OK | PD =    19.0 MW.km
+  Source 4: P =   -9.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   430.4 MW.km | 71 noeuds dans l'arbre | w = 0.0111
+    départ 0 (tête  97,  41 noeuds): L =  141.0 / 50 km KO | P = -11.00 / 8 MW KO | PD =   331.7 MW.km
+    départ 1 (tête 167,  29 noeuds): L =   78.3 / 50 km KO | P =   2.00 / 8 MW OK | PD =    98.7 MW.km
+  Source 5: P =   -4.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   245.9 MW.km | 34 noeuds dans l'arbre | w = 0.0174
+    départ 0 (tête  26,  22 noeuds): L =   87.9 / 50 km KO | P =  -1.00 / 8 MW OK | PD =   180.6 MW.km
+    départ 1 (tête  77,   1 noeuds): L =    2.3 / 50 km OK | P =  -2.00 / 8 MW OK | PD =     4.6 MW.km
+    départ 2 (tête 435,  10 noeuds): L =   34.4 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    60.7 MW.km
+
+=== Grand_N600_S6_0.20_Hiver | distance non pondérée ===
+temps de calcul : 0.10 s
+J = L_tot = 641.3 km  PD = 3419.5 MW.km  -> contraintes violées
+  Source 0: P =   40.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   887.9 MW.km | 43 noeuds dans l'arbre
+    départ 0 (tête 102,  33 noeuds): L =  107.7 / 50 km KO | P =  32.00 / 8 MW KO | PD =   804.0 MW.km
+    départ 1 (tête 123,   2 noeuds): L =    6.8 / 50 km OK | P =   4.00 / 8 MW OK | PD =    21.9 MW.km
+    départ 2 (tête 467,   7 noeuds): L =   20.9 / 50 km OK | P =   4.00 / 8 MW OK | PD =    61.9 MW.km
+  Source 1: P =   35.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   943.9 MW.km | 43 noeuds dans l'arbre
+    départ 0 (tête 187,  17 noeuds): L =   58.1 / 50 km KO | P =  18.00 / 8 MW KO | PD =   553.0 MW.km
+    départ 1 (tête 208,  20 noeuds): L =   59.1 / 50 km KO | P =  15.00 / 8 MW KO | PD =   351.1 MW.km
+    départ 2 (tête 577,   5 noeuds): L =   19.9 / 50 km OK | P =   2.00 / 8 MW OK | PD =    39.9 MW.km
+  Source 2: P =   14.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   182.3 MW.km | 21 noeuds dans l'arbre
+    départ 0 (tête 114,  17 noeuds): L =   50.8 / 50 km KO | P =  10.00 / 8 MW KO | PD =   151.3 MW.km
+    départ 1 (tête 117,   3 noeuds): L =    9.2 / 50 km OK | P =   4.00 / 8 MW OK | PD =    31.0 MW.km
+  Source 3: P =   22.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   451.7 MW.km | 37 noeuds dans l'arbre
+    départ 0 (tête  70,  36 noeuds): L =  110.0 / 50 km KO | P =  22.00 / 8 MW KO | PD =   451.7 MW.km
+  Source 4: P =   29.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   555.2 MW.km | 38 noeuds dans l'arbre
+    départ 0 (tête  96,   1 noeuds): L =    5.1 / 50 km OK | P =   2.00 / 8 MW OK | PD =    10.1 MW.km
+    départ 1 (tête 106,  19 noeuds): L =   57.7 / 50 km KO | P =  19.00 / 8 MW KO | PD =   407.5 MW.km
+    départ 2 (tête 160,  17 noeuds): L =   48.2 / 50 km OK | P =   8.00 / 8 MW OK | PD =   137.6 MW.km
+  Source 5: P =   17.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   398.5 MW.km | 30 noeuds dans l'arbre
+    départ 0 (tête  60,   8 noeuds): L =   22.0 / 50 km OK | P =   5.00 / 8 MW OK | PD =    92.5 MW.km
+    départ 1 (tête 359,   2 noeuds): L =    6.9 / 50 km OK | P =   1.00 / 8 MW OK | PD =     6.9 MW.km
+    départ 2 (tête 366,  19 noeuds): L =   58.9 / 50 km KO | P =  11.00 / 8 MW KO | PD =   299.0 MW.km
+
+=== Grand_N600_S6_0.20_Hiver | distance capacité ===
+temps de calcul : 0.10 s
+J = L_tot = 641.3 km  PD = 3419.5 MW.km  -> contraintes violées
+  Source 0: P =   40.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   887.9 MW.km | 43 noeuds dans l'arbre
+    départ 0 (tête 102,  33 noeuds): L =  107.7 / 50 km KO | P =  32.00 / 8 MW KO | PD =   804.0 MW.km
+    départ 1 (tête 123,   2 noeuds): L =    6.8 / 50 km OK | P =   4.00 / 8 MW OK | PD =    21.9 MW.km
+    départ 2 (tête 467,   7 noeuds): L =   20.9 / 50 km OK | P =   4.00 / 8 MW OK | PD =    61.9 MW.km
+  Source 1: P =   35.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   943.9 MW.km | 43 noeuds dans l'arbre
+    départ 0 (tête 187,  17 noeuds): L =   58.1 / 50 km KO | P =  18.00 / 8 MW KO | PD =   553.0 MW.km
+    départ 1 (tête 208,  20 noeuds): L =   59.1 / 50 km KO | P =  15.00 / 8 MW KO | PD =   351.1 MW.km
+    départ 2 (tête 577,   5 noeuds): L =   19.9 / 50 km OK | P =   2.00 / 8 MW OK | PD =    39.9 MW.km
+  Source 2: P =   14.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   182.3 MW.km | 21 noeuds dans l'arbre
+    départ 0 (tête 114,  17 noeuds): L =   50.8 / 50 km KO | P =  10.00 / 8 MW KO | PD =   151.3 MW.km
+    départ 1 (tête 117,   3 noeuds): L =    9.2 / 50 km OK | P =   4.00 / 8 MW OK | PD =    31.0 MW.km
+  Source 3: P =   22.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   451.7 MW.km | 37 noeuds dans l'arbre
+    départ 0 (tête  70,  36 noeuds): L =  110.0 / 50 km KO | P =  22.00 / 8 MW KO | PD =   451.7 MW.km
+  Source 4: P =   29.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   555.2 MW.km | 38 noeuds dans l'arbre
+    départ 0 (tête  96,   1 noeuds): L =    5.1 / 50 km OK | P =   2.00 / 8 MW OK | PD =    10.1 MW.km
+    départ 1 (tête 106,  19 noeuds): L =   57.7 / 50 km KO | P =  19.00 / 8 MW KO | PD =   407.5 MW.km
+    départ 2 (tête 160,  17 noeuds): L =   48.2 / 50 km OK | P =   8.00 / 8 MW OK | PD =   137.6 MW.km
+  Source 5: P =   17.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   398.5 MW.km | 30 noeuds dans l'arbre
+    départ 0 (tête  60,   8 noeuds): L =   22.0 / 50 km OK | P =   5.00 / 8 MW OK | PD =    92.5 MW.km
+    départ 1 (tête 359,   2 noeuds): L =    6.9 / 50 km OK | P =   1.00 / 8 MW OK | PD =     6.9 MW.km
+    départ 2 (tête 366,  19 noeuds): L =   58.9 / 50 km KO | P =  11.00 / 8 MW KO | PD =   299.0 MW.km
+
+=== Grand_N600_S6_0.20_Hiver | distance racine capacité ===
+temps de calcul : 0.12 s
+J = L_tot = 641.3 km  PD = 3419.5 MW.km  -> contraintes violées
+  Source 0: P =   40.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   887.9 MW.km | 43 noeuds dans l'arbre
+    départ 0 (tête 102,  33 noeuds): L =  107.7 / 50 km KO | P =  32.00 / 8 MW KO | PD =   804.0 MW.km
+    départ 1 (tête 123,   2 noeuds): L =    6.8 / 50 km OK | P =   4.00 / 8 MW OK | PD =    21.9 MW.km
+    départ 2 (tête 467,   7 noeuds): L =   20.9 / 50 km OK | P =   4.00 / 8 MW OK | PD =    61.9 MW.km
+  Source 1: P =   35.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   943.9 MW.km | 43 noeuds dans l'arbre
+    départ 0 (tête 187,  17 noeuds): L =   58.1 / 50 km KO | P =  18.00 / 8 MW KO | PD =   553.0 MW.km
+    départ 1 (tête 208,  20 noeuds): L =   59.1 / 50 km KO | P =  15.00 / 8 MW KO | PD =   351.1 MW.km
+    départ 2 (tête 577,   5 noeuds): L =   19.9 / 50 km OK | P =   2.00 / 8 MW OK | PD =    39.9 MW.km
+  Source 2: P =   14.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   182.3 MW.km | 21 noeuds dans l'arbre
+    départ 0 (tête 114,  17 noeuds): L =   50.8 / 50 km KO | P =  10.00 / 8 MW KO | PD =   151.3 MW.km
+    départ 1 (tête 117,   3 noeuds): L =    9.2 / 50 km OK | P =   4.00 / 8 MW OK | PD =    31.0 MW.km
+  Source 3: P =   22.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   451.7 MW.km | 37 noeuds dans l'arbre
+    départ 0 (tête  70,  36 noeuds): L =  110.0 / 50 km KO | P =  22.00 / 8 MW KO | PD =   451.7 MW.km
+  Source 4: P =   29.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   555.2 MW.km | 38 noeuds dans l'arbre
+    départ 0 (tête  96,   1 noeuds): L =    5.1 / 50 km OK | P =   2.00 / 8 MW OK | PD =    10.1 MW.km
+    départ 1 (tête 106,  19 noeuds): L =   57.7 / 50 km KO | P =  19.00 / 8 MW KO | PD =   407.5 MW.km
+    départ 2 (tête 160,  17 noeuds): L =   48.2 / 50 km OK | P =   8.00 / 8 MW OK | PD =   137.6 MW.km
+  Source 5: P =   17.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   398.5 MW.km | 30 noeuds dans l'arbre
+    départ 0 (tête  60,   8 noeuds): L =   22.0 / 50 km OK | P =   5.00 / 8 MW OK | PD =    92.5 MW.km
+    départ 1 (tête 359,   2 noeuds): L =    6.9 / 50 km OK | P =   1.00 / 8 MW OK | PD =     6.9 MW.km
+    départ 2 (tête 366,  19 noeuds): L =   58.9 / 50 km KO | P =  11.00 / 8 MW KO | PD =   299.0 MW.km
+
+=== Grand_N600_S6_0.20_Hiver | distance variable ===
+temps de calcul : 11.36 s
+J = L_tot = 665.0 km  PD = 4756.7 MW.km  -> contraintes violées
+  Source 0: P =   23.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   278.0 MW.km | 22 noeuds dans l'arbre | w = 0.000475
+    départ 0 (tête 102,  15 noeuds): L =   48.8 / 50 km OK | P =  18.00 / 8 MW KO | PD =   248.2 MW.km
+    départ 1 (tête 123,   2 noeuds): L =    6.8 / 50 km OK | P =   4.00 / 8 MW OK | PD =    21.9 MW.km
+    départ 2 (tête 467,   4 noeuds): L =    8.8 / 50 km OK | P =   1.00 / 8 MW OK | PD =     7.9 MW.km
+  Source 1: P =   23.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   554.9 MW.km | 28 noeuds dans l'arbre | w = 0.000649
+    départ 0 (tête 187,   5 noeuds): L =   15.4 / 50 km OK | P =   5.00 / 8 MW OK | PD =    63.4 MW.km
+    départ 1 (tête 208,  22 noeuds): L =   64.6 / 50 km KO | P =  18.00 / 8 MW KO | PD =   491.5 MW.km
+  Source 2: P =   35.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1830.3 MW.km | 50 noeuds dans l'arbre | w = 0.00145
+    départ 0 (tête 114,  46 noeuds): L =  159.6 / 50 km KO | P =  31.00 / 8 MW KO | PD =  1799.3 MW.km
+    départ 1 (tête 117,   3 noeuds): L =    9.2 / 50 km OK | P =   4.00 / 8 MW OK | PD =    31.0 MW.km
+  Source 3: P =   18.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   339.5 MW.km | 30 noeuds dans l'arbre | w = 0.0011
+    départ 0 (tête  70,  29 noeuds): L =   93.5 / 50 km KO | P =  18.00 / 8 MW KO | PD =   339.5 MW.km
+  Source 4: P =   39.00 /  70.00 MW OK | départs 3 / 8 OK | PD =  1035.0 MW.km | 51 noeuds dans l'arbre | w = 0.000779
+    départ 0 (tête  96,   1 noeuds): L =    5.1 / 50 km OK | P =   2.00 / 8 MW OK | PD =    10.1 MW.km
+    départ 1 (tête 106,  20 noeuds): L =   68.7 / 50 km KO | P =  19.00 / 8 MW KO | PD =   415.0 MW.km
+    départ 2 (tête 160,  29 noeuds): L =   81.9 / 50 km KO | P =  18.00 / 8 MW KO | PD =   609.9 MW.km
+  Source 5: P =   19.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   718.9 MW.km | 37 noeuds dans l'arbre | w = 0.00114
+    départ 0 (tête  60,  34 noeuds): L =   95.8 / 50 km KO | P =  18.00 / 8 MW KO | PD =   712.0 MW.km
+    départ 1 (tête 359,   2 noeuds): L =    6.9 / 50 km OK | P =   1.00 / 8 MW OK | PD =     6.9 MW.km
+
+=== TrèsGrand_N2000_S12_0.20_Ete | distance non pondérée ===
+temps de calcul : 0.31 s
+J = L_tot = 1610.3 km  PD = 6480.7 MW.km  -> contraintes violées
+  Source 0: P =  -41.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1186.8 MW.km | 87 noeuds dans l'arbre
+    départ 0 (tête 111,  69 noeuds): L =  168.0 / 50 km KO | P = -42.00 / 8 MW KO | PD =  1090.8 MW.km
+    départ 1 (tête 1991,  17 noeuds): L =   38.1 / 50 km OK | P =   1.00 / 8 MW OK | PD =    96.1 MW.km
+  Source 1: P =    9.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   202.4 MW.km | 44 noeuds dans l'arbre
+    départ 0 (tête  20,  13 noeuds): L =   29.5 / 50 km OK | P =   3.00 / 8 MW OK | PD =    41.0 MW.km
+    départ 1 (tête 168,  30 noeuds): L =   83.6 / 50 km KO | P =   6.00 / 8 MW OK | PD =   161.4 MW.km
+  Source 2: P =  -11.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   337.2 MW.km | 49 noeuds dans l'arbre
+    départ 0 (tête 842,  16 noeuds): L =   49.2 / 50 km OK | P =   2.00 / 8 MW OK | PD =    49.5 MW.km
+    départ 1 (tête 1278,  32 noeuds): L =   80.3 / 50 km KO | P = -13.00 / 8 MW KO | PD =   287.7 MW.km
+  Source 3: P =  -14.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   422.5 MW.km | 62 noeuds dans l'arbre
+    départ 0 (tête 319,  20 noeuds): L =   43.5 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    90.2 MW.km
+    départ 1 (tête 601,  41 noeuds): L =   89.6 / 50 km KO | P = -13.00 / 8 MW KO | PD =   332.3 MW.km
+  Source 4: P =   14.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   343.1 MW.km | 44 noeuds dans l'arbre
+    départ 0 (tête 152,  25 noeuds): L =   60.1 / 50 km KO | P =   3.00 / 8 MW OK | PD =   190.2 MW.km
+    départ 1 (tête 1582,  18 noeuds): L =   44.8 / 50 km OK | P =  11.00 / 8 MW KO | PD =   152.8 MW.km
+  Source 5: P =  -49.00 /  70.00 MW OK | départs 1 / 8 OK | PD =  1219.2 MW.km | 66 noeuds dans l'arbre
+    départ 0 (tête 395,  65 noeuds): L =  154.4 / 50 km KO | P = -49.00 / 8 MW KO | PD =  1219.2 MW.km
+  Source 6: P =  -20.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   788.5 MW.km | 78 noeuds dans l'arbre
+    départ 0 (tête  76,   8 noeuds): L =   15.5 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    25.5 MW.km
+    départ 1 (tête 1382,  69 noeuds): L =  160.6 / 50 km KO | P = -19.00 / 8 MW KO | PD =   763.0 MW.km
+  Source 7: P =  -22.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   478.5 MW.km | 56 noeuds dans l'arbre
+    départ 0 (tête  25,  21 noeuds): L =   54.5 / 50 km KO | P =  -2.00 / 8 MW OK | PD =   163.3 MW.km
+    départ 1 (tête 188,   2 noeuds): L =    4.3 / 50 km OK | P =  -1.00 / 8 MW OK | PD =     6.1 MW.km
+    départ 2 (tête 1530,  32 noeuds): L =   58.2 / 50 km KO | P = -19.00 / 8 MW KO | PD =   309.1 MW.km
+  Source 8: P =  -10.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   174.6 MW.km | 31 noeuds dans l'arbre
+    départ 0 (tête 797,  17 noeuds): L =   40.5 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    56.6 MW.km
+    départ 1 (tête 916,  13 noeuds): L =   38.5 / 50 km OK | P =  -7.00 / 8 MW OK | PD =   118.0 MW.km
+  Source 9: P =  -11.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   401.1 MW.km | 58 noeuds dans l'arbre
+    départ 0 (tête  50,  32 noeuds): L =   71.3 / 50 km KO | P =   0.00 / 8 MW OK | PD =   115.2 MW.km
+    départ 1 (tête 1715,  25 noeuds): L =   72.1 / 50 km KO | P = -11.00 / 8 MW KO | PD =   285.9 MW.km
+  Source 10: P =  -15.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   522.1 MW.km | 69 noeuds dans l'arbre
+    départ 0 (tête 1457,  65 noeuds): L =  151.3 / 50 km KO | P = -16.00 / 8 MW KO | PD =   515.7 MW.km
+    départ 1 (tête 1827,   3 noeuds): L =    6.4 / 50 km OK | P =   1.00 / 8 MW OK | PD =     6.4 MW.km
+  Source 11: P =  -14.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   404.6 MW.km | 39 noeuds dans l'arbre
+    départ 0 (tête 105,  21 noeuds): L =   51.0 / 50 km KO | P =  -3.00 / 8 MW OK | PD =   234.0 MW.km
+    départ 1 (tête 1540,   4 noeuds): L =   18.0 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    44.6 MW.km
+    départ 2 (tête 1910,  13 noeuds): L =   27.0 / 50 km OK | P =  -9.00 / 8 MW KO | PD =   126.0 MW.km
+
+=== TrèsGrand_N2000_S12_0.20_Ete | distance capacité ===
+temps de calcul : 0.34 s
+J = L_tot = 1610.3 km  PD = 6480.7 MW.km  -> contraintes violées
+  Source 0: P =  -41.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1186.8 MW.km | 87 noeuds dans l'arbre
+    départ 0 (tête 111,  69 noeuds): L =  168.0 / 50 km KO | P = -42.00 / 8 MW KO | PD =  1090.8 MW.km
+    départ 1 (tête 1991,  17 noeuds): L =   38.1 / 50 km OK | P =   1.00 / 8 MW OK | PD =    96.1 MW.km
+  Source 1: P =    9.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   202.4 MW.km | 44 noeuds dans l'arbre
+    départ 0 (tête  20,  13 noeuds): L =   29.5 / 50 km OK | P =   3.00 / 8 MW OK | PD =    41.0 MW.km
+    départ 1 (tête 168,  30 noeuds): L =   83.6 / 50 km KO | P =   6.00 / 8 MW OK | PD =   161.4 MW.km
+  Source 2: P =  -11.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   337.2 MW.km | 49 noeuds dans l'arbre
+    départ 0 (tête 842,  16 noeuds): L =   49.2 / 50 km OK | P =   2.00 / 8 MW OK | PD =    49.5 MW.km
+    départ 1 (tête 1278,  32 noeuds): L =   80.3 / 50 km KO | P = -13.00 / 8 MW KO | PD =   287.7 MW.km
+  Source 3: P =  -14.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   422.5 MW.km | 62 noeuds dans l'arbre
+    départ 0 (tête 319,  20 noeuds): L =   43.5 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    90.2 MW.km
+    départ 1 (tête 601,  41 noeuds): L =   89.6 / 50 km KO | P = -13.00 / 8 MW KO | PD =   332.3 MW.km
+  Source 4: P =   14.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   343.1 MW.km | 44 noeuds dans l'arbre
+    départ 0 (tête 152,  25 noeuds): L =   60.1 / 50 km KO | P =   3.00 / 8 MW OK | PD =   190.2 MW.km
+    départ 1 (tête 1582,  18 noeuds): L =   44.8 / 50 km OK | P =  11.00 / 8 MW KO | PD =   152.8 MW.km
+  Source 5: P =  -49.00 /  70.00 MW OK | départs 1 / 8 OK | PD =  1219.2 MW.km | 66 noeuds dans l'arbre
+    départ 0 (tête 395,  65 noeuds): L =  154.4 / 50 km KO | P = -49.00 / 8 MW KO | PD =  1219.2 MW.km
+  Source 6: P =  -20.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   788.5 MW.km | 78 noeuds dans l'arbre
+    départ 0 (tête  76,   8 noeuds): L =   15.5 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    25.5 MW.km
+    départ 1 (tête 1382,  69 noeuds): L =  160.6 / 50 km KO | P = -19.00 / 8 MW KO | PD =   763.0 MW.km
+  Source 7: P =  -22.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   478.5 MW.km | 56 noeuds dans l'arbre
+    départ 0 (tête  25,  21 noeuds): L =   54.5 / 50 km KO | P =  -2.00 / 8 MW OK | PD =   163.3 MW.km
+    départ 1 (tête 188,   2 noeuds): L =    4.3 / 50 km OK | P =  -1.00 / 8 MW OK | PD =     6.1 MW.km
+    départ 2 (tête 1530,  32 noeuds): L =   58.2 / 50 km KO | P = -19.00 / 8 MW KO | PD =   309.1 MW.km
+  Source 8: P =  -10.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   174.6 MW.km | 31 noeuds dans l'arbre
+    départ 0 (tête 797,  17 noeuds): L =   40.5 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    56.6 MW.km
+    départ 1 (tête 916,  13 noeuds): L =   38.5 / 50 km OK | P =  -7.00 / 8 MW OK | PD =   118.0 MW.km
+  Source 9: P =  -11.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   401.1 MW.km | 58 noeuds dans l'arbre
+    départ 0 (tête  50,  32 noeuds): L =   71.3 / 50 km KO | P =   0.00 / 8 MW OK | PD =   115.2 MW.km
+    départ 1 (tête 1715,  25 noeuds): L =   72.1 / 50 km KO | P = -11.00 / 8 MW KO | PD =   285.9 MW.km
+  Source 10: P =  -15.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   522.1 MW.km | 69 noeuds dans l'arbre
+    départ 0 (tête 1457,  65 noeuds): L =  151.3 / 50 km KO | P = -16.00 / 8 MW KO | PD =   515.7 MW.km
+    départ 1 (tête 1827,   3 noeuds): L =    6.4 / 50 km OK | P =   1.00 / 8 MW OK | PD =     6.4 MW.km
+  Source 11: P =  -14.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   404.6 MW.km | 39 noeuds dans l'arbre
+    départ 0 (tête 105,  21 noeuds): L =   51.0 / 50 km KO | P =  -3.00 / 8 MW OK | PD =   234.0 MW.km
+    départ 1 (tête 1540,   4 noeuds): L =   18.0 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    44.6 MW.km
+    départ 2 (tête 1910,  13 noeuds): L =   27.0 / 50 km OK | P =  -9.00 / 8 MW KO | PD =   126.0 MW.km
+
+=== TrèsGrand_N2000_S12_0.20_Ete | distance racine capacité ===
+temps de calcul : 0.33 s
+J = L_tot = 1610.3 km  PD = 6480.7 MW.km  -> contraintes violées
+  Source 0: P =  -41.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1186.8 MW.km | 87 noeuds dans l'arbre
+    départ 0 (tête 111,  69 noeuds): L =  168.0 / 50 km KO | P = -42.00 / 8 MW KO | PD =  1090.8 MW.km
+    départ 1 (tête 1991,  17 noeuds): L =   38.1 / 50 km OK | P =   1.00 / 8 MW OK | PD =    96.1 MW.km
+  Source 1: P =    9.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   202.4 MW.km | 44 noeuds dans l'arbre
+    départ 0 (tête  20,  13 noeuds): L =   29.5 / 50 km OK | P =   3.00 / 8 MW OK | PD =    41.0 MW.km
+    départ 1 (tête 168,  30 noeuds): L =   83.6 / 50 km KO | P =   6.00 / 8 MW OK | PD =   161.4 MW.km
+  Source 2: P =  -11.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   337.2 MW.km | 49 noeuds dans l'arbre
+    départ 0 (tête 842,  16 noeuds): L =   49.2 / 50 km OK | P =   2.00 / 8 MW OK | PD =    49.5 MW.km
+    départ 1 (tête 1278,  32 noeuds): L =   80.3 / 50 km KO | P = -13.00 / 8 MW KO | PD =   287.7 MW.km
+  Source 3: P =  -14.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   422.5 MW.km | 62 noeuds dans l'arbre
+    départ 0 (tête 319,  20 noeuds): L =   43.5 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    90.2 MW.km
+    départ 1 (tête 601,  41 noeuds): L =   89.6 / 50 km KO | P = -13.00 / 8 MW KO | PD =   332.3 MW.km
+  Source 4: P =   14.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   343.1 MW.km | 44 noeuds dans l'arbre
+    départ 0 (tête 152,  25 noeuds): L =   60.1 / 50 km KO | P =   3.00 / 8 MW OK | PD =   190.2 MW.km
+    départ 1 (tête 1582,  18 noeuds): L =   44.8 / 50 km OK | P =  11.00 / 8 MW KO | PD =   152.8 MW.km
+  Source 5: P =  -49.00 /  70.00 MW OK | départs 1 / 8 OK | PD =  1219.2 MW.km | 66 noeuds dans l'arbre
+    départ 0 (tête 395,  65 noeuds): L =  154.4 / 50 km KO | P = -49.00 / 8 MW KO | PD =  1219.2 MW.km
+  Source 6: P =  -20.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   788.5 MW.km | 78 noeuds dans l'arbre
+    départ 0 (tête  76,   8 noeuds): L =   15.5 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    25.5 MW.km
+    départ 1 (tête 1382,  69 noeuds): L =  160.6 / 50 km KO | P = -19.00 / 8 MW KO | PD =   763.0 MW.km
+  Source 7: P =  -22.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   478.5 MW.km | 56 noeuds dans l'arbre
+    départ 0 (tête  25,  21 noeuds): L =   54.5 / 50 km KO | P =  -2.00 / 8 MW OK | PD =   163.3 MW.km
+    départ 1 (tête 188,   2 noeuds): L =    4.3 / 50 km OK | P =  -1.00 / 8 MW OK | PD =     6.1 MW.km
+    départ 2 (tête 1530,  32 noeuds): L =   58.2 / 50 km KO | P = -19.00 / 8 MW KO | PD =   309.1 MW.km
+  Source 8: P =  -10.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   174.6 MW.km | 31 noeuds dans l'arbre
+    départ 0 (tête 797,  17 noeuds): L =   40.5 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    56.6 MW.km
+    départ 1 (tête 916,  13 noeuds): L =   38.5 / 50 km OK | P =  -7.00 / 8 MW OK | PD =   118.0 MW.km
+  Source 9: P =  -11.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   401.1 MW.km | 58 noeuds dans l'arbre
+    départ 0 (tête  50,  32 noeuds): L =   71.3 / 50 km KO | P =   0.00 / 8 MW OK | PD =   115.2 MW.km
+    départ 1 (tête 1715,  25 noeuds): L =   72.1 / 50 km KO | P = -11.00 / 8 MW KO | PD =   285.9 MW.km
+  Source 10: P =  -15.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   522.1 MW.km | 69 noeuds dans l'arbre
+    départ 0 (tête 1457,  65 noeuds): L =  151.3 / 50 km KO | P = -16.00 / 8 MW KO | PD =   515.7 MW.km
+    départ 1 (tête 1827,   3 noeuds): L =    6.4 / 50 km OK | P =   1.00 / 8 MW OK | PD =     6.4 MW.km
+  Source 11: P =  -14.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   404.6 MW.km | 39 noeuds dans l'arbre
+    départ 0 (tête 105,  21 noeuds): L =   51.0 / 50 km KO | P =  -3.00 / 8 MW OK | PD =   234.0 MW.km
+    départ 1 (tête 1540,   4 noeuds): L =   18.0 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    44.6 MW.km
+    départ 2 (tête 1910,  13 noeuds): L =   27.0 / 50 km OK | P =  -9.00 / 8 MW KO | PD =   126.0 MW.km
+
+=== TrèsGrand_N2000_S12_0.20_Ete | distance variable ===
+temps de calcul : 37.84 s
+J = L_tot = 1661.3 km  PD = 11522.3 MW.km  -> contraintes violées
+  Source 0: P =  -22.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   209.1 MW.km | 23 noeuds dans l'arbre | w = 0.00831
+    départ 0 (tête 111,  16 noeuds): L =   39.1 / 50 km OK | P = -17.00 / 8 MW KO | PD =   179.9 MW.km
+    départ 1 (tête 1991,   6 noeuds): L =    8.5 / 50 km OK | P =  -5.00 / 8 MW OK | PD =    29.2 MW.km
+  Source 1: P =    6.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   443.8 MW.km | 57 noeuds dans l'arbre | w = 0.0128
+    départ 0 (tête  20,  11 noeuds): L =   23.8 / 50 km OK | P =   6.00 / 8 MW OK | PD =    67.4 MW.km
+    départ 1 (tête 168,  45 noeuds): L =  128.3 / 50 km KO | P =   0.00 / 8 MW OK | PD =   376.4 MW.km
+  Source 2: P =  -20.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   521.7 MW.km | 41 noeuds dans l'arbre | w = 0.00705
+    départ 0 (tête 842,   5 noeuds): L =   10.4 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    23.1 MW.km
+    départ 1 (tête 1278,  35 noeuds): L =   87.5 / 50 km KO | P = -19.00 / 8 MW KO | PD =   498.5 MW.km
+  Source 3: P =  -22.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   557.2 MW.km | 58 noeuds dans l'arbre | w = 0.0156
+    départ 0 (tête 319,  17 noeuds): L =   35.5 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    53.5 MW.km
+    départ 1 (tête 601,  40 noeuds): L =   90.1 / 50 km KO | P = -19.00 / 8 MW KO | PD =   503.6 MW.km
+  Source 4: P =  -41.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  7246.5 MW.km | 189 noeuds dans l'arbre | w = 0.0341
+    départ 0 (tête 152,  42 noeuds): L =  107.9 / 50 km KO | P =   6.00 / 8 MW OK | PD =   339.5 MW.km
+    départ 1 (tête 1582, 146 noeuds): L =  383.0 / 50 km KO | P = -47.00 / 8 MW KO | PD =  6907.0 MW.km
+  Source 5: P =  -12.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   130.6 MW.km | 16 noeuds dans l'arbre | w = 0.00359
+    départ 0 (tête 395,  15 noeuds): L =   36.1 / 50 km OK | P = -12.00 / 8 MW KO | PD =   130.6 MW.km
+  Source 6: P =   -5.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   175.1 MW.km | 49 noeuds dans l'arbre | w = 0.0113
+    départ 0 (tête  76,   4 noeuds): L =    7.4 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    20.3 MW.km
+    départ 1 (tête 1382,  44 noeuds): L =   97.3 / 50 km KO | P =  -2.00 / 8 MW OK | PD =   154.8 MW.km
+  Source 7: P =  -22.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   488.7 MW.km | 61 noeuds dans l'arbre | w = 0.0119
+    départ 0 (tête  25,  26 noeuds): L =   69.9 / 50 km KO | P =  -2.00 / 8 MW OK | PD =   173.4 MW.km
+    départ 1 (tête 188,   2 noeuds): L =    4.3 / 50 km OK | P =  -1.00 / 8 MW OK | PD =     6.1 MW.km
+    départ 2 (tête 1530,  32 noeuds): L =   58.2 / 50 km KO | P = -19.00 / 8 MW KO | PD =   309.1 MW.km
+  Source 8: P =   -6.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   101.8 MW.km | 27 noeuds dans l'arbre | w = 0.0182
+    départ 0 (tête 759,  13 noeuds): L =   28.9 / 50 km OK | P =  -1.00 / 8 MW OK | PD =    35.3 MW.km
+    départ 1 (tête 797,  11 noeuds): L =   28.9 / 50 km OK | P =  -2.00 / 8 MW OK | PD =    48.3 MW.km
+    départ 2 (tête 916,   2 noeuds): L =    6.0 / 50 km OK | P =  -3.00 / 8 MW OK | PD =    18.1 MW.km
+  Source 9: P =  -17.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   651.0 MW.km | 67 noeuds dans l'arbre | w = 0.0334
+    départ 0 (tête  50,  40 noeuds): L =  103.2 / 50 km KO | P =  -3.00 / 8 MW OK | PD =   270.4 MW.km
+    départ 1 (tête 1715,  26 noeuds): L =   74.8 / 50 km KO | P = -14.00 / 8 MW KO | PD =   380.6 MW.km
+  Source 10: P =   -9.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   430.1 MW.km | 56 noeuds dans l'arbre | w = 0.0112
+    départ 0 (tête 1457,  52 noeuds): L =  120.1 / 50 km KO | P = -10.00 / 8 MW KO | PD =   423.7 MW.km
+    départ 1 (tête 1827,   3 noeuds): L =    6.4 / 50 km OK | P =   1.00 / 8 MW OK | PD =     6.4 MW.km
+  Source 11: P =  -14.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   566.8 MW.km | 44 noeuds dans l'arbre | w = 0.0231
+    départ 0 (tête 105,  14 noeuds): L =   30.9 / 50 km OK | P =   2.00 / 8 MW OK | PD =    64.2 MW.km
+    départ 1 (tête 1540,   3 noeuds): L =   11.9 / 50 km OK | P =   0.00 / 8 MW OK | PD =     8.6 MW.km
+    départ 2 (tête 1910,  26 noeuds): L =   62.7 / 50 km KO | P = -16.00 / 8 MW KO | PD =   494.0 MW.km
+
+=== TrèsGrand_N2000_S12_0.20_Hiver | distance non pondérée ===
+temps de calcul : 0.33 s
+J = L_tot = 1681.5 km  PD = 14078.3 MW.km  -> contraintes violées
+  Source 0: P =   80.00 /  70.00 MW KO | départs 2 / 8 OK | PD =  2985.0 MW.km | 96 noeuds dans l'arbre
+    départ 0 (tête 247,  13 noeuds): L =   34.9 / 50 km OK | P =  12.00 / 8 MW KO | PD =   123.1 MW.km
+    départ 1 (tête 446,  82 noeuds): L =  203.9 / 50 km KO | P =  68.00 / 8 MW KO | PD =  2861.9 MW.km
+  Source 1: P =   32.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   523.2 MW.km | 47 noeuds dans l'arbre
+    départ 0 (tête 112,  27 noeuds): L =   63.9 / 50 km KO | P =  14.00 / 8 MW KO | PD =   261.7 MW.km
+    départ 1 (tête 224,  18 noeuds): L =   51.2 / 50 km KO | P =  17.00 / 8 MW KO | PD =   259.1 MW.km
+    départ 2 (tête 301,   1 noeuds): L =    2.5 / 50 km OK | P =   1.00 / 8 MW OK | PD =     2.5 MW.km
+  Source 2: P =   38.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1153.7 MW.km | 54 noeuds dans l'arbre
+    départ 0 (tête 169,  49 noeuds): L =  114.3 / 50 km KO | P =  37.00 / 8 MW KO | PD =  1151.1 MW.km
+    départ 1 (tête 214,   4 noeuds): L =   10.5 / 50 km OK | P =   1.00 / 8 MW OK | PD =     2.6 MW.km
+  Source 3: P =   40.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   867.9 MW.km | 59 noeuds dans l'arbre
+    départ 0 (tête 394,  41 noeuds): L =  109.7 / 50 km KO | P =  27.00 / 8 MW KO | PD =   721.4 MW.km
+    départ 1 (tête 737,   5 noeuds): L =   13.5 / 50 km OK | P =   4.00 / 8 MW OK | PD =    25.5 MW.km
+    départ 2 (tête 1088,  12 noeuds): L =   23.2 / 50 km OK | P =   9.00 / 8 MW KO | PD =   121.1 MW.km
+  Source 4: P =   22.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   318.9 MW.km | 36 noeuds dans l'arbre
+    départ 0 (tête  98,  25 noeuds): L =   62.3 / 50 km KO | P =  14.00 / 8 MW KO | PD =   264.6 MW.km
+    départ 1 (tête 448,  10 noeuds): L =   14.5 / 50 km OK | P =   8.00 / 8 MW OK | PD =    54.3 MW.km
+  Source 5: P =   41.00 /  70.00 MW OK | départs 1 / 8 OK | PD =  1732.2 MW.km | 65 noeuds dans l'arbre
+    départ 0 (tête 159,  64 noeuds): L =  183.5 / 50 km KO | P =  41.00 / 8 MW KO | PD =  1732.2 MW.km
+  Source 6: P =   73.00 /  70.00 MW KO | départs 2 / 8 OK | PD =  2466.7 MW.km | 90 noeuds dans l'arbre
+    départ 0 (tête 165,  49 noeuds): L =  120.1 / 50 km KO | P =  41.00 / 8 MW KO | PD =  1603.4 MW.km
+    départ 1 (tête 1587,  40 noeuds): L =   83.3 / 50 km KO | P =  32.00 / 8 MW KO | PD =   863.4 MW.km
+  Source 7: P =   25.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   340.5 MW.km | 32 noeuds dans l'arbre
+    départ 0 (tête 338,  21 noeuds): L =   51.2 / 50 km KO | P =  15.00 / 8 MW KO | PD =   207.7 MW.km
+    départ 1 (tête 802,  10 noeuds): L =   23.0 / 50 km OK | P =  10.00 / 8 MW KO | PD =   132.8 MW.km
+  Source 8: P =   30.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   638.1 MW.km | 42 noeuds dans l'arbre
+    départ 0 (tête 704,  21 noeuds): L =   44.3 / 50 km OK | P =  17.00 / 8 MW KO | PD =   345.3 MW.km
+    départ 1 (tête 1200,  20 noeuds): L =   52.1 / 50 km KO | P =  13.00 / 8 MW KO | PD =   292.8 MW.km
+  Source 9: P =   51.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1258.7 MW.km | 65 noeuds dans l'arbre
+    départ 0 (tête  83,  21 noeuds): L =   57.4 / 50 km KO | P =  18.00 / 8 MW KO | PD =   468.3 MW.km
+    départ 1 (tête 1419,  43 noeuds): L =  107.5 / 50 km KO | P =  33.00 / 8 MW KO | PD =   790.4 MW.km
+  Source 10: P =   44.00 /  70.00 MW OK | départs 3 / 8 OK | PD =  1223.1 MW.km | 69 noeuds dans l'arbre
+    départ 0 (tête 1033,   4 noeuds): L =   11.2 / 50 km OK | P =   2.00 / 8 MW OK | PD =    17.6 MW.km
+    départ 1 (tête 1384,  31 noeuds): L =   73.6 / 50 km KO | P =  19.00 / 8 MW KO | PD =   336.0 MW.km
+    départ 2 (tête 1559,  33 noeuds): L =   76.2 / 50 km KO | P =  23.00 / 8 MW KO | PD =   869.4 MW.km
+  Source 11: P =   27.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   570.5 MW.km | 42 noeuds dans l'arbre
+    départ 0 (tête 1252,  41 noeuds): L =   93.9 / 50 km KO | P =  27.00 / 8 MW KO | PD =   570.5 MW.km
+
+=== TrèsGrand_N2000_S12_0.20_Hiver | distance capacité ===
+temps de calcul : 0.33 s
+J = L_tot = 1681.5 km  PD = 14078.3 MW.km  -> contraintes violées
+  Source 0: P =   80.00 /  70.00 MW KO | départs 2 / 8 OK | PD =  2985.0 MW.km | 96 noeuds dans l'arbre
+    départ 0 (tête 247,  13 noeuds): L =   34.9 / 50 km OK | P =  12.00 / 8 MW KO | PD =   123.1 MW.km
+    départ 1 (tête 446,  82 noeuds): L =  203.9 / 50 km KO | P =  68.00 / 8 MW KO | PD =  2861.9 MW.km
+  Source 1: P =   32.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   523.2 MW.km | 47 noeuds dans l'arbre
+    départ 0 (tête 112,  27 noeuds): L =   63.9 / 50 km KO | P =  14.00 / 8 MW KO | PD =   261.7 MW.km
+    départ 1 (tête 224,  18 noeuds): L =   51.2 / 50 km KO | P =  17.00 / 8 MW KO | PD =   259.1 MW.km
+    départ 2 (tête 301,   1 noeuds): L =    2.5 / 50 km OK | P =   1.00 / 8 MW OK | PD =     2.5 MW.km
+  Source 2: P =   38.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1153.7 MW.km | 54 noeuds dans l'arbre
+    départ 0 (tête 169,  49 noeuds): L =  114.3 / 50 km KO | P =  37.00 / 8 MW KO | PD =  1151.1 MW.km
+    départ 1 (tête 214,   4 noeuds): L =   10.5 / 50 km OK | P =   1.00 / 8 MW OK | PD =     2.6 MW.km
+  Source 3: P =   40.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   867.9 MW.km | 59 noeuds dans l'arbre
+    départ 0 (tête 394,  41 noeuds): L =  109.7 / 50 km KO | P =  27.00 / 8 MW KO | PD =   721.4 MW.km
+    départ 1 (tête 737,   5 noeuds): L =   13.5 / 50 km OK | P =   4.00 / 8 MW OK | PD =    25.5 MW.km
+    départ 2 (tête 1088,  12 noeuds): L =   23.2 / 50 km OK | P =   9.00 / 8 MW KO | PD =   121.1 MW.km
+  Source 4: P =   22.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   318.9 MW.km | 36 noeuds dans l'arbre
+    départ 0 (tête  98,  25 noeuds): L =   62.3 / 50 km KO | P =  14.00 / 8 MW KO | PD =   264.6 MW.km
+    départ 1 (tête 448,  10 noeuds): L =   14.5 / 50 km OK | P =   8.00 / 8 MW OK | PD =    54.3 MW.km
+  Source 5: P =   41.00 /  70.00 MW OK | départs 1 / 8 OK | PD =  1732.2 MW.km | 65 noeuds dans l'arbre
+    départ 0 (tête 159,  64 noeuds): L =  183.5 / 50 km KO | P =  41.00 / 8 MW KO | PD =  1732.2 MW.km
+  Source 6: P =   73.00 /  70.00 MW KO | départs 2 / 8 OK | PD =  2466.7 MW.km | 90 noeuds dans l'arbre
+    départ 0 (tête 165,  49 noeuds): L =  120.1 / 50 km KO | P =  41.00 / 8 MW KO | PD =  1603.4 MW.km
+    départ 1 (tête 1587,  40 noeuds): L =   83.3 / 50 km KO | P =  32.00 / 8 MW KO | PD =   863.4 MW.km
+  Source 7: P =   25.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   340.5 MW.km | 32 noeuds dans l'arbre
+    départ 0 (tête 338,  21 noeuds): L =   51.2 / 50 km KO | P =  15.00 / 8 MW KO | PD =   207.7 MW.km
+    départ 1 (tête 802,  10 noeuds): L =   23.0 / 50 km OK | P =  10.00 / 8 MW KO | PD =   132.8 MW.km
+  Source 8: P =   30.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   638.1 MW.km | 42 noeuds dans l'arbre
+    départ 0 (tête 704,  21 noeuds): L =   44.3 / 50 km OK | P =  17.00 / 8 MW KO | PD =   345.3 MW.km
+    départ 1 (tête 1200,  20 noeuds): L =   52.1 / 50 km KO | P =  13.00 / 8 MW KO | PD =   292.8 MW.km
+  Source 9: P =   51.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1258.7 MW.km | 65 noeuds dans l'arbre
+    départ 0 (tête  83,  21 noeuds): L =   57.4 / 50 km KO | P =  18.00 / 8 MW KO | PD =   468.3 MW.km
+    départ 1 (tête 1419,  43 noeuds): L =  107.5 / 50 km KO | P =  33.00 / 8 MW KO | PD =   790.4 MW.km
+  Source 10: P =   44.00 /  70.00 MW OK | départs 3 / 8 OK | PD =  1223.1 MW.km | 69 noeuds dans l'arbre
+    départ 0 (tête 1033,   4 noeuds): L =   11.2 / 50 km OK | P =   2.00 / 8 MW OK | PD =    17.6 MW.km
+    départ 1 (tête 1384,  31 noeuds): L =   73.6 / 50 km KO | P =  19.00 / 8 MW KO | PD =   336.0 MW.km
+    départ 2 (tête 1559,  33 noeuds): L =   76.2 / 50 km KO | P =  23.00 / 8 MW KO | PD =   869.4 MW.km
+  Source 11: P =   27.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   570.5 MW.km | 42 noeuds dans l'arbre
+    départ 0 (tête 1252,  41 noeuds): L =   93.9 / 50 km KO | P =  27.00 / 8 MW KO | PD =   570.5 MW.km
+
+=== TrèsGrand_N2000_S12_0.20_Hiver | distance racine capacité ===
+temps de calcul : 0.35 s
+J = L_tot = 1681.5 km  PD = 14078.3 MW.km  -> contraintes violées
+  Source 0: P =   80.00 /  70.00 MW KO | départs 2 / 8 OK | PD =  2985.0 MW.km | 96 noeuds dans l'arbre
+    départ 0 (tête 247,  13 noeuds): L =   34.9 / 50 km OK | P =  12.00 / 8 MW KO | PD =   123.1 MW.km
+    départ 1 (tête 446,  82 noeuds): L =  203.9 / 50 km KO | P =  68.00 / 8 MW KO | PD =  2861.9 MW.km
+  Source 1: P =   32.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   523.2 MW.km | 47 noeuds dans l'arbre
+    départ 0 (tête 112,  27 noeuds): L =   63.9 / 50 km KO | P =  14.00 / 8 MW KO | PD =   261.7 MW.km
+    départ 1 (tête 224,  18 noeuds): L =   51.2 / 50 km KO | P =  17.00 / 8 MW KO | PD =   259.1 MW.km
+    départ 2 (tête 301,   1 noeuds): L =    2.5 / 50 km OK | P =   1.00 / 8 MW OK | PD =     2.5 MW.km
+  Source 2: P =   38.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1153.7 MW.km | 54 noeuds dans l'arbre
+    départ 0 (tête 169,  49 noeuds): L =  114.3 / 50 km KO | P =  37.00 / 8 MW KO | PD =  1151.1 MW.km
+    départ 1 (tête 214,   4 noeuds): L =   10.5 / 50 km OK | P =   1.00 / 8 MW OK | PD =     2.6 MW.km
+  Source 3: P =   40.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   867.9 MW.km | 59 noeuds dans l'arbre
+    départ 0 (tête 394,  41 noeuds): L =  109.7 / 50 km KO | P =  27.00 / 8 MW KO | PD =   721.4 MW.km
+    départ 1 (tête 737,   5 noeuds): L =   13.5 / 50 km OK | P =   4.00 / 8 MW OK | PD =    25.5 MW.km
+    départ 2 (tête 1088,  12 noeuds): L =   23.2 / 50 km OK | P =   9.00 / 8 MW KO | PD =   121.1 MW.km
+  Source 4: P =   22.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   318.9 MW.km | 36 noeuds dans l'arbre
+    départ 0 (tête  98,  25 noeuds): L =   62.3 / 50 km KO | P =  14.00 / 8 MW KO | PD =   264.6 MW.km
+    départ 1 (tête 448,  10 noeuds): L =   14.5 / 50 km OK | P =   8.00 / 8 MW OK | PD =    54.3 MW.km
+  Source 5: P =   41.00 /  70.00 MW OK | départs 1 / 8 OK | PD =  1732.2 MW.km | 65 noeuds dans l'arbre
+    départ 0 (tête 159,  64 noeuds): L =  183.5 / 50 km KO | P =  41.00 / 8 MW KO | PD =  1732.2 MW.km
+  Source 6: P =   73.00 /  70.00 MW KO | départs 2 / 8 OK | PD =  2466.7 MW.km | 90 noeuds dans l'arbre
+    départ 0 (tête 165,  49 noeuds): L =  120.1 / 50 km KO | P =  41.00 / 8 MW KO | PD =  1603.4 MW.km
+    départ 1 (tête 1587,  40 noeuds): L =   83.3 / 50 km KO | P =  32.00 / 8 MW KO | PD =   863.4 MW.km
+  Source 7: P =   25.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   340.5 MW.km | 32 noeuds dans l'arbre
+    départ 0 (tête 338,  21 noeuds): L =   51.2 / 50 km KO | P =  15.00 / 8 MW KO | PD =   207.7 MW.km
+    départ 1 (tête 802,  10 noeuds): L =   23.0 / 50 km OK | P =  10.00 / 8 MW KO | PD =   132.8 MW.km
+  Source 8: P =   30.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   638.1 MW.km | 42 noeuds dans l'arbre
+    départ 0 (tête 704,  21 noeuds): L =   44.3 / 50 km OK | P =  17.00 / 8 MW KO | PD =   345.3 MW.km
+    départ 1 (tête 1200,  20 noeuds): L =   52.1 / 50 km KO | P =  13.00 / 8 MW KO | PD =   292.8 MW.km
+  Source 9: P =   51.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1258.7 MW.km | 65 noeuds dans l'arbre
+    départ 0 (tête  83,  21 noeuds): L =   57.4 / 50 km KO | P =  18.00 / 8 MW KO | PD =   468.3 MW.km
+    départ 1 (tête 1419,  43 noeuds): L =  107.5 / 50 km KO | P =  33.00 / 8 MW KO | PD =   790.4 MW.km
+  Source 10: P =   44.00 /  70.00 MW OK | départs 3 / 8 OK | PD =  1223.1 MW.km | 69 noeuds dans l'arbre
+    départ 0 (tête 1033,   4 noeuds): L =   11.2 / 50 km OK | P =   2.00 / 8 MW OK | PD =    17.6 MW.km
+    départ 1 (tête 1384,  31 noeuds): L =   73.6 / 50 km KO | P =  19.00 / 8 MW KO | PD =   336.0 MW.km
+    départ 2 (tête 1559,  33 noeuds): L =   76.2 / 50 km KO | P =  23.00 / 8 MW KO | PD =   869.4 MW.km
+  Source 11: P =   27.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   570.5 MW.km | 42 noeuds dans l'arbre
+    départ 0 (tête 1252,  41 noeuds): L =   93.9 / 50 km KO | P =  27.00 / 8 MW KO | PD =   570.5 MW.km
+
+=== TrèsGrand_N2000_S12_0.20_Hiver | distance variable ===
+temps de calcul : 38.43 s
+J = L_tot = 1764.9 km  PD = 14964.1 MW.km  -> contraintes violées
+  Source 0: P =   56.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1983.1 MW.km | 61 noeuds dans l'arbre | w = 5.27e-05
+    départ 0 (tête 247,   9 noeuds): L =   24.2 / 50 km OK | P =   9.00 / 8 MW KO | PD =    74.6 MW.km
+    départ 1 (tête 446,  51 noeuds): L =  128.4 / 50 km KO | P =  47.00 / 8 MW KO | PD =  1908.6 MW.km
+  Source 1: P =   53.00 /  70.00 MW OK | départs 3 / 8 OK | PD =  2214.7 MW.km | 83 noeuds dans l'arbre | w = 0.000115
+    départ 0 (tête 112,  68 noeuds): L =  159.2 / 50 km KO | P =  39.00 / 8 MW KO | PD =  2038.9 MW.km
+    départ 1 (tête 224,  13 noeuds): L =   32.8 / 50 km OK | P =  13.00 / 8 MW KO | PD =   173.3 MW.km
+    départ 2 (tête 301,   1 noeuds): L =    2.5 / 50 km OK | P =   1.00 / 8 MW OK | PD =     2.5 MW.km
+  Source 2: P =   35.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1194.1 MW.km | 57 noeuds dans l'arbre | w = 0.00011
+    départ 0 (tête 169,  47 noeuds): L =  111.3 / 50 km KO | P =  33.00 / 8 MW KO | PD =  1173.0 MW.km
+    départ 1 (tête 214,   9 noeuds): L =   18.5 / 50 km OK | P =   2.00 / 8 MW OK | PD =    21.1 MW.km
+  Source 3: P =   38.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   835.9 MW.km | 54 noeuds dans l'arbre | w = 0.000125
+    départ 0 (tête 394,  39 noeuds): L =  113.6 / 50 km KO | P =  27.00 / 8 MW KO | PD =   729.5 MW.km
+    départ 1 (tête 737,   5 noeuds): L =   13.5 / 50 km OK | P =   4.00 / 8 MW OK | PD =    25.5 MW.km
+    départ 2 (tête 1088,   9 noeuds): L =   16.3 / 50 km OK | P =   7.00 / 8 MW OK | PD =    80.9 MW.km
+  Source 4: P =   36.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   670.9 MW.km | 55 noeuds dans l'arbre | w = 0.000139
+    départ 0 (tête  98,  32 noeuds): L =   79.2 / 50 km KO | P =  19.00 / 8 MW KO | PD =   414.7 MW.km
+    départ 1 (tête 448,  22 noeuds): L =   40.2 / 50 km OK | P =  17.00 / 8 MW KO | PD =   256.2 MW.km
+  Source 5: P =   29.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   887.4 MW.km | 55 noeuds dans l'arbre | w = 8.25e-05
+    départ 0 (tête 159,  54 noeuds): L =  142.9 / 50 km KO | P =  29.00 / 8 MW KO | PD =   887.4 MW.km
+  Source 6: P =   37.00 /  70.00 MW OK | départs 2 / 8 OK | PD =   744.7 MW.km | 43 noeuds dans l'arbre | w = 5.1e-05
+    départ 0 (tête 165,   6 noeuds): L =   18.7 / 50 km OK | P =   5.00 / 8 MW OK | PD =    58.7 MW.km
+    départ 1 (tête 1587,  36 noeuds): L =   72.5 / 50 km KO | P =  32.00 / 8 MW KO | PD =   686.0 MW.km
+  Source 7: P =   58.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1858.6 MW.km | 91 noeuds dans l'arbre | w = 0.000241
+    départ 0 (tête 338,  55 noeuds): L =  133.3 / 50 km KO | P =  31.00 / 8 MW KO | PD =   836.7 MW.km
+    départ 1 (tête 802,  35 noeuds): L =  101.0 / 50 km KO | P =  27.00 / 8 MW KO | PD =  1021.9 MW.km
+  Source 8: P =   45.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1822.3 MW.km | 67 noeuds dans l'arbre | w = 8.86e-05
+    départ 0 (tête 704,  54 noeuds): L =  125.4 / 50 km KO | P =  36.00 / 8 MW KO | PD =  1635.6 MW.km
+    départ 1 (tête 1200,  12 noeuds): L =   33.8 / 50 km OK | P =   9.00 / 8 MW KO | PD =   186.7 MW.km
+  Source 9: P =   49.00 /  70.00 MW OK | départs 2 / 8 OK | PD =  1199.9 MW.km | 64 noeuds dans l'arbre | w = 0.000122
+    départ 0 (tête  83,  25 noeuds): L =   66.6 / 50 km KO | P =  19.00 / 8 MW KO | PD =   521.5 MW.km
+    départ 1 (tête 1419,  38 noeuds): L =   99.1 / 50 km KO | P =  30.00 / 8 MW KO | PD =   678.4 MW.km
+  Source 10: P =   38.00 /  70.00 MW OK | départs 3 / 8 OK | PD =   920.2 MW.km | 58 noeuds dans l'arbre | w = 0.000133
+    départ 0 (tête 1033,   4 noeuds): L =   11.2 / 50 km OK | P =   2.00 / 8 MW OK | PD =    17.6 MW.km
+    départ 1 (tête 1384,  45 noeuds): L =  106.6 / 50 km KO | P =  32.00 / 8 MW KO | PD =   852.1 MW.km
+    départ 2 (tête 1559,   8 noeuds): L =   15.5 / 50 km OK | P =   4.00 / 8 MW OK | PD =    50.5 MW.km
+  Source 11: P =   29.00 /  70.00 MW OK | départs 1 / 8 OK | PD =   632.1 MW.km | 41 noeuds dans l'arbre | w = 0.000104
+    départ 0 (tête 1252,  40 noeuds): L =   98.7 / 50 km KO | P =  29.00 / 8 MW KO | PD =   632.1 MW.km

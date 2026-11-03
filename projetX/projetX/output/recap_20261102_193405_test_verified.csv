@@ -1,0 +1,33 @@
+Graphe;Type;Charges (dont <0);Sources;Distance;J = L_tot (km);PD (MW·km);L_max départ;P_max départ;P_max source;Nb départs;Faisable
+Petit_N60_S2_0.20_Ete;Petit;12 (6);2;non pondérée;104.1;173.5;OK;OK;OK;OK;oui
+Petit_N60_S2_0.20_Ete;Petit;12 (6);2;capacité;104.1;173.5;OK;OK;OK;OK;oui
+Petit_N60_S2_0.20_Ete;Petit;12 (6);2;racine capacité;104.1;173.5;OK;OK;OK;OK;oui
+Petit_N60_S2_0.20_Ete;Petit;12 (6);2;variable;104.1;173.5;OK;OK;OK;OK;oui
+Petit_N60_S2_0.20_Hiver;Petit;12 (0);2;non pondérée;103.6;136.8;KO (1/2);OK;OK;OK;non
+Petit_N60_S2_0.20_Hiver;Petit;12 (0);2;capacité;103.6;136.8;KO (1/2);OK;OK;OK;non
+Petit_N60_S2_0.20_Hiver;Petit;12 (0);2;racine capacité;103.6;136.8;KO (1/2);OK;OK;OK;non
+Petit_N60_S2_0.20_Hiver;Petit;12 (0);2;variable;103.2;136.8;KO (1/2);OK;OK;OK;non
+Moyen_N200_S4_0.20_Ete;Moyen;40 (20);4;non pondérée;322.2;828.2;KO (3/10);KO (1/10);OK;OK;non
+Moyen_N200_S4_0.20_Ete;Moyen;40 (20);4;capacité;322.2;828.2;KO (3/10);KO (1/10);OK;OK;non
+Moyen_N200_S4_0.20_Ete;Moyen;40 (20);4;racine capacité;322.2;828.2;KO (3/10);KO (1/10);OK;OK;non
+Moyen_N200_S4_0.20_Ete;Moyen;40 (20);4;variable;315.3;703.4;KO (2/10);OK;OK;OK;non
+Moyen_N200_S4_0.20_Hiver;Moyen;40 (0);4;non pondérée;325.0;1119.0;KO (1/10);KO (2/10);OK;OK;non
+Moyen_N200_S4_0.20_Hiver;Moyen;40 (0);4;capacité;325.0;1119.0;KO (1/10);KO (2/10);OK;OK;non
+Moyen_N200_S4_0.20_Hiver;Moyen;40 (0);4;racine capacité;325.0;1119.0;KO (1/10);KO (2/10);OK;OK;non
+Moyen_N200_S4_0.20_Hiver;Moyen;40 (0);4;variable;321.8;1117.0;KO (2/10);KO (1/10);OK;OK;non
+Grand_N600_S6_0.20_Ete;Grand;120 (60);6;non pondérée;620.3;2010.9;KO (5/11);KO (3/11);OK;OK;non
+Grand_N600_S6_0.20_Ete;Grand;120 (60);6;capacité;620.3;2010.9;KO (5/11);KO (3/11);OK;OK;non
+Grand_N600_S6_0.20_Ete;Grand;120 (60);6;racine capacité;620.3;2010.9;KO (5/11);KO (3/11);OK;OK;non
+Grand_N600_S6_0.20_Ete;Grand;120 (60);6;variable;662.2;1666.6;KO (6/12);KO (2/12);OK;OK;non
+Grand_N600_S6_0.20_Hiver;Grand;120 (0);6;non pondérée;641.3;3419.5;KO (7/15);KO (7/15);OK;OK;non
+Grand_N600_S6_0.20_Hiver;Grand;120 (0);6;capacité;641.3;3419.5;KO (7/15);KO (7/15);OK;OK;non
+Grand_N600_S6_0.20_Hiver;Grand;120 (0);6;racine capacité;641.3;3419.5;KO (7/15);KO (7/15);OK;OK;non
+Grand_N600_S6_0.20_Hiver;Grand;120 (0);6;variable;665.0;4756.7;KO (6/13);KO (7/13);OK;OK;non
+TrèsGrand_N2000_S12_0.20_Ete;TrèsGrand;400 (200);12;non pondérée;1610.3;6480.7;KO (13/25);KO (10/25);OK;OK;non
+TrèsGrand_N2000_S12_0.20_Ete;TrèsGrand;400 (200);12;capacité;1610.3;6480.7;KO (13/25);KO (10/25);OK;OK;non
+TrèsGrand_N2000_S12_0.20_Ete;TrèsGrand;400 (200);12;racine capacité;1610.3;6480.7;KO (13/25);KO (10/25);OK;OK;non
+TrèsGrand_N2000_S12_0.20_Ete;TrèsGrand;400 (200);12;variable;1661.3;11522.3;KO (12/26);KO (9/26);OK;OK;non
+TrèsGrand_N2000_S12_0.20_Hiver;TrèsGrand;400 (0);12;non pondérée;1681.5;14078.3;KO (16/25);KO (20/25);KO (2/12);OK;non
+TrèsGrand_N2000_S12_0.20_Hiver;TrèsGrand;400 (0);12;capacité;1681.5;14078.3;KO (16/25);KO (20/25);KO (2/12);OK;non
+TrèsGrand_N2000_S12_0.20_Hiver;TrèsGrand;400 (0);12;racine capacité;1681.5;14078.3;KO (16/25);KO (20/25);KO (2/12);OK;non
+TrèsGrand_N2000_S12_0.20_Hiver;TrèsGrand;400 (0);12;variable;1764.9;14964.1;KO (14/25);KO (18/25);OK;OK;non
