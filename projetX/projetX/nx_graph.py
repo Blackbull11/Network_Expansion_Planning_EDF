@@ -102,6 +102,16 @@ class GraphData:
             # Conversion en DataFrame
             nodes = pd.DataFrame(graphe_data["nodes"])
             edges = pd.DataFrame(graphe_data["edges"])
+            # Format verified_instances : limites globales dans "electrotechnique"
+            # (copiées sur chaque source), une seule saison par fichier
+            if "electrotechnique" in graphe_data:
+                elec = graphe_data["electrotechnique"]
+                is_source = nodes["type"] == "Source"
+                nodes.loc[is_source, "p_max_depart"] = elec["puissance_max_ligne"]
+                nodes.loc[is_source, "l_max_depart"] = elec["longueur_max_depart"]
+                nodes.loc[is_source, "pl_max"] = elec["PL_max_noeud"]
+            if "demande_hivers" not in nodes.columns:
+                nodes["demande_hivers"] = nodes["demande"]
             #arcs = pd.DataFrame(graphe_data["arcs"]) # arcs are directed, whereas edges are not
             # Conversion explicite en GeoDataFrame pour l'affichage
             nodes["geometry"] = nodes["geometry"].apply(lambda coords: Point(coords))
