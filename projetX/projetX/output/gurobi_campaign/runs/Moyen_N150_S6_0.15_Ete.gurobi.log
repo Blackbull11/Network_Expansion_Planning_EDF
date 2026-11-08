@@ -1,0 +1,83 @@
+
+Gurobi 13.0.3 (win64) logging started Sun Nov  8 21:20:15 2026
+
+Set parameter LogFile to value "C:\Users\siand\dev\X_3A\RO_EDF\Network_Expansion_Planning_EDF\projetX\projetX\output\gurobi_campaign\runs\Moyen_N150_S6_0.15_Ete.gurobi.log"
+Set parameter MIPGap to value 1e-06
+Set parameter NodefileStart to value 0.5
+Set parameter SoftMemLimit to value 3
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra X7 358H, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 5 threads
+
+Non-default parameters:
+TimeLimit  1200
+SoftMemLimit  3
+MIPGap  1e-06
+NodefileStart  0.5
+LogToConsole  0
+Threads  5
+
+Academic license 2882466 - for non-commercial use only - registered to an___@polytechnique.edu
+Optimize a model with 170486 rows, 98080 columns and 1153940 nonzeros (Min)
+Model fingerprint: 0x431711be
+Model has 14790 linear objective coefficients
+Variable types: 47862 continuous, 50218 integer (50218 binary)
+Coefficient statistics:
+  Matrix range     [2e-01, 1e+02]
+  Objective range  [2e-01, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+01]
+
+Presolve removed 39102 rows and 6060 columns (presolve time = 5s)...
+Presolve removed 43288 rows and 9194 columns (presolve time = 10s)...
+Presolve removed 47298 rows and 11732 columns
+Presolve time: 14.23s
+Presolved: 123188 rows, 86348 columns, 435285 nonzeros
+Variable types: 43093 continuous, 43255 integer (42461 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   9.400000e+01   2.693322e+09     16s
+   16725    3.0894814e+02   1.018153e+00   8.227969e+09     20s
+   24567    3.4384411e+02   0.000000e+00   1.878782e+06     25s
+   32015    2.6861390e+02   0.000000e+00   4.528921e+05     30s
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   47914    1.7282870e+02   0.000000e+00   0.000000e+00     34s
+
+Root relaxation: objective 1.728287e+02, 47914 iterations, 19.03 seconds (13.50 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  172.82870    0  343          -  172.82870      -     -   39s
+     0     0  172.82870    0  355          -  172.82870      -     -   46s
+     0     0  172.82870    0  351          -  172.82870      -     -   54s
+     0     0  172.82870    0  348          -  172.82870      -     -   66s
+     0     0  172.82870    0  270          -  172.82870      -     -   72s
+     0     0  172.82870    0  288          -  172.82870      -     -   88s
+     0     0  172.82870    0  355          -  172.82870      -     -   95s
+     0     0  172.82870    0  204          -  172.82870      -     -   97s
+H    0     0                     180.3602000  172.82870  4.18%     -  100s
+H    0     0                     173.1010000  172.82870  0.16%     -  101s
+     0     0  172.82870    0  204  173.10100  172.82870  0.16%     -  106s
+     0     0  172.82870    0  204  173.10100  172.82870  0.16%     -  106s
+     0     0  172.82870    0  264  173.10100  172.82870  0.16%     -  107s
+
+Explored 1 nodes (82415 simplex iterations) in 107.99 seconds (53.49 work units)
+Thread count was 5 (of 16 available processors)
+
+Solution count 2: 173.101 180.36 
+
+Optimal solution found (tolerance 1.00e-06)
+Best objective 1.731010000000e+02, best bound 1.731010000000e+02, gap 0.0000%

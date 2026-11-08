@@ -43,3 +43,11 @@ Les arêtes sont également définies dans un *DataFrame* dont les colonnes sont
     - *puissance_ligne* : la puissance maximale pouvant transiter sur une ligne électrique,
     - *longueur_max_depart* : la longueur maximale de lignes électriques pour un départ,
     - *PL_max_noeud* : la borne que le PL ne doit pas dépasser.
+
+### 2. Instances vérifiées : *verified_instances/*
+
+Chaque instance existe en `<Classe>_N<nœuds>_S<sources>_<ratio>_<Ete|Hiver>.json` (même format que ci-dessus) et en `.pdf` (dessin du graphe).
+
+- `unfeasible/` : les 26 instances prouvées infaisables, retirées du jeu de test (voir [Expérience 3](../experiments/experiment_3_unfeasible_instances.md)). Il en reste 190 : 54 Petit, 50 Moyen, 49 Grand, 37 TrèsGrand.
+- `demand_maps/` : une carte des demandes par instance (216 images, instances infaisables comprises).
+- `ratios_charge_nette.csv` : bilans de puissance de chaque instance.

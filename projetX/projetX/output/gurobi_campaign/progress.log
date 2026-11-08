@@ -1,0 +1,127 @@
+[2026-11-08 20:35:18] ========================================================================================
+[2026-11-08 20:35:18] CAMPAIGN START: 3 runs at a time, 5 threads each, 1200 s Gurobi limit per run.
+[2026-11-08 20:35:18] Petit runs: Petit_N75_S1_0.20_Hiver, Petit_N75_S2_0.25_Ete, Petit_N75_S3_0.20_Ete, Petit_N75_S3_0.20_Hiver, Petit_N75_S3_0.25_Hiver, Petit_N90_S3_0.15_Ete, Petit_N90_S3_0.15_Hiver, Petit_N90_S3_0.20_Ete, Petit_N90_S3_0.20_Hiver, Petit_N90_S3_0.25_Hiver
+[2026-11-08 20:35:18] Moyen runs: smallest first, until 5 reach the time or memory limit without a proven optimum.
+[2026-11-08 20:35:18] Moyen has 22 to 62 loads: the DP bound is only computed up to 20 loads, so no Moyen run has a DP bound.
+[2026-11-08 20:35:18] Already done and skipped: 0.
+[2026-11-08 20:35:18] LAUNCH  Petit_N75_S1_0.20_Hiver (Petit, 15 loads)
+[2026-11-08 20:35:18] LAUNCH  Petit_N75_S2_0.25_Ete (Petit, 18 loads)
+[2026-11-08 20:35:18] LAUNCH  Petit_N75_S3_0.20_Ete (Petit, 16 loads)
+[2026-11-08 20:35:25] DP      Petit_N75_S1_0.20_Hiver: lower bound 84.5935 km in 0h00m06s
+[2026-11-08 20:35:47] DP      Petit_N75_S3_0.20_Ete: lower bound 190.2345 km in 0h00m28s
+[2026-11-08 20:38:01] DP      Petit_N75_S2_0.25_Ete: lower bound 114.6327 km in 0h02m42s
+[2026-11-08 20:38:13] FINISH  Petit_N75_S2_0.25_Ete: OPTIMAL | J = 114.7021 km | DP bound 114.6327 | solver bound 114.7021 | total 0h02m55s
+[2026-11-08 20:38:13] STATUS  Petit 1/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 57
+[2026-11-08 20:38:13]         running: Petit_N75_S1_0.20_Hiver (0h02m55s), Petit_N75_S3_0.20_Ete (0h02m55s)
+[2026-11-08 20:38:13]         estimated remaining: 1h14m08s (worst case 6h31m23s)
+[2026-11-08 20:38:13] LAUNCH  Petit_N75_S3_0.20_Hiver (Petit, 15 loads)
+[2026-11-08 20:38:28] DP      Petit_N75_S3_0.20_Hiver: lower bound 149.1192 km in 0h00m14s
+[2026-11-08 20:40:08] FINISH  Petit_N75_S3_0.20_Hiver: OPTIMAL_BY_DP | J = 149.1192 km | DP bound 149.1192 | solver bound 149.1192 | total 0h01m55s
+[2026-11-08 20:40:08] STATUS  Petit 2/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 56
+[2026-11-08 20:40:08]         running: Petit_N75_S1_0.20_Hiver (0h04m50s), Petit_N75_S3_0.20_Ete (0h04m50s)
+[2026-11-08 20:40:08]         estimated remaining: 1h12m10s (worst case 6h23m27s)
+[2026-11-08 20:40:08] LAUNCH  Petit_N75_S3_0.25_Hiver (Petit, 19 loads)
+[2026-11-08 20:42:14] FINISH  Petit_N75_S3_0.20_Ete: OPTIMAL_BY_DP | J = 190.2345 km | DP bound 190.2345 | solver bound 190.2345 | total 0h06m56s
+[2026-11-08 20:42:14] STATUS  Petit 3/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 55
+[2026-11-08 20:42:14]         running: Petit_N75_S1_0.20_Hiver (0h06m56s), Petit_N75_S3_0.25_Hiver (0h02m06s)
+[2026-11-08 20:42:14]         estimated remaining: 1h14m09s (worst case 6h16m59s)
+[2026-11-08 20:42:14] LAUNCH  Petit_N90_S3_0.15_Ete (Petit, 14 loads)
+[2026-11-08 20:42:21] DP      Petit_N90_S3_0.15_Ete: lower bound 125.0133 km in 0h00m05s
+[2026-11-08 20:47:14] STATUS  Petit 3/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 54
+[2026-11-08 20:47:14]         running: Petit_N75_S1_0.20_Hiver (0h11m56s), Petit_N75_S3_0.25_Hiver (0h07m06s), Petit_N90_S3_0.15_Ete (0h05m00s)
+[2026-11-08 20:47:14]         estimated remaining: 1h12m54s (worst case 6h11m59s)
+[2026-11-08 20:49:54] DP      Petit_N75_S3_0.25_Hiver: lower bound 186.2260 km in 0h09m44s
+[2026-11-08 20:50:40] FINISH  Petit_N75_S3_0.25_Hiver: OPTIMAL_BY_DP | J = 186.2260 km | DP bound 186.2260 | solver bound 186.2260 | total 0h10m32s
+[2026-11-08 20:50:40] STATUS  Petit 4/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 54
+[2026-11-08 20:50:40]         running: Petit_N75_S1_0.20_Hiver (0h15m22s), Petit_N90_S3_0.15_Ete (0h08m26s)
+[2026-11-08 20:50:40]         estimated remaining: 1h14m46s (worst case 6h05m24s)
+[2026-11-08 20:50:40] LAUNCH  Petit_N90_S3_0.15_Hiver (Petit, 14 loads)
+[2026-11-08 20:50:47] DP      Petit_N90_S3_0.15_Hiver: lower bound 122.2054 km in 0h00m06s
+[2026-11-08 20:50:59] FINISH  Petit_N90_S3_0.15_Hiver: OPTIMAL_BY_DP | J = 122.2054 km | DP bound 122.2054 | solver bound 122.2054 | total 0h00m19s
+[2026-11-08 20:50:59] STATUS  Petit 5/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 53
+[2026-11-08 20:50:59]         running: Petit_N75_S1_0.20_Hiver (0h15m41s), Petit_N90_S3_0.15_Ete (0h08m45s)
+[2026-11-08 20:50:59]         estimated remaining: 1h11m51s (worst case 5h58m31s)
+[2026-11-08 20:50:59] LAUNCH  Petit_N90_S3_0.20_Ete (Petit, 18 loads)
+[2026-11-08 20:54:54] FINISH  Petit_N90_S3_0.15_Ete: OPTIMAL_BY_DP | J = 125.0133 km | DP bound 125.0133 | solver bound 125.0133 | total 0h12m39s
+[2026-11-08 20:54:54] STATUS  Petit 6/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 52
+[2026-11-08 20:54:54]         running: Petit_N75_S1_0.20_Hiver (0h19m36s), Petit_N90_S3_0.20_Ete (0h03m54s)
+[2026-11-08 20:54:54]         estimated remaining: 1h11m34s (worst case 5h52m22s)
+[2026-11-08 20:54:54] LAUNCH  Petit_N90_S3_0.20_Hiver (Petit, 18 loads)
+[2026-11-08 20:55:06] DP      Petit_N90_S3_0.20_Ete: lower bound 167.9593 km in 0h04m06s
+[2026-11-08 20:55:25] FINISH  Petit_N75_S1_0.20_Hiver: TIME_LIMIT | J = 89.1146 km | DP bound 84.5935 | solver bound 81.0568 | total 0h20m07s
+[2026-11-08 20:55:25] STATUS  Petit 7/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 51
+[2026-11-08 20:55:25]         running: Petit_N90_S3_0.20_Ete (0h04m26s), Petit_N90_S3_0.20_Hiver (0h00m31s)
+[2026-11-08 20:55:25]         estimated remaining: 1h12m56s (worst case 5h51m41s)
+[2026-11-08 20:55:25] LAUNCH  Petit_N90_S3_0.25_Hiver (Petit, 22 loads)
+[2026-11-08 20:58:53] DP      Petit_N90_S3_0.20_Hiver: lower bound 158.3993 km in 0h03m59s
+[2026-11-08 20:59:24] FINISH  Petit_N90_S3_0.20_Hiver: OPTIMAL_BY_DP | J = 158.3993 km | DP bound 158.3993 | solver bound 158.3993 | total 0h04m31s
+[2026-11-08 20:59:24] STATUS  Petit 8/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 50
+[2026-11-08 20:59:24]         running: Petit_N90_S3_0.20_Ete (0h08m25s), Petit_N90_S3_0.25_Hiver (0h03m59s)
+[2026-11-08 20:59:24]         estimated remaining: 1h08m10s (worst case 5h42m32s)
+[2026-11-08 20:59:24] LAUNCH  Moyen_N150_S2_0.15_Ete (Moyen, 22 loads)
+[2026-11-08 21:00:09] FINISH  Petit_N90_S3_0.20_Ete: OPTIMAL_BY_DP | J = 167.9593 km | DP bound 167.9593 | solver bound 167.9593 | total 0h09m10s
+[2026-11-08 21:00:09] STATUS  Petit 9/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 49
+[2026-11-08 21:00:09]         running: Petit_N90_S3_0.25_Hiver (0h04m44s), Moyen_N150_S2_0.15_Ete (0h00m45s)
+[2026-11-08 21:00:09]         estimated remaining: 1h07m24s (worst case 5h38m11s)
+[2026-11-08 21:00:09] LAUNCH  Moyen_N150_S2_0.15_Hiver (Moyen, 22 loads)
+[2026-11-08 21:05:09] STATUS  Petit 9/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 48
+[2026-11-08 21:05:09]         running: Petit_N90_S3_0.25_Hiver (0h09m44s), Moyen_N150_S2_0.15_Ete (0h05m45s), Moyen_N150_S2_0.15_Hiver (0h05m00s)
+[2026-11-08 21:05:09]         estimated remaining: 1h03m25s (worst case 5h33m11s)
+[2026-11-08 21:10:09] STATUS  Petit 9/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 48
+[2026-11-08 21:10:09]         running: Petit_N90_S3_0.25_Hiver (0h14m44s), Moyen_N150_S2_0.15_Ete (0h10m45s), Moyen_N150_S2_0.15_Hiver (0h10m00s)
+[2026-11-08 21:10:09]         estimated remaining: 1h00m05s (worst case 5h28m10s)
+[2026-11-08 21:15:09] STATUS  Petit 9/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 48
+[2026-11-08 21:15:09]         running: Petit_N90_S3_0.25_Hiver (0h19m44s), Moyen_N150_S2_0.15_Ete (0h15m45s), Moyen_N150_S2_0.15_Hiver (0h15m00s)
+[2026-11-08 21:15:09]         estimated remaining: 0h56m45s (worst case 5h23m25s)
+[2026-11-08 21:15:27] FINISH  Petit_N90_S3_0.25_Hiver: TIME_LIMIT | J = 180.2177 km | DP bound none | solver bound 171.0957 | total 0h20m01s
+[2026-11-08 21:15:27] STATUS  Petit 10/10 done | Moyen 0 done, 0/5 unproven timeouts | queued 48
+[2026-11-08 21:15:27]         running: Moyen_N150_S2_0.15_Ete (0h16m02s), Moyen_N150_S2_0.15_Hiver (0h15m18s)
+[2026-11-08 21:15:27]         estimated remaining: 0h56m13s (worst case 5h22m53s)
+[2026-11-08 21:15:27] LAUNCH  Moyen_N150_S4_0.15_Ete (Moyen, 22 loads)
+[2026-11-08 21:19:27] FINISH  Moyen_N150_S2_0.15_Ete: TIME_LIMIT | J = 164.3070 km | DP bound none | solver bound 150.1730 | total 0h20m02s
+[2026-11-08 21:19:27] STATUS  Petit 10/10 done | Moyen 1 done, 1/5 unproven timeouts | queued 47
+[2026-11-08 21:19:27]         running: Moyen_N150_S2_0.15_Hiver (0h19m18s), Moyen_N150_S4_0.15_Ete (0h04m00s)
+[2026-11-08 21:19:27]         estimated remaining: 0h32m24s (worst case 5h19m00s)
+[2026-11-08 21:19:27] LAUNCH  Moyen_N150_S4_0.15_Hiver (Moyen, 22 loads)
+[2026-11-08 21:20:11] FINISH  Moyen_N150_S2_0.15_Hiver: TIME_LIMIT | J = 167.8101 km | DP bound none | solver bound 140.9484 | total 0h20m02s
+[2026-11-08 21:20:11] STATUS  Petit 10/10 done | Moyen 2 done, 2/5 unproven timeouts | queued 46
+[2026-11-08 21:20:11]         running: Moyen_N150_S4_0.15_Ete (0h04m45s), Moyen_N150_S4_0.15_Hiver (0h00m44s)
+[2026-11-08 21:20:11]         estimated remaining: 0h24m53s (worst case 5h18m10s)
+[2026-11-08 21:20:11] LAUNCH  Moyen_N150_S6_0.15_Ete (Moyen, 22 loads)
+[2026-11-08 21:22:03] FINISH  Moyen_N150_S6_0.15_Ete: OPTIMAL | J = 173.1010 km | DP bound none | solver bound 173.1010 | total 0h01m51s
+[2026-11-08 21:22:03] STATUS  Petit 10/10 done | Moyen 3 done, 2/5 unproven timeouts | queued 45
+[2026-11-08 21:22:03]         running: Moyen_N150_S4_0.15_Ete (0h06m36s), Moyen_N150_S4_0.15_Hiver (0h02m36s)
+[2026-11-08 21:22:03]         estimated remaining: 0h20m14s (worst case 5h10m16s)
+[2026-11-08 21:22:03] LAUNCH  Moyen_N150_S6_0.15_Hiver (Moyen, 22 loads)
+[2026-11-08 21:31:19] STATUS  Petit 10/10 done | Moyen 3 done, 2/5 unproven timeouts | queued 44
+[2026-11-08 21:31:19]         running: Moyen_N150_S4_0.15_Ete (0h15m52s), Moyen_N150_S4_0.15_Hiver (0h11m52s), Moyen_N150_S6_0.15_Hiver (0h09m16s)
+[2026-11-08 21:31:19]         estimated remaining: 0h11m56s (worst case 5h01m00s)
+[2026-11-08 21:35:30] FINISH  Moyen_N150_S4_0.15_Ete: TIME_LIMIT | J = 198.9627 km | DP bound none | solver bound 193.0719 | total 0h20m03s
+[2026-11-08 21:35:30] STATUS  Petit 10/10 done | Moyen 4 done, 3/5 unproven timeouts | queued 44
+[2026-11-08 21:35:30]         running: Moyen_N150_S4_0.15_Hiver (0h16m03s), Moyen_N150_S6_0.15_Hiver (0h13m27s)
+[2026-11-08 21:35:30]         estimated remaining: 0h06m11s (worst case 4h56m50s)
+[2026-11-08 21:35:30] LAUNCH  Moyen_N150_S2_0.20_Ete (Moyen, 30 loads)
+[2026-11-08 21:39:30] FINISH  Moyen_N150_S4_0.15_Hiver: TIME_LIMIT | J = 186.5242 km | DP bound none | solver bound 183.0593 | total 0h20m03s
+[2026-11-08 21:39:30] STATUS  Petit 10/10 done | Moyen 5 done, 4/5 unproven timeouts | queued 43
+[2026-11-08 21:39:30]         running: Moyen_N150_S6_0.15_Hiver (0h17m27s), Moyen_N150_S2_0.20_Ete (0h04m00s)
+[2026-11-08 21:39:30]         estimated remaining: 0h04m28s (worst case 4h52m51s)
+[2026-11-08 21:39:30] LAUNCH  Moyen_N150_S2_0.20_Hiver (Moyen, 30 loads)
+[2026-11-08 21:42:07] FINISH  Moyen_N150_S6_0.15_Hiver: TIME_LIMIT | J = 225.0430 km | DP bound none | solver bound 204.4393 | total 0h20m04s
+[2026-11-08 21:42:07] STATUS  Petit 10/10 done | Moyen 6 done, 5/5 unproven timeouts | queued 42
+[2026-11-08 21:42:07]         running: Moyen_N150_S2_0.20_Ete (0h06m37s), Moyen_N150_S2_0.20_Hiver (0h02m36s)
+[2026-11-08 21:42:07]         estimated remaining: 0h08m16s (worst case 0h10m16s)
+[2026-11-08 21:47:07] STATUS  Petit 10/10 done | Moyen 6 done, 5/5 unproven timeouts | queued 42
+[2026-11-08 21:47:07]         running: Moyen_N150_S2_0.20_Ete (0h11m37s), Moyen_N150_S2_0.20_Hiver (0h07m36s)
+[2026-11-08 21:47:07]         estimated remaining: 0h04m56s (worst case 0h06m56s)
+[2026-11-08 21:52:07] STATUS  Petit 10/10 done | Moyen 6 done, 5/5 unproven timeouts | queued 42
+[2026-11-08 21:52:07]         running: Moyen_N150_S2_0.20_Ete (0h16m37s), Moyen_N150_S2_0.20_Hiver (0h12m36s)
+[2026-11-08 21:52:07]         estimated remaining: 0h01m48s (worst case 0h03m36s)
+[2026-11-08 21:55:35] FINISH  Moyen_N150_S2_0.20_Ete: TIME_LIMIT | J = none km | DP bound none | solver bound 175.7202 | total 0h20m04s
+[2026-11-08 21:55:35] STATUS  Petit 10/10 done | Moyen 7 done, 6/5 unproven timeouts | queued 42
+[2026-11-08 21:55:35]         running: Moyen_N150_S2_0.20_Hiver (0h16m04s)
+[2026-11-08 21:55:35]         estimated remaining: 0h00m28s (worst case 0h01m19s)
+[2026-11-08 21:59:33] FINISH  Moyen_N150_S2_0.20_Hiver: TIME_LIMIT | J = 217.9029 km | DP bound none | solver bound 164.8844 | total 0h20m02s
+[2026-11-08 21:59:33] STATUS  Petit 10/10 done | Moyen 8 done, 7/5 unproven timeouts | queued 42
+[2026-11-08 21:59:33]         running: none
+[2026-11-08 21:59:33]         estimated remaining: 0h00m00s (worst case 0h00m00s)
+[2026-11-08 21:59:33] CAMPAIGN END: 18 runs, 9 proven optimal, 7 unproven Moyen timeouts, in 1h24m15s.

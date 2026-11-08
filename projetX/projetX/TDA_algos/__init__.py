@@ -17,6 +17,7 @@ Modules (each one is independent of the others except through persistence.py):
   partition    : variable-distance Voronoi with pluggable tree builder, init and growth
   local_search : edge insertion (H1-filtered) and boundary relocation moves
   features     : instance descriptors and k-NN configuration selection
+  decomposition: subproblems from the ToMATo clusters merged until self-sufficient
 
 TDA.py (next to main.py) runs the experiments.
 """

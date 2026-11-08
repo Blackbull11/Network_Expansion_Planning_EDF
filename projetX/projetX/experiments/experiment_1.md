@@ -1,14 +1,14 @@
 # Expérimentation 1 — Heuristique Voronoi + Steiner sur 40 instances
 
-> Runs du 4 octobre 2026 (`main.py`). Les résultats bruts sont dans [output/](output/) : ce fichier en résume l'essentiel.
+> Runs du 4 octobre 2026 (`main.py`). Ce fichier en résume l'essentiel. Les 40 instances `data/instances/`, les résultats bruts de `output/` et `model.lp` ont été retirés du dépôt au commit 1ec1776 (retrouvables dans l'historique git, `data/generate_instances.py` régénère les instances).
 
 ## 1. Objectif
 
 Construire rapidement un réseau de distribution radial (une forêt d'arbres, un arbre par poste source) qui relie toutes les charges, puis mesurer :
 
-- **J = L_tot** : longueur totale des arbres (km). C'est l'objectif, comme dans [data/exemple_ete_4_PS/model.lp](data/exemple_ete_4_PS/model.lp).
+- **J = L_tot** : longueur totale des arbres (km). C'est l'objectif, comme dans `data/exemple_ete_4_PS/model.lp`.
 - **PD** = Σ |puissance transitée| × longueur (MW·km). Indicateur secondaire, hors de J.
-- **Faisabilité** : contraintes dures, vérifiées a posteriori par [verify.py](verify.py) :
+- **Faisabilité** : contraintes dures, vérifiées a posteriori par [verify.py](../verify.py) :
 
 | Contrainte | Portée |
 |---|---|
@@ -19,9 +19,9 @@ Construire rapidement un réseau de distribution radial (une forêt d'arbres, un
 
 ## 2. Méthode
 
-1. **Cellules de Voronoi** sur le graphe : chaque nœud va à la source la plus « proche », avec un coût d'arête divisé par un poids `w_s` de la source ([voronoi.py](voronoi.py)).
-2. **Arbre de Steiner** (Mehlhorn, 2-approximation) dans chaque cellule, qui relie la source et ses charges ([steiner.py](steiner.py)).
-3. **Vérification** de la solution (structure + contraintes) par [verify.py](verify.py).
+1. **Cellules de Voronoi** sur le graphe : chaque nœud va à la source la plus « proche », avec un coût d'arête divisé par un poids `w_s` de la source ([voronoi.py](../voronoi.py)).
+2. **Arbre de Steiner** (Mehlhorn, 2-approximation) dans chaque cellule, qui relie la source et ses charges ([steiner.py](../steiner.py)).
+3. **Vérification** de la solution (structure + contraintes) par [verify.py](../verify.py).
 
 Quatre choix de distance (`w_s`) sont comparés :
 
@@ -30,11 +30,11 @@ Quatre choix de distance (`w_s`) sont comparés :
 | non pondérée | 1 |
 | capacité | capacité de la source |
 | racine capacité | √capacité |
-| **variable** | poids ajustés itérativement : on part des 3 précédents, et à chaque itération on rétrécit la cellule des sources en surcharge (`w_s ← w_s / r_s^pas`, `r_s` = pire ratio valeur/limite). Arrêt dès que la solution est faisable ([voronoi_variable_distance.py](voronoi_variable_distance.py)). |
+| **variable** | poids ajustés itérativement : on part des 3 précédents, et à chaque itération on rétrécit la cellule des sources en surcharge (`w_s ← w_s / r_s^pas`, `r_s` = pire ratio valeur/limite). Arrêt dès que la solution est faisable ([voronoi_variable_distance.py](../voronoi_variable_distance.py)). |
 
 ## 3. Instances
 
-40 graphes générés par [data/generate_instances.py](data/generate_instances.py) (graphe de Gabriel, ~10 % de producteurs) :
+40 graphes générés par [data/generate_instances.py](../data/generate_instances.py) (graphe de Gabriel, ~10 % de producteurs) :
 
 | Lot | Instances | Charges | Sources |
 |---|---|---|---|
@@ -109,7 +109,7 @@ Les contraintes **par départ** (longueur et puissance) sont les plus souvent vi
 ## 7. Limites et suites
 
 - Voronoi + Steiner ne choisit pas les départs : ils découlent de la forme de l'arbre. Une violation de `L_max` ou `P_max` sur un départ ne peut se corriger qu'en déplaçant la frontière des cellules.
-- Pas de borne inférieure : les écarts sont mesurés entre heuristiques, pas à l'optimum. Prochaine étape : comparer à la PLNE ([plne_reseau.py](plne_reseau.py)) sur les petites instances, et statuer sur les 9 instances sans solution.
+- Pas de borne inférieure : les écarts sont mesurés entre heuristiques, pas à l'optimum. Prochaine étape : comparer à la PLNE ([plne_reseau.py](../plne_reseau.py)) sur les petites instances, et statuer sur les 9 instances sans solution.
 - Le mode variable rétrécit seulement les cellules en surcharge. Il ne peut pas agrandir une cellule ni découper un départ trop long.
 
 ## 8. Reproduire
@@ -126,7 +126,3 @@ python main.py g05 --show                           # une instance, figures à l
 | `output/details_<run>.txt` | détail par source et par départ (L, P, PD, poids `w`) |
 | `output/charts/<run>_*.png` | écarts à l'optimum (par taille, par type), violations |
 | `output/figures/<graphe>_<distance>.png` | cellules de Voronoi et arbres de Steiner |
-
-![Écart à l'optimum de J par type — grandes instances](output/charts/20261004_215518_grandes_variable_gap_J_type.png)
-
-![Contraintes violées — grandes instances](output/charts/20261004_215518_grandes_variable_violations.png)

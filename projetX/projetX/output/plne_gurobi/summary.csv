@@ -1,0 +1,2 @@
+instance,n_nodes,n_edges,n_sources,n_loads,n_feeders,n_vars,status,obj,bound,gap,J_warm,feasible,J_verify,time_solve,time_limit
+Petit_N60_S1_0.25_Hiver,60,166,1,15,8,7240,OPTIMAL,85.22369999999998,85.22369999999998,0.0,,True,85.2237,294.98731327056885,600
